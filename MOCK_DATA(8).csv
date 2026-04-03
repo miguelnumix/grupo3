@@ -1,0 +1,1001 @@
+fecha,planta,linea_produccion,turno,operario,supervisor,etapa_proceso,tipo_producto,talla,color,unidades_producidas,tela_utilizada_m2,tiempo_operacion_min,tiempo_paro_min,costo_tela_m2_usd,costo_unitario_usd,unidades_defectuosas,unidades_retrabajo,tela_desperdiciada_m2,costo_desperdicio_usd,tipo_defecto,causa_raiz,porcentaje_defectos,porcentaje_merma_tela,eficiencia_linea,CRITICIDAD
+3/1/2026,Planta A,L3,Noche,Darcee Scargill,Wilbur D'Agostino,Costura,Deportiva,XL,Rojo,383,75,324,31,5,6,94,49,9.84,613.2,Costura defectuosa,Proceso ineficiente,0.0,0.1312,1.0,Bajo
+3/12/2026,Planta B,L1,Tarde,Sunny Mitchener,Gloriana Cawte,Acabado,Deportiva,XL,Negro,390,214,337,112,2,23,33,36,18.56,796.12,Corte incorrecto,Error humano,0.0,0.0867,1.0,Critico
+3/30/2026,Planta A,L7,Dia,Esdras Macveigh,Binny Snodden,Corte,Premium,M,Blanco,195,147,476,45,2,13,34,32,22.22,486.44,Medida incorrecta,Error humano,0.0,0.1512,0.0,Bajo
+3/23/2026,Planta C,L4,Dia,Fernandina Stummeyer,Biddie Devenny,Acabado,Deportiva,M,Blanco,171,60,271,64,2,9,20,15,7.59,195.18,Corte incorrecto,Materia prima defectuosa,0.0,0.1265,0.0,Bajo
+3/6/2026,Planta A,L10,Noche,Jamima Baumber,Genny Jose,Costura,Deportiva,L,Negro,144,209,325,75,5,13,64,13,36.98,1016.9,Medida incorrecta,Error humano,0.0,0.1769,0.0,Bajo
+3/25/2026,Planta B,L5,Dia,Ronny Dalinder,Peyton Mannie,Corte,Deportiva,M,Negro,271,267,431,36,8,13,19,38,102.47,1066.76,Tela danada,Proceso ineficiente,0.0,0.3838,0.0,Bajo
+3/4/2026,Planta A,L1,Tarde,Anet Greenrodd,Nananne Euels,Costura,Deportiva,L,Blanco,216,135,427,7,7,15,40,41,12.73,689.11,Medida incorrecta,Error humano,0.0,0.0943,0.0,Bajo
+3/26/2026,Planta B,L6,Noche,Andros Upham,Alistair Lethebridge,Corte,Basica,XL,Azul,261,137,146,102,8,16,104,40,50.27,2066.16,Mancha,Proceso ineficiente,0.0,0.3669,1.0,Critico
+3/26/2026,Planta A,L3,Dia,Niki Deware,Anneliese Videler,Corte,Basica,S,Negro,290,156,367,94,7,15,44,34,45.56,978.92,Corte incorrecto,Error humano,0.0,0.2921,0.0,Critico
+3/10/2026,Planta A,L4,Noche,Kerrin Souter,Karim Goodwill,Acabado,Basica,L,Azul,469,298,299,30,4,13,215,79,18.35,2868.4,Mancha,Falla maquina,0.0,0.0616,1.0,Critico
+3/25/2026,Planta C,L3,Noche,Kiri Jerratsch,Casper Penvarne,Calidad,Premium,XL,Negro,145,55,452,114,4,3,48,12,8.96,179.84,Corte incorrecto,Proceso ineficiente,0.0,0.1629,0.0,Critico
+3/15/2026,Planta A,L2,Tarde,Hedvig Yearsley,Sergei Pedlingham,Acabado,Premium,M,Rojo,386,182,149,98,5,24,86,67,31.72,2222.6,Mancha,Falla maquina,0.0,0.1743,2.0,Critico
+3/12/2026,Planta C,L5,Noche,Natalina Malpas,Tom Howison,Acabado,Deportiva,M,Negro,445,111,192,112,8,15,98,25,8.8,1540.4,Corte incorrecto,Proceso ineficiente,0.0,0.0793,2.0,Critico
+3/3/2026,Planta A,L7,Tarde,Lucky Rockey,Dael McShane,Corte,Premium,L,Gris,192,59,253,115,4,25,35,25,13.11,927.44,Medida incorrecta,Error humano,0.0,0.2222,0.0,Critico
+3/17/2026,Planta C,L5,Tarde,Jonathon Ghilardini,Harris Macak,Acabado,Deportiva,M,Negro,235,258,450,56,2,21,13,37,42.15,357.3,Tela danada,Error humano,0.0,0.1634,0.0,Bajo
+3/9/2026,Planta A,L9,Noche,Luciana Thredder,Abner Rymill,Acabado,Premium,XL,Blanco,355,244,473,120,7,7,141,40,47.47,1319.29,Corte incorrecto,Materia prima defectuosa,0.0,0.1945,0.0,Critico
+3/9/2026,Planta C,L5,Dia,Flore Knuckles,Mackenzie Lindenfeld,Calidad,Deportiva,S,Negro,277,134,229,112,8,20,69,34,17.03,1516.24,Costura defectuosa,Falla maquina,0.0,0.1271,1.0,Critico
+3/28/2026,Planta C,L7,Dia,Tamra Benford,Jenilee Skim,Costura,Premium,M,Blanco,424,107,259,92,4,17,28,32,13.2,528.8,Costura defectuosa,Materia prima defectuosa,0.0,0.1234,1.0,Critico
+3/30/2026,Planta A,L6,Dia,Keir Patmore,Winonah Ayling,Calidad,Deportiva,S,Azul,336,123,411,3,5,20,31,54,16.85,704.25,Costura defectuosa,Error humano,0.0,0.137,0.0,Bajo
+3/24/2026,Planta A,L1,Dia,Lindie Dentith,Samuele Gregr,Costura,Deportiva,M,Negro,198,178,417,43,5,23,46,21,31.09,1213.45,Medida incorrecta,Proceso ineficiente,0.0,0.1747,0.0,Bajo
+3/12/2026,Planta A,L10,Dia,Berty Garretson,Thea Patient,Costura,Deportiva,XL,Gris,454,130,206,109,2,6,44,60,11.58,287.16,Corte incorrecto,Falla maquina,0.0,0.0891,2.0,Critico
+3/15/2026,Planta B,L2,Noche,Lilas Sprowle,Raquel Boyn,Acabado,Premium,M,Azul,367,166,425,53,6,19,78,48,30.05,1662.3,Costura defectuosa,Proceso ineficiente,0.0,0.181,0.0,Bajo
+3/20/2026,Planta C,L3,Dia,Lita Kinchin,Jenine Lehemann,Corte,Deportiva,M,Azul,370,246,190,97,7,11,32,30,75.84,882.88,Tela danada,Materia prima defectuosa,0.0,0.3083,1.0,Critico
+3/3/2026,Planta B,L1,Dia,Ann-marie Prosser,Lisabeth Oxbrow,Acabado,Deportiva,L,Rojo,169,88,115,80,6,16,32,13,8.93,565.58,Costura defectuosa,Materia prima defectuosa,0.0,0.1015,1.0,Bajo
+3/17/2026,Planta A,L4,Dia,Latia Gadie,Jeanette Sherwell,Calidad,Basica,XL,Azul,245,67,203,48,8,6,28,36,8.1,232.8,Costura defectuosa,Proceso ineficiente,0.0,0.1209,1.0,Bajo
+3/13/2026,Planta B,L3,Noche,Elwyn Fusco,Delia Harnetty,Acabado,Deportiva,M,Negro,301,242,263,93,5,7,112,39,17.42,871.1,Mancha,Error humano,0.0,0.072,1.0,Critico
+3/4/2026,Planta B,L7,Noche,Arda Hurley,Toby Bone,Costura,Deportiva,XL,Negro,403,51,366,112,7,3,125,80,2.28,390.96,Mancha,Error humano,0.0,0.0447,1.0,Critico
+3/3/2026,Planta A,L4,Noche,Marley Lant,Krystalle Tapson,Calidad,Deportiva,M,Gris,434,79,265,22,7,10,170,39,10.77,1775.39,Corte incorrecto,Error humano,0.0,0.1363,1.0,Bajo
+3/22/2026,Planta B,L1,Noche,Deena Wigsell,Cynthy Mowlam,Acabado,Deportiva,S,Rojo,459,222,437,42,5,3,181,83,27.76,681.8,Tela danada,Materia prima defectuosa,0.0,0.125,1.0,Bajo
+3/2/2026,Planta B,L3,Noche,Fanya Olensby,Darci Bambury,Calidad,Premium,S,Negro,102,145,216,78,8,8,42,9,10.72,421.76,Medida incorrecta,Falla maquina,0.0,0.0739,0.0,Bajo
+3/15/2026,Planta A,L2,Tarde,Eddie Brewerton,Jere Aubrun,Acabado,Basica,M,Blanco,490,288,138,13,7,11,64,88,28.53,903.71,Corte incorrecto,Materia prima defectuosa,0.0,0.0991,3.0,Bajo
+3/20/2026,Planta B,L10,Noche,Gus Rigler,Grover Lisciandro,Calidad,Deportiva,L,Negro,436,290,395,70,3,24,149,41,49.69,3725.07,Mancha,Proceso ineficiente,0.0,0.1713,1.0,Critico
+3/21/2026,Planta B,L10,Tarde,Sonnnie Lanfer,Carlina Boshell,Calidad,Premium,L,Gris,328,213,212,36,6,14,46,57,6.65,683.9,Tela danada,Materia prima defectuosa,0.0,0.0312,1.0,Bajo
+3/23/2026,Planta A,L5,Tarde,Rosalia Murtell,Carlos Baulch,Costura,Basica,L,Gris,451,142,453,65,6,10,49,65,22.43,624.58,Corte incorrecto,Error humano,0.0,0.158,0.0,Bajo
+3/22/2026,Planta A,L9,Noche,Saraann Francie,Sigismundo Hammersley,Costura,Deportiva,L,Gris,274,280,417,106,6,17,106,15,42.52,2057.12,Mancha,Falla maquina,0.0,0.1519,0.0,Critico
+3/20/2026,Planta A,L9,Noche,Buffy Thake,Welby Willes,Calidad,Basica,XL,Blanco,81,110,301,56,4,11,39,12,4.35,446.4,Corte incorrecto,Falla maquina,0.0,0.0395,0.0,Bajo
+3/9/2026,Planta B,L6,Noche,Mildred Sydry,Euphemia Borghese,Acabado,Premium,XL,Azul,319,213,386,50,7,7,139,47,15.97,1084.79,Tela danada,Error humano,0.0,0.075,0.0,Bajo
+3/4/2026,Planta C,L2,Noche,Angel Lacroux,Sherwood Drage,Calidad,Premium,S,Rojo,134,256,343,57,7,23,35,15,29.72,1013.04,Costura defectuosa,Error humano,0.0,0.1161,0.0,Bajo
+3/24/2026,Planta B,L3,Tarde,Darryl Selwyn,Lina Haugg,Acabado,Basica,S,Azul,105,104,189,109,4,10,11,12,18.86,185.44,Mancha,Falla maquina,0.0,0.1813,0.0,Critico
+3/15/2026,Planta A,L2,Noche,Billie Dower,Wilfred Raselles,Acabado,Premium,XL,Negro,231,71,201,74,3,12,73,24,9.96,905.88,Mancha,Error humano,0.0,0.1403,1.0,Bajo
+3/10/2026,Planta C,L6,Tarde,Minta Ghione,Ruben Wombwell,Acabado,Deportiva,S,Blanco,389,262,96,2,3,7,53,30,17.67,424.01,Mancha,Materia prima defectuosa,0.0,0.0674,4.0,Bajo
+3/6/2026,Planta B,L8,Noche,Iosep Baile,Lorrin Cossam,Acabado,Deportiva,XL,Blanco,298,218,390,102,4,16,64,30,8.64,1058.56,Costura defectuosa,Falla maquina,0.0,0.0396,0.0,Critico
+3/26/2026,Planta B,L6,Tarde,Jessalin Schultheiss,Marietta Cosbey,Costura,Basica,M,Gris,161,183,318,58,4,22,32,22,29.31,821.24,Medida incorrecta,Error humano,0.0,0.1602,0.0,Bajo
+3/28/2026,Planta B,L7,Noche,Broderic Culwen,Zara Ternouth,Calidad,Basica,XL,Rojo,439,158,224,108,6,15,141,73,23.71,2257.26,Tela danada,Proceso ineficiente,0.0,0.1501,1.0,Critico
+3/25/2026,Planta B,L7,Tarde,Hubie Anthon,Aldous Di Lucia,Acabado,Basica,S,Rojo,422,215,322,41,5,7,55,35,14.36,456.8,Corte incorrecto,Falla maquina,0.0,0.0668,1.0,Bajo
+3/27/2026,Planta A,L3,Tarde,Gonzales Sample,Cary Eichmann,Acabado,Deportiva,S,Blanco,248,170,363,110,6,11,13,27,12.08,215.48,Medida incorrecta,Proceso ineficiente,0.0,0.0711,0.0,Critico
+3/14/2026,Planta B,L8,Noche,Clarine Pagon,Arline Simao,Costura,Basica,S,Negro,471,159,136,114,3,20,211,48,8.91,4246.73,Mancha,Falla maquina,0.0,0.056,3.0,Critico
+3/8/2026,Planta C,L8,Dia,Kent Klouz,Brett Chippindale,Calidad,Deportiva,M,Negro,133,127,360,86,3,18,15,17,18.84,326.52,Mancha,Materia prima defectuosa,0.0,0.1483,0.0,Bajo
+3/8/2026,Planta B,L3,Noche,Worthington Veltman,Glenna Sokale,Acabado,Basica,M,Negro,334,265,156,94,6,9,105,41,27.7,1111.2,Corte incorrecto,Falla maquina,0.0,0.1045,2.0,Critico
+3/3/2026,Planta B,L9,Dia,Kameko Scanterbury,Clarette Brownjohn,Corte,Basica,S,Blanco,122,113,214,75,5,19,21,17,44.47,621.35,Medida incorrecta,Error humano,0.0,0.3935,0.0,Bajo
+3/11/2026,Planta B,L8,Tarde,Gavrielle Castri,Alica Tosh,Acabado,Basica,S,Gris,257,209,198,56,5,22,64,35,18.4,1500.0,Medida incorrecta,Materia prima defectuosa,0.0,0.088,1.0,Bajo
+3/17/2026,Planta B,L9,Tarde,Thorndike Bourhill,Ravid Mengo,Costura,Premium,L,Azul,355,228,245,57,8,10,83,52,40.22,1151.76,Tela danada,Error humano,0.0,0.1764,1.0,Bajo
+3/15/2026,Planta B,L2,Tarde,Micaela Korb,Melissa Carnegy,Calidad,Deportiva,XL,Rojo,178,104,411,110,2,16,19,29,4.62,313.24,Mancha,Falla maquina,0.0,0.0444,0.0,Critico
+3/2/2026,Planta C,L2,Noche,Henrik Slimming,Marrilee Mattke,Costura,Basica,XL,Rojo,257,155,104,8,6,16,84,23,16.95,1445.7,Mancha,Falla maquina,0.0,0.1094,2.0,Bajo
+3/27/2026,Planta C,L4,Dia,Araldo Corston,Aile Cornillot,Acabado,Basica,M,Rojo,230,261,240,10,8,11,24,41,18.11,408.88,Mancha,Falla maquina,0.0,0.0694,0.0,Bajo
+3/3/2026,Planta A,L3,Tarde,Angela Treamayne,Orazio Woodison,Corte,Deportiva,M,Blanco,479,134,166,7,2,5,74,40,42.05,454.1,Tela danada,Error humano,0.0,0.3138,2.0,Bajo
+3/15/2026,Planta C,L3,Noche,Clareta Troup,Graham Piegrome,Acabado,Deportiva,L,Gris,98,67,430,5,8,8,33,16,11.7,357.6,Medida incorrecta,Error humano,0.0,0.1746,0.0,Bajo
+3/18/2026,Planta C,L9,Tarde,Jackelyn Wainer,Shaylyn Pressdee,Calidad,Deportiva,XL,Negro,251,228,276,39,7,6,24,24,11.71,225.97,Tela danada,Materia prima defectuosa,0.0,0.0514,0.0,Bajo
+3/15/2026,Planta A,L9,Dia,Brendon Mortimer,Eryn Ensley,Acabado,Premium,S,Azul,271,54,222,44,8,12,51,50,10.4,695.2,Medida incorrecta,Error humano,0.0,0.1926,1.0,Bajo
+3/24/2026,Planta A,L6,Tarde,Sibyl Schust,Ricca Mayoh,Costura,Premium,M,Negro,169,209,456,33,7,20,24,10,26.2,663.4,Costura defectuosa,Falla maquina,0.0,0.1254,0.0,Bajo
+3/27/2026,Planta C,L7,Dia,Franciska Wandrey,Jo ann Scanlan,Corte,Deportiva,L,Negro,250,187,126,107,6,19,45,15,38.37,1085.22,Medida incorrecta,Proceso ineficiente,0.0,0.2052,1.0,Critico
+3/11/2026,Planta A,L7,Tarde,Quincey McDonnell,Ray Ghiron,Corte,Basica,M,Rojo,325,63,270,77,6,10,81,20,7.46,854.76,Corte incorrecto,Error humano,0.0,0.1184,1.0,Bajo
+3/13/2026,Planta B,L3,Noche,Hettie Tethacot,Preston Salzen,Acabado,Deportiva,L,Rojo,278,293,356,105,3,23,73,44,24.65,1752.95,Tela danada,Proceso ineficiente,0.0,0.0841,0.0,Critico
+3/6/2026,Planta B,L1,Noche,Caron Addicott,Jasun Romanetti,Corte,Premium,L,Blanco,224,245,87,66,8,8,47,22,76.45,987.6,Medida incorrecta,Materia prima defectuosa,0.0,0.312,2.0,Bajo
+3/21/2026,Planta A,L5,Dia,Arlie Rickersey,Kassandra Benam,Acabado,Premium,S,Negro,117,291,254,28,8,19,6,15,34.05,386.4,Medida incorrecta,Proceso ineficiente,0.0,0.117,0.0,Bajo
+3/3/2026,Planta B,L8,Dia,Hynda Bullon,Nance Guittet,Costura,Basica,M,Gris,265,102,211,56,3,24,46,29,12.65,1141.95,Costura defectuosa,Proceso ineficiente,0.0,0.124,1.0,Bajo
+3/7/2026,Planta B,L8,Noche,Steve Van,Jarad Feek,Costura,Deportiva,L,Rojo,135,95,203,13,4,10,52,26,14.53,578.12,Tela danada,Falla maquina,0.0,0.1529,0.0,Bajo
+3/26/2026,Planta A,L1,Tarde,Raimundo Jaher,Arel Curds,Corte,Deportiva,S,Blanco,202,214,473,65,3,10,19,23,38.17,304.51,Medida incorrecta,Materia prima defectuosa,0.0,0.1784,0.0,Bajo
+3/26/2026,Planta C,L6,Tarde,Rourke Tissiman,Dietrich Phuprate,Corte,Premium,S,Negro,334,226,177,77,5,13,35,31,54.29,726.45,Mancha,Falla maquina,0.0,0.2402,1.0,Bajo
+3/24/2026,Planta A,L5,Noche,Benn Joint,Keslie Infante,Corte,Deportiva,S,Azul,314,87,468,97,3,3,110,32,32.64,427.92,Tela danada,Falla maquina,0.0,0.3752,0.0,Critico
+3/27/2026,Planta B,L10,Tarde,Bird Piwall,Korey Dahmel,Calidad,Basica,XL,Rojo,244,179,459,16,5,16,17,14,24.24,393.2,Corte incorrecto,Error humano,0.0,0.1354,0.0,Bajo
+3/11/2026,Planta B,L10,Noche,Yvette Heynel,Arlette Brouncker,Acabado,Basica,S,Gris,457,229,291,94,4,19,102,51,18.32,2011.28,Mancha,Materia prima defectuosa,0.0,0.08,1.0,Critico
+3/6/2026,Planta B,L5,Tarde,Edita Diable,Frayda Shergold,Calidad,Deportiva,L,Rojo,354,285,462,96,4,25,53,30,51.14,1529.56,Mancha,Proceso ineficiente,0.0,0.1794,0.0,Critico
+3/21/2026,Planta B,L8,Noche,Garnette Ledger,Christine Bohlin,Acabado,Basica,S,Gris,140,298,63,110,6,23,38,21,9.71,932.26,Medida incorrecta,Falla maquina,0.0,0.0326,2.0,Critico
+3/8/2026,Planta C,L1,Tarde,Albina Shorter,Rees Toolan,Costura,Basica,M,Blanco,340,60,157,58,2,8,53,68,6.04,436.08,Mancha,Falla maquina,0.0,0.1007,2.0,Bajo
+3/2/2026,Planta A,L8,Noche,Gretel Grasser,Eada Pole,Acabado,Deportiva,XL,Azul,141,299,143,84,2,12,43,15,28.39,572.78,Corte incorrecto,Materia prima defectuosa,0.0,0.0949,0.0,Bajo
+3/8/2026,Planta B,L1,Noche,Mose Skerratt,Jehu O'Monahan,Costura,Basica,M,Gris,183,77,357,75,4,7,38,16,7.26,295.04,Corte incorrecto,Materia prima defectuosa,0.0,0.0943,0.0,Bajo
+3/20/2026,Planta B,L3,Tarde,Loraine Hufton,Wainwright Parham,Costura,Deportiva,M,Azul,481,67,66,21,6,22,30,24,3.94,683.64,Tela danada,Materia prima defectuosa,0.0,0.0588,7.0,Bajo
+3/11/2026,Planta A,L9,Tarde,Jennica Loving,Lori Crackett,Costura,Basica,L,Blanco,324,90,173,35,5,5,22,44,3.77,128.85,Tela danada,Error humano,0.0,0.0419,1.0,Bajo
+3/6/2026,Planta A,L6,Noche,Timothea Orbell,Garvey MacGiany,Calidad,Deportiva,M,Negro,432,285,358,17,3,9,160,63,41.76,1565.28,Mancha,Falla maquina,0.0,0.1465,1.0,Bajo
+3/6/2026,Planta B,L9,Tarde,Gordon Richardet,Meade Barrington,Corte,Basica,L,Rojo,368,176,66,87,4,17,22,49,59.09,610.36,Mancha,Proceso ineficiente,0.0,0.3357,5.0,Bajo
+3/1/2026,Planta B,L1,Noche,Elianora Andric,Mirella Jeppensen,Costura,Basica,L,Gris,121,209,476,50,4,18,45,21,31.9,937.6,Mancha,Error humano,0.0,0.1526,0.0,Bajo
+3/6/2026,Planta C,L10,Dia,Cindi Jerg,Raimondo Maharey,Acabado,Premium,XL,Rojo,204,169,444,105,8,3,40,24,25.98,327.84,Tela danada,Materia prima defectuosa,0.0,0.1537,0.0,Critico
+3/21/2026,Planta B,L7,Dia,Gui Bachelor,Arabelle Baines,Acabado,Basica,XL,Blanco,321,77,147,58,5,19,68,36,2.6,1305.0,Medida incorrecta,Proceso ineficiente,0.0,0.0338,2.0,Bajo
+3/21/2026,Planta C,L10,Noche,Donnamarie Bende,Leslie Gosling,Costura,Deportiva,L,Rojo,210,168,341,13,7,10,75,17,19.92,889.44,Mancha,Proceso ineficiente,0.0,0.1186,0.0,Bajo
+3/4/2026,Planta A,L1,Dia,Ora Parren,Lonee Lavalle,Calidad,Premium,XL,Blanco,355,56,470,120,2,24,74,34,2.5,1781.0,Medida incorrecta,Proceso ineficiente,0.0,0.0446,0.0,Critico
+3/1/2026,Planta A,L4,Noche,Marcella Cabrera,Emmerich Terran,Corte,Basica,XL,Rojo,493,52,441,70,3,4,223,98,11.72,927.16,Medida incorrecta,Proceso ineficiente,0.0,0.2254,1.0,Bajo
+3/6/2026,Planta C,L1,Dia,Lyndsay Troutbeck,Rivkah Gauvin,Calidad,Basica,XL,Blanco,187,239,421,117,3,14,26,31,40.35,485.05,Costura defectuosa,Falla maquina,0.0,0.1688,0.0,Critico
+3/26/2026,Planta B,L3,Dia,Dag Eskrigg,Sandra Chellam,Calidad,Deportiva,L,Negro,258,65,319,50,2,21,58,23,3.4,1224.8,Mancha,Falla maquina,0.0,0.0523,0.0,Bajo
+3/7/2026,Planta B,L3,Tarde,Melamie Cheales,Clea Lightfoot,Costura,Deportiva,XL,Azul,406,146,196,49,8,19,96,37,25.73,2029.84,Corte incorrecto,Error humano,0.0,0.1762,2.0,Critico
+3/3/2026,Planta A,L3,Dia,Zabrina Grisedale,Stanwood Eatherton,Calidad,Premium,L,Blanco,466,66,69,117,2,19,105,75,8.01,2011.02,Corte incorrecto,Materia prima defectuosa,0.0,0.1214,6.0,Critico
+3/21/2026,Planta C,L9,Dia,Wendie Demcik,Janina Clingoe,Calidad,Deportiva,L,Azul,245,94,444,58,7,13,41,37,17.15,653.05,Mancha,Materia prima defectuosa,0.0,0.1824,0.0,Bajo
+3/9/2026,Planta A,L4,Dia,Patrick O' Gara,Jessi Ferrolli,Acabado,Deportiva,S,Negro,344,71,308,87,4,5,65,38,9.97,364.88,Medida incorrecta,Materia prima defectuosa,0.0,0.1404,1.0,Bajo
+3/12/2026,Planta C,L8,Tarde,Sid Antliff,Hetty Tuxwell,Costura,Deportiva,XL,Blanco,150,52,144,52,6,17,27,11,2.41,473.46,Costura defectuosa,Materia prima defectuosa,0.0,0.0463,1.0,Bajo
+3/27/2026,Planta C,L5,Dia,Brad Leeb,Tonie Aymes,Calidad,Premium,L,Negro,460,279,306,55,6,14,33,52,48.12,750.72,Corte incorrecto,Error humano,0.0,0.1725,1.0,Bajo
+3/3/2026,Planta B,L2,Noche,Kenny Bussell,Will Drever,Corte,Basica,M,Blanco,454,273,93,67,2,11,197,78,106.91,2380.82,Tela danada,Falla maquina,0.0,0.3916,4.0,Critico
+3/16/2026,Planta C,L8,Dia,Gibby Bowcock,Lorena Treadaway,Acabado,Premium,S,Negro,479,230,181,56,4,24,111,65,41.96,2831.84,Mancha,Proceso ineficiente,0.0,0.1824,2.0,Critico
+3/9/2026,Planta B,L1,Noche,Jo-ann Gregoraci,Daryl Wickett,Calidad,Deportiva,XL,Azul,141,231,348,78,6,4,63,28,42.68,508.08,Tela danada,Falla maquina,0.0,0.1848,0.0,Bajo
+3/30/2026,Planta A,L1,Tarde,Minna MacKenney,Bjorn Pearn,Corte,Basica,XL,Gris,402,216,303,95,6,16,47,58,57.99,1099.94,Medida incorrecta,Falla maquina,0.0,0.2685,1.0,Critico
+3/10/2026,Planta C,L2,Dia,Austin Raeburn,Sidonnie Ovesen,Acabado,Premium,XL,Blanco,316,82,157,88,5,14,30,40,14.91,494.55,Tela danada,Proceso ineficiente,0.0,0.1818,2.0,Bajo
+3/14/2026,Planta B,L8,Dia,Aile Agnolo,Neysa Ivatt,Calidad,Premium,S,Blanco,320,128,233,81,7,11,69,50,24.66,931.62,Corte incorrecto,Falla maquina,0.0,0.1927,1.0,Bajo
+3/7/2026,Planta C,L8,Noche,Osmund Newcom,Belia Fishlock,Acabado,Deportiva,L,Negro,187,120,430,118,8,3,69,37,7.89,270.12,Costura defectuosa,Falla maquina,0.0,0.0658,0.0,Critico
+3/2/2026,Planta B,L3,Noche,Colleen Ludman,Fredrick Bennion,Acabado,Basica,M,Negro,116,239,208,78,6,5,42,19,46.99,491.94,Tela danada,Materia prima defectuosa,0.0,0.1966,0.0,Bajo
+3/10/2026,Planta B,L9,Dia,Kyla Punyer,Chen Ecles,Calidad,Deportiva,XL,Negro,230,209,66,50,6,13,19,35,39.31,482.86,Corte incorrecto,Falla maquina,0.0,0.1881,3.0,Bajo
+3/24/2026,Planta A,L5,Tarde,Aurilia Clayworth,Gerik Mallinar,Acabado,Basica,M,Blanco,202,94,145,37,4,4,26,39,16.29,169.16,Mancha,Falla maquina,0.0,0.1733,1.0,Bajo
+3/23/2026,Planta C,L10,Dia,Agnesse Dincke,Michal Heatlie,Acabado,Premium,XL,Blanco,299,189,180,49,2,20,46,34,16.34,952.68,Tela danada,Proceso ineficiente,0.0,0.0865,1.0,Bajo
+3/1/2026,Planta A,L6,Tarde,Trude Van den Hof,Keane Fosdyke,Costura,Premium,S,Rojo,340,272,213,20,6,11,22,38,17.11,344.66,Mancha,Falla maquina,0.0,0.0629,1.0,Bajo
+3/5/2026,Planta B,L10,Noche,Annadiane McDiarmid,Jozef Dyke,Acabado,Deportiva,XL,Negro,136,234,158,99,3,19,30,19,14.83,614.49,Costura defectuosa,Falla maquina,0.0,0.0634,0.0,Critico
+3/5/2026,Planta C,L3,Noche,Crysta Fayter,Fin Gerring,Costura,Premium,M,Gris,325,100,185,25,5,22,90,50,12.91,2044.55,Tela danada,Materia prima defectuosa,0.0,0.1291,1.0,Critico
+3/27/2026,Planta C,L1,Dia,Sholom Twidle,Abbye Pentycross,Corte,Deportiva,XL,Blanco,496,214,282,30,7,21,56,90,80.1,1736.7,Costura defectuosa,Falla maquina,0.0,0.3743,1.0,Bajo
+3/6/2026,Planta C,L8,Dia,Hynda Ammer,Munmro Drennan,Costura,Premium,XL,Gris,471,281,317,59,2,8,91,56,34.12,796.24,Tela danada,Materia prima defectuosa,0.0,0.1214,1.0,Bajo
+3/26/2026,Planta B,L1,Noche,Conni Geyton,Terrie Brazear,Acabado,Basica,M,Azul,227,245,389,38,7,18,86,12,20.39,1690.73,Mancha,Proceso ineficiente,0.0,0.0832,0.0,Bajo
+3/30/2026,Planta C,L2,Noche,Alex Roughan,Jojo Greiser,Corte,Premium,M,Azul,130,140,384,54,6,25,48,16,36.49,1418.94,Costura defectuosa,Falla maquina,0.0,0.2606,0.0,Bajo
+3/28/2026,Planta B,L1,Noche,Penny Schulze,Sanson Newall,Acabado,Premium,M,Blanco,356,293,316,36,8,25,165,25,29.65,4362.2,Costura defectuosa,Falla maquina,0.0,0.1012,1.0,Critico
+3/13/2026,Planta C,L2,Noche,Hagen Donnell,Sarajane Szymanowski,Costura,Basica,XL,Gris,463,138,446,34,7,23,130,24,6.12,3032.84,Tela danada,Falla maquina,0.0,0.0443,1.0,Critico
+3/17/2026,Planta B,L6,Tarde,Chip Leipnik,Susanna Ashard,Costura,Premium,XL,Negro,275,275,302,88,4,23,56,54,38.43,1441.72,Costura defectuosa,Proceso ineficiente,0.0,0.1397,0.0,Bajo
+3/2/2026,Planta A,L3,Noche,Aeriela Cowderoy,Anne-marie Reedshaw,Calidad,Deportiva,XL,Blanco,336,174,412,22,2,23,108,63,18.96,2521.92,Corte incorrecto,Falla maquina,0.0,0.109,0.0,Critico
+3/25/2026,Planta A,L6,Dia,Winna Burnhill,Cherlyn Loffhead,Calidad,Basica,XL,Rojo,353,109,229,30,8,15,55,49,19.76,983.08,Corte incorrecto,Error humano,0.0,0.1813,1.0,Bajo
+3/14/2026,Planta C,L6,Dia,Reade Chirm,Murielle Peacher,Corte,Premium,L,Azul,470,141,340,32,6,15,91,89,33.95,1568.7,Tela danada,Error humano,0.0,0.2408,1.0,Bajo
+3/4/2026,Planta B,L7,Noche,Tasia Turfus,Aviva Manis,Costura,Deportiva,S,Rojo,88,209,168,108,3,18,20,11,31.86,455.58,Tela danada,Error humano,0.0,0.1524,0.0,Critico
+3/21/2026,Planta C,L2,Noche,Horacio James,Denice Sykes,Corte,Deportiva,XL,Negro,133,84,69,103,4,11,37,12,31.69,533.76,Costura defectuosa,Error humano,0.0,0.3773,1.0,Critico
+3/26/2026,Planta B,L7,Tarde,Sayre Nund,Homer Dorricott,Calidad,Basica,L,Rojo,234,221,403,34,3,7,57,14,38.01,513.03,Mancha,Materia prima defectuosa,0.0,0.172,0.0,Bajo
+3/2/2026,Planta B,L8,Noche,Hester Hintze,Ardelia Mazzey,Acabado,Deportiva,S,Blanco,288,196,192,93,3,18,79,51,29.06,1509.18,Mancha,Falla maquina,0.0,0.1483,1.0,Critico
+3/3/2026,Planta A,L8,Tarde,Andi Stickley,Richardo Nesbitt,Calidad,Basica,XL,Rojo,312,146,123,103,3,7,63,23,9.9,470.7,Mancha,Materia prima defectuosa,0.0,0.0678,2.0,Critico
+3/11/2026,Planta B,L5,Noche,Merline Pedrick,Dolly Blundell,Costura,Premium,XL,Blanco,466,200,421,110,4,23,209,82,29.89,4926.56,Costura defectuosa,Falla maquina,0.0,0.1495,1.0,Critico
+3/3/2026,Planta B,L3,Dia,Marja Kolakowski,Lida Santhouse,Acabado,Premium,XL,Blanco,305,267,294,109,4,7,71,28,10.99,540.96,Costura defectuosa,Falla maquina,0.0,0.0412,1.0,Critico
+3/3/2026,Planta A,L6,Noche,Lowell Warlow,Emlynn Coulson,Costura,Basica,XL,Azul,166,291,334,32,6,16,34,12,53.86,867.16,Corte incorrecto,Proceso ineficiente,0.0,0.1851,0.0,Bajo
+3/15/2026,Planta C,L3,Dia,Ulric Sargerson,Jeri Colhoun,Corte,Premium,M,Gris,228,251,125,99,6,21,30,38,48.59,921.54,Mancha,Error humano,0.0,0.1936,1.0,Critico
+3/8/2026,Planta C,L5,Noche,Nero Accum,Nerte Moorrud,Costura,Deportiva,XL,Gris,237,286,88,101,4,4,61,44,52.15,452.6,Medida incorrecta,Falla maquina,0.0,0.1823,2.0,Critico
+3/15/2026,Planta B,L3,Tarde,Ingmar Lowder,Sasha Hebdon,Costura,Deportiva,S,Rojo,94,208,262,93,4,12,17,12,32.02,332.08,Medida incorrecta,Error humano,0.0,0.1539,0.0,Critico
+3/23/2026,Planta A,L5,Tarde,Millie Breacher,Lonee Whooley,Calidad,Deportiva,L,Azul,387,137,135,36,8,7,85,71,5.19,636.52,Tela danada,Falla maquina,0.0,0.0379,2.0,Bajo
+3/10/2026,Planta C,L8,Dia,Shermy Whitebrook,Mariam Brellin,Acabado,Basica,S,Negro,464,147,365,31,3,10,29,88,9.54,318.62,Costura defectuosa,Falla maquina,0.0,0.0649,1.0,Bajo
+3/26/2026,Planta B,L4,Dia,Coraline Klee,Jo Mathiassen,Costura,Premium,XL,Blanco,203,148,368,0,6,23,46,40,11.79,1128.74,Tela danada,Falla maquina,0.0,0.0797,0.0,Bajo
+3/9/2026,Planta A,L7,Dia,Alair Krinks,Joscelin Snoxill,Costura,Basica,M,Blanco,157,164,121,0,2,22,8,8,20.51,217.02,Medida incorrecta,Error humano,0.0,0.1251,1.0,Bajo
+3/13/2026,Planta C,L8,Noche,Iris Coller,Boote McKerrow,Costura,Premium,S,Gris,464,187,295,81,3,24,186,34,30.02,4554.06,Costura defectuosa,Materia prima defectuosa,0.0,0.1605,1.0,Critico
+3/2/2026,Planta A,L4,Tarde,Erena Cornthwaite,Sigrid Pigeram,Costura,Basica,XL,Negro,265,237,342,85,4,13,66,36,32.51,988.04,Mancha,Error humano,0.0,0.1372,0.0,Bajo
+3/13/2026,Planta C,L10,Dia,Merry Harnwell,Dorothea Gave,Calidad,Premium,L,Blanco,459,225,465,29,7,16,103,42,20.52,1791.64,Tela danada,Error humano,0.0,0.0912,0.0,Bajo
+3/20/2026,Planta A,L5,Tarde,Allix Wildman,Aurilia Bedboro,Calidad,Basica,S,Blanco,434,107,260,20,5,6,71,74,9.28,472.4,Costura defectuosa,Falla maquina,0.0,0.0867,1.0,Bajo
+3/1/2026,Planta A,L8,Noche,Jacquelyn Sangwine,Nanette Diggell,Corte,Basica,S,Azul,239,159,169,33,3,22,92,40,43.04,2153.12,Mancha,Materia prima defectuosa,0.0,0.2707,1.0,Critico
+3/4/2026,Planta A,L4,Noche,Malvin Fattore,Grissel Piniur,Calidad,Premium,XL,Negro,177,250,214,96,5,3,52,34,32.02,316.1,Mancha,Materia prima defectuosa,0.0,0.1281,0.0,Critico
+3/23/2026,Planta C,L8,Dia,Torey Gerling,Dinah Mechell,Costura,Deportiva,S,Rojo,98,274,353,90,3,20,18,9,47.08,501.24,Corte incorrecto,Error humano,0.0,0.1718,0.0,Bajo
+3/15/2026,Planta B,L4,Tarde,Chico Charnick,La verne Trematick,Corte,Premium,S,Negro,281,233,131,112,7,21,21,50,38.39,709.73,Medida incorrecta,Proceso ineficiente,0.0,0.1648,2.0,Critico
+3/11/2026,Planta A,L4,Noche,Shelby Mort,Cordula Waterhowse,Costura,Deportiva,S,Gris,401,164,63,66,4,25,200,34,21.09,5084.36,Costura defectuosa,Error humano,0.0,0.1286,6.0,Critico
+3/16/2026,Planta C,L9,Dia,Myer Engledow,Jamison Bagge,Acabado,Basica,L,Azul,201,58,287,40,7,17,20,32,5.25,376.75,Costura defectuosa,Falla maquina,0.0,0.0905,0.0,Bajo
+3/20/2026,Planta A,L5,Noche,Pren Showell,Osborn McAlester,Corte,Basica,L,Rojo,221,179,156,19,4,16,68,30,38.91,1243.64,Medida incorrecta,Materia prima defectuosa,0.0,0.2174,1.0,Bajo
+3/20/2026,Planta B,L1,Noche,Sue Camis,Rutger Letchford,Acabado,Deportiva,M,Negro,280,72,174,70,7,19,111,56,8.75,2170.25,Mancha,Proceso ineficiente,0.0,0.1215,1.0,Critico
+3/21/2026,Planta A,L6,Tarde,Georgiana Cobden,Anatollo Brislane,Calidad,Premium,S,Azul,196,138,282,80,3,16,30,39,16.09,528.27,Mancha,Error humano,0.0,0.1166,0.0,Bajo
+3/27/2026,Planta B,L4,Tarde,Ethel Padly,Shelby Limbourne,Costura,Basica,L,Azul,322,267,199,113,3,22,34,37,50.92,900.76,Medida incorrecta,Proceso ineficiente,0.0,0.1907,1.0,Critico
+3/24/2026,Planta A,L5,Tarde,Jamil Bliven,Nealy Mooney,Costura,Premium,M,Rojo,408,66,182,36,8,24,64,67,2.77,1558.16,Medida incorrecta,Proceso ineficiente,0.0,0.042,2.0,Bajo
+3/21/2026,Planta A,L4,Noche,Leslie Antonietti,Sayres Mapplebeck,Calidad,Premium,L,Azul,314,188,432,90,7,18,100,41,13.66,1895.62,Corte incorrecto,Materia prima defectuosa,0.0,0.0727,0.0,Bajo
+3/1/2026,Planta B,L1,Noche,Nancie Vardie,Valdemar Murrison,Calidad,Basica,XL,Gris,364,109,122,34,5,3,127,70,4.39,402.95,Mancha,Proceso ineficiente,0.0,0.0403,2.0,Bajo
+3/14/2026,Planta C,L10,Tarde,Benedicta Stallan,Royce Hatchette,Corte,Premium,M,Negro,437,147,98,109,8,23,23,23,49.65,926.2,Corte incorrecto,Proceso ineficiente,0.0,0.3378,4.0,Critico
+3/18/2026,Planta A,L4,Tarde,Wesley Jacombs,Bondon Englefield,Calidad,Deportiva,XL,Negro,266,196,222,52,8,16,34,50,9.5,620.0,Medida incorrecta,Falla maquina,0.0,0.0485,1.0,Bajo
+3/14/2026,Planta C,L9,Noche,Jaye Seifenmacher,Lanni Stonier,Costura,Deportiva,XL,Blanco,480,192,92,52,8,25,121,58,32.98,3288.84,Costura defectuosa,Falla maquina,0.0,0.1718,5.0,Critico
+3/2/2026,Planta B,L3,Tarde,Ally Briars,Blisse Parsons,Corte,Basica,XL,Azul,468,291,304,68,8,23,73,46,110.72,2564.76,Medida incorrecta,Materia prima defectuosa,0.0,0.3805,1.0,Critico
+3/21/2026,Planta C,L9,Dia,Ginni Nicholas,Grady Teesdale,Acabado,Deportiva,L,Azul,296,79,134,79,6,24,41,46,2.65,999.9,Tela danada,Falla maquina,0.0,0.0335,2.0,Bajo
+3/4/2026,Planta A,L6,Noche,Conn Vaun,Elinor Cheesman,Acabado,Premium,L,Blanco,141,120,269,21,3,10,33,26,17.22,381.66,Tela danada,Error humano,0.0,0.1435,0.0,Bajo
+3/18/2026,Planta B,L10,Noche,Greer Spaven,Magnum Lippiett,Calidad,Deportiva,XL,Negro,258,217,70,89,6,21,75,22,26.93,1736.58,Mancha,Error humano,0.0,0.1241,3.0,Bajo
+3/23/2026,Planta C,L2,Dia,Elsa De la Perrelle,Dionisio Inch,Costura,Basica,M,Rojo,431,182,136,55,6,10,39,79,10.0,450.0,Costura defectuosa,Materia prima defectuosa,0.0,0.0549,3.0,Bajo
+3/15/2026,Planta C,L4,Noche,Freddi Dingivan,Genna Prinnett,Costura,Premium,S,Blanco,289,235,385,80,3,22,62,20,9.55,1392.65,Costura defectuosa,Materia prima defectuosa,0.0,0.0406,0.0,Bajo
+3/18/2026,Planta C,L8,Dia,Cathrine Brelsford,Maighdiln Sallan,Calidad,Deportiva,XL,Negro,314,214,225,112,4,17,77,31,21.02,1393.08,Mancha,Falla maquina,0.0,0.0982,1.0,Critico
+3/27/2026,Planta A,L5,Noche,Talia Sirey,Bradley Beinisch,Acabado,Deportiva,L,Negro,314,259,180,65,8,19,70,21,38.31,1636.48,Medida incorrecta,Proceso ineficiente,0.0,0.1479,1.0,Bajo
+3/6/2026,Planta C,L1,Noche,Jeni Melvin,Filia O'Gorman,Costura,Premium,S,Azul,369,253,209,74,2,5,183,60,10.78,936.56,Tela danada,Error humano,0.0,0.0426,1.0,Bajo
+3/21/2026,Planta B,L1,Noche,Jim Tomik,Hadrian Rodger,Acabado,Premium,L,Azul,498,145,372,2,3,11,172,92,12.17,1928.51,Mancha,Materia prima defectuosa,0.0,0.0839,1.0,Bajo
+3/22/2026,Planta B,L8,Noche,Ronnie Cussen,Vivi Cheves,Corte,Basica,S,Negro,276,178,359,53,2,7,63,28,71.15,583.3,Costura defectuosa,Error humano,0.0,0.3997,0.0,Bajo
+3/8/2026,Planta A,L10,Dia,Tanner Sams,Laird Filippone,Calidad,Premium,XL,Rojo,85,99,350,100,7,3,14,6,18.51,171.57,Corte incorrecto,Falla maquina,0.0,0.187,0.0,Critico
+3/8/2026,Planta A,L8,Dia,Deana Pinnocke,Kirby Devonside,Calidad,Deportiva,L,Rojo,462,80,461,107,8,19,92,32,10.24,1829.92,Costura defectuosa,Error humano,0.0,0.128,1.0,Critico
+3/17/2026,Planta B,L10,Noche,Giorgia Thomesson,Claudius Rogge,Costura,Basica,L,Azul,266,66,80,109,2,11,126,37,4.26,1394.52,Mancha,Materia prima defectuosa,0.0,0.0645,3.0,Critico
+3/30/2026,Planta B,L6,Dia,Kinnie Worsnip,Gordon Swadlen,Costura,Premium,M,Gris,300,142,332,28,5,22,72,33,12.57,1646.85,Corte incorrecto,Proceso ineficiente,0.0,0.0885,0.0,Bajo
+3/2/2026,Planta C,L3,Noche,Juan Iggulden,Thacher Yokley,Costura,Deportiva,S,Negro,231,300,156,110,2,3,79,43,34.09,305.18,Mancha,Falla maquina,0.0,0.1136,1.0,Critico
+3/25/2026,Planta B,L3,Dia,Standford Laurenson,Yehudi Fauning,Corte,Premium,M,Gris,98,271,265,64,2,24,13,13,47.84,407.68,Mancha,Falla maquina,0.0,0.1765,0.0,Bajo
+3/26/2026,Planta C,L5,Noche,Fair Shobrook,Emery McCory,Costura,Deportiva,S,Azul,312,84,66,93,5,9,116,44,14.32,1115.6,Corte incorrecto,Error humano,0.0,0.1705,4.0,Critico
+3/28/2026,Planta B,L8,Tarde,Shanan Molloy,Walt Lakeman,Calidad,Premium,XL,Rojo,334,289,460,16,5,16,41,51,43.51,873.55,Costura defectuosa,Error humano,0.0,0.1506,0.0,Bajo
+3/7/2026,Planta C,L7,Noche,Oliver Russon,Nevil Van den Bosch,Calidad,Premium,M,Blanco,157,218,62,34,6,18,76,20,26.07,1524.42,Tela danada,Materia prima defectuosa,0.0,0.1196,2.0,Bajo
+3/17/2026,Planta A,L6,Noche,Rene Scully,Liesa Russ,Corte,Basica,XL,Rojo,336,275,304,56,4,20,98,18,44.89,2139.56,Medida incorrecta,Materia prima defectuosa,0.0,0.1632,1.0,Critico
+3/13/2026,Planta B,L3,Tarde,Reyna Giroldi,Palmer Rickert,Costura,Basica,M,Rojo,183,238,82,15,3,9,26,13,41.17,357.51,Costura defectuosa,Error humano,0.0,0.173,2.0,Bajo
+3/9/2026,Planta C,L10,Noche,Carley Gohier,Ollie Keelan,Acabado,Basica,S,Negro,167,104,317,44,3,22,82,32,13.26,1843.78,Mancha,Materia prima defectuosa,0.0,0.1275,0.0,Bajo
+3/19/2026,Planta C,L5,Noche,Marchelle Brownbill,Terri-jo Goddard,Calidad,Deportiva,M,Gris,339,261,254,84,5,14,82,37,48.51,1390.55,Medida incorrecta,Proceso ineficiente,0.0,0.1859,1.0,Bajo
+3/18/2026,Planta A,L6,Dia,Welbie Dufton,Ilene Peert,Acabado,Deportiva,M,Gris,381,107,110,106,3,4,47,48,20.88,250.64,Costura defectuosa,Falla maquina,0.0,0.1951,3.0,Critico
+3/28/2026,Planta C,L1,Dia,Wilhelmina Momford,Karry Allright,Costura,Basica,L,Rojo,107,176,166,56,6,16,16,19,32.71,452.26,Tela danada,Error humano,0.0,0.1859,0.0,Bajo
+3/7/2026,Planta A,L6,Dia,Siouxie Peschke,Nikos Scane,Calidad,Deportiva,XL,Blanco,450,82,443,96,5,3,112,62,13.87,405.35,Costura defectuosa,Falla maquina,0.0,0.1691,1.0,Critico
+3/7/2026,Planta B,L6,Noche,Heinrick Turfus,Ardyth Stilly,Acabado,Deportiva,M,Negro,128,233,227,105,4,3,59,21,17.31,246.24,Tela danada,Error humano,0.0,0.0743,0.0,Critico
+3/1/2026,Planta C,L4,Dia,Dori Balk,Chilton Tungay,Calidad,Premium,S,Azul,330,268,327,17,4,24,46,23,12.15,1152.6,Mancha,Materia prima defectuosa,0.0,0.0453,1.0,Bajo
+3/5/2026,Planta A,L2,Noche,Rayna Baitey,Friedrick Curado,Calidad,Basica,L,Azul,499,149,212,108,5,16,207,60,21.48,3419.4,Medida incorrecta,Proceso ineficiente,0.0,0.1442,2.0,Critico
+3/3/2026,Planta C,L6,Noche,Jeremy Baxendale,Kissie Dadley,Calidad,Basica,M,Rojo,215,270,162,94,5,17,65,40,40.08,1305.4,Tela danada,Falla maquina,0.0,0.1484,1.0,Critico
+3/13/2026,Planta C,L7,Noche,Lynna Wyborn,Stearn Collecott,Costura,Deportiva,L,Azul,268,143,409,84,5,10,105,34,20.77,1153.85,Medida incorrecta,Falla maquina,0.0,0.1452,0.0,Bajo
+3/15/2026,Planta B,L5,Tarde,Bert Pomphrett,Paxton Shadbolt,Calidad,Deportiva,XL,Negro,438,176,383,96,7,3,55,58,15.39,272.73,Tela danada,Proceso ineficiente,0.0,0.0874,1.0,Critico
+3/1/2026,Planta B,L8,Tarde,Joyous Guillotin,Boone Nutley,Acabado,Premium,S,Rojo,99,128,213,105,8,12,11,10,22.53,312.24,Tela danada,Falla maquina,0.0,0.176,0.0,Critico
+3/1/2026,Planta A,L7,Tarde,Charlotte Lamplough,Thorin Pessel,Corte,Basica,S,Azul,464,294,383,116,4,25,115,70,87.36,3224.44,Corte incorrecto,Falla maquina,0.0,0.2971,1.0,Critico
+3/3/2026,Planta C,L4,Dia,Estelle Merill,Merrill Gallaccio,Acabado,Basica,XL,Gris,185,288,287,71,7,25,20,15,53.37,873.59,Medida incorrecta,Proceso ineficiente,0.0,0.1853,0.0,Bajo
+3/30/2026,Planta A,L1,Dia,Etta Ambrosch,Gloriane MacNish,Corte,Deportiva,L,Rojo,147,216,282,46,6,16,35,12,60.72,924.32,Mancha,Error humano,0.0,0.2811,0.0,Bajo
+3/28/2026,Planta B,L9,Tarde,Eric Cornels,Chlo Dennington,Acabado,Deportiva,M,Azul,305,128,394,58,7,9,34,60,4.82,339.74,Tela danada,Proceso ineficiente,0.0,0.0377,0.0,Bajo
+3/21/2026,Planta B,L10,Noche,Tana Elsy,Nola Salisbury,Costura,Deportiva,XL,Azul,146,186,348,63,8,22,60,18,32.38,1579.04,Mancha,Materia prima defectuosa,0.0,0.1741,0.0,Bajo
+3/6/2026,Planta C,L5,Tarde,Rubina Begent,Kirk End,Costura,Deportiva,S,Negro,156,220,381,10,7,16,37,18,36.72,849.04,Corte incorrecto,Falla maquina,0.0,0.1669,0.0,Bajo
+3/26/2026,Planta C,L1,Tarde,Ezekiel Vaisey,Margaux Gregh,Corte,Deportiva,L,Azul,83,81,258,45,6,19,16,14,14.37,390.22,Tela danada,Error humano,0.0,0.1774,0.0,Bajo
+3/8/2026,Planta C,L8,Dia,Saleem Hachard,Warner Bloys,Calidad,Basica,L,Blanco,223,190,301,80,2,25,18,13,21.78,493.56,Costura defectuosa,Falla maquina,0.0,0.1146,0.0,Bajo
+3/3/2026,Planta B,L3,Noche,Cord Gronw,Armin Gethyn,Calidad,Deportiva,M,Rojo,381,99,85,81,7,7,105,34,17.0,854.0,Costura defectuosa,Error humano,0.0,0.1717,4.0,Bajo
+3/5/2026,Planta A,L10,Noche,Rogerio Ownsworth,Fairlie Dwyer,Corte,Premium,S,Blanco,103,221,354,90,8,18,27,16,61.49,977.92,Corte incorrecto,Materia prima defectuosa,0.0,0.2782,0.0,Bajo
+3/15/2026,Planta B,L5,Dia,Thornton Scouller,Valentine Sagerson,Costura,Deportiva,S,Rojo,365,153,160,32,6,4,30,50,19.04,234.24,Medida incorrecta,Materia prima defectuosa,0.0,0.1244,2.0,Bajo
+3/15/2026,Planta C,L5,Dia,Jenica Grinley,Frederique Woan,Corte,Basica,S,Blanco,342,230,301,19,7,24,42,44,25.29,1185.03,Mancha,Falla maquina,0.0,0.11,1.0,Bajo
+3/27/2026,Planta A,L10,Dia,Bonita Pagin,Skyler Lissandre,Corte,Basica,M,Negro,88,123,84,73,2,22,15,5,23.86,377.72,Mancha,Error humano,0.0,0.194,1.0,Bajo
+3/7/2026,Planta B,L9,Tarde,Emmy Cahan,Ursulina Brewitt,Corte,Deportiva,M,Blanco,493,235,169,109,3,21,116,95,34.75,2540.25,Mancha,Falla maquina,0.0,0.1479,2.0,Critico
+3/14/2026,Planta A,L4,Dia,Ralph Davys,Reinald Borborough,Corte,Premium,M,Gris,158,234,331,34,3,5,28,9,82.38,387.14,Corte incorrecto,Proceso ineficiente,0.0,0.3521,0.0,Bajo
+3/4/2026,Planta B,L4,Noche,Caprice O'Lehane,Tedmund Deuss,Costura,Basica,S,Azul,245,243,444,92,8,15,102,23,12.57,1630.56,Mancha,Error humano,0.0,0.0517,0.0,Critico
+3/21/2026,Planta C,L9,Noche,Farris Kienl,Peyton Anthoney,Corte,Premium,S,Negro,198,150,437,99,8,8,91,36,34.21,1001.68,Mancha,Materia prima defectuosa,0.0,0.2281,0.0,Critico
+3/4/2026,Planta C,L10,Tarde,Lorin Fackney,Zsazsa Yushmanov,Costura,Basica,M,Gris,112,188,469,37,8,22,14,9,12.54,408.32,Medida incorrecta,Falla maquina,0.0,0.0667,0.0,Bajo
+3/8/2026,Planta C,L6,Dia,Fields Flay,Beverie Emslie,Corte,Premium,L,Gris,205,277,67,94,2,5,45,13,44.64,314.28,Costura defectuosa,Falla maquina,0.0,0.1612,3.0,Critico
+3/13/2026,Planta B,L5,Dia,Wolfie Mortel,Izzy Gajewski,Acabado,Deportiva,XL,Azul,369,229,101,10,2,15,21,37,18.04,351.08,Corte incorrecto,Falla maquina,0.0,0.0788,3.0,Bajo
+3/8/2026,Planta A,L3,Dia,Heda Davidavidovics,Tuesday Wyrill,Acabado,Premium,XL,Negro,315,289,158,6,7,23,57,32,25.87,1492.09,Corte incorrecto,Proceso ineficiente,0.0,0.0895,1.0,Bajo
+3/27/2026,Planta B,L3,Dia,Yance Catterill,Annadiana Maskew,Calidad,Basica,L,Azul,379,288,100,28,2,9,71,23,26.8,692.6,Costura defectuosa,Falla maquina,0.0,0.0931,3.0,Bajo
+3/11/2026,Planta A,L6,Noche,Town Cordaroy,Torrence Cordero,Corte,Basica,XL,Azul,246,285,99,37,8,13,87,36,61.52,1623.16,Costura defectuosa,Falla maquina,0.0,0.2159,2.0,Bajo
+3/23/2026,Planta C,L9,Noche,Ware Jerg,Ardath Welbrock,Calidad,Basica,XL,Negro,89,160,251,88,4,25,24,8,22.97,691.88,Costura defectuosa,Materia prima defectuosa,0.0,0.1436,0.0,Bajo
+3/15/2026,Planta C,L9,Noche,Justinian Hanshawe,Maximo Treadway,Costura,Deportiva,L,Blanco,96,224,116,47,7,21,40,7,12.25,925.75,Tela danada,Materia prima defectuosa,0.0,0.0547,0.0,Bajo
+3/11/2026,Planta C,L4,Tarde,Angeli Tapner,Wait Call,Acabado,Premium,XL,Blanco,116,237,274,23,7,8,12,9,12.96,186.72,Corte incorrecto,Proceso ineficiente,0.0,0.0547,0.0,Bajo
+3/16/2026,Planta C,L6,Tarde,Alvira Primak,Clem Mallatratt,Calidad,Deportiva,M,Negro,260,225,422,1,2,12,29,14,36.32,420.64,Tela danada,Proceso ineficiente,0.0,0.1614,0.0,Bajo
+3/28/2026,Planta A,L7,Noche,Una Webb,Vivianne Murford,Costura,Premium,M,Azul,384,291,108,1,6,11,180,71,33.59,2181.54,Tela danada,Falla maquina,0.0,0.1154,3.0,Critico
+3/7/2026,Planta A,L9,Tarde,Zak Eite,Mikey Cranke,Corte,Premium,M,Blanco,185,211,308,33,6,10,21,35,60.7,574.2,Tela danada,Falla maquina,0.0,0.2877,0.0,Bajo
+3/20/2026,Planta A,L10,Noche,Xylia Mathiasen,Gardy Humbey,Costura,Premium,L,Blanco,305,195,310,78,5,18,77,52,21.22,1492.1,Mancha,Materia prima defectuosa,0.0,0.1088,0.0,Bajo
+3/26/2026,Planta A,L2,Dia,Abbey Pittle,Consuelo Matanin,Costura,Premium,S,Blanco,211,238,136,83,6,20,27,35,41.57,789.42,Costura defectuosa,Proceso ineficiente,0.0,0.1747,1.0,Bajo
+3/14/2026,Planta B,L7,Dia,Lindsey Pearcey,Quillan Somerfield,Costura,Premium,XL,Negro,324,116,180,63,6,8,65,28,11.32,587.92,Tela danada,Materia prima defectuosa,0.0,0.0976,1.0,Bajo
+3/14/2026,Planta B,L4,Dia,Pippo Jerrans,Casey Zorzoni,Costura,Basica,S,Rojo,101,230,146,70,5,20,9,10,16.52,262.6,Tela danada,Proceso ineficiente,0.0,0.0718,0.0,Bajo
+3/25/2026,Planta B,L8,Tarde,Nevil Greves,Pavla Kleynen,Calidad,Deportiva,S,Gris,418,224,324,107,2,21,94,76,15.53,2005.06,Medida incorrecta,Error humano,0.0,0.0693,1.0,Critico
+3/2/2026,Planta A,L7,Dia,Linnie Dagon,Andra Bowden,Costura,Deportiva,M,Rojo,371,88,304,73,3,12,81,29,10.61,1003.83,Corte incorrecto,Proceso ineficiente,0.0,0.1206,1.0,Bajo
+3/29/2026,Planta B,L8,Tarde,Amitie Heare,Pete Dransfield,Acabado,Premium,L,Rojo,88,278,435,26,5,17,20,8,17.83,429.15,Medida incorrecta,Materia prima defectuosa,0.0,0.0641,0.0,Bajo
+3/23/2026,Planta B,L8,Noche,Minta Antal,Nicol Moyse,Calidad,Premium,XL,Rojo,277,252,443,40,5,19,97,40,30.89,1997.45,Costura defectuosa,Error humano,0.0,0.1226,0.0,Bajo
+3/22/2026,Planta A,L5,Tarde,Orsola Kramer,Niels Koppen,Calidad,Basica,S,Blanco,289,54,368,112,2,22,56,42,9.09,1250.18,Costura defectuosa,Error humano,0.0,0.1683,0.0,Critico
+3/26/2026,Planta B,L7,Tarde,Ermina Aingel,Dicky Askaw,Calidad,Deportiva,XL,Azul,223,300,364,63,5,20,52,16,14.91,1114.55,Costura defectuosa,Falla maquina,0.0,0.0497,0.0,Bajo
+3/4/2026,Planta A,L1,Noche,Olva Finder,Raye Thirtle,Corte,Basica,S,Blanco,302,212,263,88,2,25,82,54,61.78,2173.56,Medida incorrecta,Proceso ineficiente,0.0,0.2914,1.0,Critico
+3/12/2026,Planta B,L9,Tarde,Brander Glowacki,Taffy Dirkin,Calidad,Basica,XL,Negro,291,200,277,42,4,8,43,31,37.18,492.72,Costura defectuosa,Materia prima defectuosa,0.0,0.1859,1.0,Bajo
+3/25/2026,Planta A,L5,Noche,Eric Minette,Ricca Jean,Costura,Deportiva,S,Rojo,247,76,166,60,6,21,67,37,14.13,1491.78,Mancha,Falla maquina,0.0,0.1859,1.0,Bajo
+3/29/2026,Planta B,L6,Tarde,Bobbee Sudron,Cy Muriel,Costura,Basica,XL,Rojo,298,271,214,107,5,21,46,45,42.28,1177.4,Mancha,Falla maquina,0.0,0.156,1.0,Critico
+3/3/2026,Planta A,L9,Dia,Marylin Abelwhite,Lanny Yirrell,Acabado,Basica,L,Blanco,487,208,445,81,3,8,46,52,21.84,433.52,Corte incorrecto,Error humano,0.0,0.105,1.0,Bajo
+3/29/2026,Planta A,L2,Noche,Karin Dallosso,Corrianne Whitely,Calidad,Deportiva,L,Gris,380,224,240,85,3,13,149,34,11.77,1972.31,Mancha,Falla maquina,0.0,0.0525,1.0,Bajo
+3/24/2026,Planta A,L7,Tarde,Marv Lotte,Noell Van den Dael,Costura,Basica,S,Rojo,379,89,372,56,7,12,92,21,14.02,1202.14,Medida incorrecta,Falla maquina,0.0,0.1575,1.0,Bajo
+3/29/2026,Planta A,L7,Dia,Melesa Reaveley,Carmina Vokins,Calidad,Premium,XL,Rojo,175,102,273,1,7,23,41,32,12.64,1031.48,Medida incorrecta,Materia prima defectuosa,0.0,0.1239,0.0,Bajo
+3/14/2026,Planta A,L8,Noche,Obed Selman,Donelle Evanson,Acabado,Deportiva,L,Gris,266,234,416,109,6,7,79,39,30.45,735.7,Mancha,Error humano,0.0,0.1301,0.0,Critico
+3/20/2026,Planta C,L8,Dia,Markos Worlock,Grier Rogge,Calidad,Deportiva,L,Negro,459,272,393,83,2,12,87,61,24.67,1093.34,Mancha,Materia prima defectuosa,0.0,0.0907,1.0,Bajo
+3/30/2026,Planta A,L9,Tarde,Charmine Loins,Lydia Menichi,Calidad,Basica,XL,Blanco,372,64,174,66,2,10,49,21,12.67,515.34,Corte incorrecto,Error humano,0.0,0.198,2.0,Bajo
+3/22/2026,Planta A,L7,Tarde,Meredithe Baddeley,Ezequiel Rillstone,Costura,Basica,M,Gris,181,260,239,100,4,25,17,22,22.0,513.0,Medida incorrecta,Falla maquina,0.0,0.0846,0.0,Critico
+3/17/2026,Planta C,L10,Tarde,Matthew Petrasso,Ransell Georgeot,Calidad,Premium,M,Blanco,191,65,213,41,5,19,45,30,3.01,870.05,Tela danada,Proceso ineficiente,0.0,0.0463,0.0,Bajo
+3/20/2026,Planta B,L4,Noche,Robenia Grigsby,Valeria Hodjetts,Costura,Basica,M,Rojo,353,267,223,101,2,8,78,21,44.9,713.8,Tela danada,Proceso ineficiente,0.0,0.1682,1.0,Critico
+3/1/2026,Planta B,L8,Dia,Clementius Gilford,Kristoffer Lickess,Calidad,Deportiva,L,Negro,85,190,421,46,3,10,19,14,17.56,242.68,Mancha,Materia prima defectuosa,0.0,0.0924,0.0,Bajo
+3/1/2026,Planta B,L7,Tarde,Ilsa Minker,Clemmy Lummasana,Corte,Basica,L,Rojo,103,64,446,119,5,8,19,7,10.12,202.6,Corte incorrecto,Proceso ineficiente,0.0,0.1581,0.0,Critico
+3/20/2026,Planta C,L4,Tarde,Domingo Harford,Bordie Eytel,Corte,Premium,S,Blanco,193,134,83,84,5,7,36,13,20.98,356.9,Medida incorrecta,Falla maquina,0.0,0.1566,2.0,Bajo
+3/25/2026,Planta B,L10,Tarde,Joey Pavyer,Kristofer Haste,Acabado,Basica,S,Rojo,295,163,477,66,7,13,48,52,5.15,660.05,Mancha,Error humano,0.0,0.0316,0.0,Bajo
+3/12/2026,Planta C,L9,Dia,Damien Baltzar,Jeddy Roles,Corte,Basica,XL,Gris,315,277,459,67,8,13,29,52,94.03,1129.24,Tela danada,Materia prima defectuosa,0.0,0.3395,0.0,Bajo
+3/26/2026,Planta C,L3,Dia,Evy Dunstone,Dulciana Sconce,Costura,Basica,S,Blanco,225,126,431,3,5,3,31,12,7.24,129.2,Costura defectuosa,Error humano,0.0,0.0575,0.0,Bajo
+3/27/2026,Planta A,L8,Dia,Myrtia Dohr,Maia McCaffrey,Costura,Basica,S,Blanco,218,172,162,68,8,4,31,32,11.13,213.04,Medida incorrecta,Falla maquina,0.0,0.0647,1.0,Bajo
+3/29/2026,Planta B,L9,Tarde,Elset Andrew,Cassie Pengelley,Costura,Basica,M,Rojo,367,150,157,9,8,18,60,45,25.06,1280.48,Costura defectuosa,Proceso ineficiente,0.0,0.1671,2.0,Bajo
+3/9/2026,Planta A,L1,Tarde,Irving Compfort,Lise Flips,Costura,Premium,L,Negro,348,228,244,74,3,3,84,61,36.37,361.11,Costura defectuosa,Materia prima defectuosa,0.0,0.1595,1.0,Bajo
+3/15/2026,Planta A,L1,Noche,Robinett Foulsham,Rea Aireton,Acabado,Basica,L,Gris,93,267,321,84,2,21,32,7,28.97,729.94,Corte incorrecto,Materia prima defectuosa,0.0,0.1085,0.0,Bajo
+3/28/2026,Planta B,L5,Dia,Ferdinande Perillo,Olenka Becket,Acabado,Basica,XL,Rojo,375,107,112,100,2,15,23,25,17.96,380.92,Tela danada,Error humano,0.0,0.1679,3.0,Critico
+3/2/2026,Planta B,L4,Noche,Cele Weeds,Drucill Spurling,Corte,Premium,S,Blanco,134,171,414,103,7,19,66,21,67.8,1728.6,Mancha,Error humano,0.0,0.3965,0.0,Critico
+3/24/2026,Planta B,L3,Noche,Georgetta Duddy,Cleopatra Easom,Costura,Basica,S,Gris,244,68,444,22,2,4,54,37,2.81,221.62,Mancha,Error humano,0.0,0.0413,0.0,Bajo
+3/12/2026,Planta A,L7,Noche,Marget Janway,Pierson Dodgshon,Costura,Premium,M,Rojo,153,251,115,65,7,16,36,8,8.81,637.67,Mancha,Proceso ineficiente,0.0,0.0351,1.0,Bajo
+3/29/2026,Planta B,L6,Tarde,Boote McClaurie,Hilary Do Rosario,Costura,Premium,L,Negro,113,64,417,64,2,17,18,9,9.31,324.62,Corte incorrecto,Proceso ineficiente,0.0,0.1455,0.0,Bajo
+3/9/2026,Planta A,L7,Dia,Arabela Girogetti,Keslie Sarvar,Calidad,Premium,L,Rojo,171,177,68,45,3,19,36,15,26.86,764.58,Tela danada,Falla maquina,0.0,0.1518,2.0,Bajo
+3/8/2026,Planta B,L5,Noche,Leanna Gowanlock,Gates Zarb,Acabado,Premium,XL,Rojo,468,200,156,14,2,20,213,39,38.79,4337.58,Mancha,Materia prima defectuosa,0.0,0.194,3.0,Critico
+3/28/2026,Planta B,L10,Dia,Catriona Alday,Luce Bruford,Corte,Basica,S,Rojo,188,107,320,116,6,22,13,28,26.55,445.3,Costura defectuosa,Materia prima defectuosa,0.0,0.2481,0.0,Critico
+3/20/2026,Planta B,L9,Dia,Dolores Van Dijk,Lonna Patel,Acabado,Premium,S,Negro,171,94,426,90,4,11,17,20,13.83,242.32,Costura defectuosa,Falla maquina,0.0,0.1471,0.0,Bajo
+3/29/2026,Planta A,L2,Dia,Derwin Bratty,Corey Mines,Acabado,Basica,M,Azul,445,182,124,77,4,22,28,78,36.39,761.56,Tela danada,Error humano,0.0,0.1999,3.0,Bajo
+3/27/2026,Planta B,L9,Noche,Casie Bowes,Carlie Hannond,Corte,Basica,L,Negro,291,231,280,46,8,16,92,22,89.57,2188.56,Corte incorrecto,Materia prima defectuosa,0.0,0.3877,1.0,Critico
+3/11/2026,Planta B,L6,Tarde,Jaime Delion,Anissa Shakshaft,Calidad,Deportiva,XL,Gris,259,57,173,46,3,18,55,20,7.94,1013.82,Corte incorrecto,Materia prima defectuosa,0.0,0.1393,1.0,Bajo
+3/16/2026,Planta C,L7,Tarde,Ogdan Flagg,Reine Collington,Corte,Basica,XL,Blanco,336,149,346,53,2,23,37,40,24.04,899.08,Costura defectuosa,Materia prima defectuosa,0.0,0.1613,0.0,Bajo
+3/18/2026,Planta B,L7,Tarde,Liam Fursse,Elvera Ryland,Corte,Deportiva,XL,Azul,209,92,109,89,3,17,21,32,13.97,398.91,Costura defectuosa,Falla maquina,0.0,0.1518,1.0,Bajo
+3/24/2026,Planta A,L8,Noche,Karalynn Bridie,Davin Ebbers,Acabado,Basica,L,Blanco,168,56,134,80,6,19,82,30,10.68,1622.08,Corte incorrecto,Proceso ineficiente,0.0,0.1907,1.0,Bajo
+3/11/2026,Planta B,L3,Dia,Katy Beazer,Flss Le Huquet,Costura,Premium,L,Rojo,141,251,314,14,6,9,32,17,30.44,470.64,Medida incorrecta,Falla maquina,0.0,0.1213,0.0,Bajo
+3/19/2026,Planta A,L1,Tarde,Denna Congrave,Gregor Eccles,Costura,Premium,L,Rojo,165,234,391,88,3,23,12,30,38.27,390.81,Corte incorrecto,Proceso ineficiente,0.0,0.1635,0.0,Bajo
+3/22/2026,Planta B,L5,Tarde,Esther Iskov,Irina Coggeshall,Costura,Deportiva,L,Gris,325,112,468,34,4,4,60,37,16.01,304.04,Tela danada,Falla maquina,0.0,0.1429,0.0,Bajo
+3/26/2026,Planta C,L9,Tarde,Edouard Loyley,Irene Croyden,Calidad,Deportiva,S,Blanco,410,220,439,46,5,15,62,34,30.87,1084.35,Corte incorrecto,Error humano,0.0,0.1403,0.0,Bajo
+3/26/2026,Planta C,L6,Tarde,Annecorinne Grinikhinov,Francklyn McKern,Acabado,Premium,S,Azul,152,258,446,66,7,24,15,9,28.31,558.17,Corte incorrecto,Falla maquina,0.0,0.1097,0.0,Bajo
+3/3/2026,Planta A,L7,Noche,Dolly Mougenel,Olva Gaye,Calidad,Premium,S,Blanco,85,196,470,80,2,9,41,10,11.51,392.02,Costura defectuosa,Error humano,0.0,0.0587,0.0,Bajo
+3/10/2026,Planta B,L4,Dia,Yank Goosnell,Giacinta Mcettrick,Corte,Deportiva,S,Blanco,237,288,397,30,7,24,13,14,103.54,1036.78,Costura defectuosa,Proceso ineficiente,0.0,0.3595,0.0,Bajo
+3/3/2026,Planta C,L10,Noche,Fabien Farrears,Tiff Durman,Calidad,Premium,M,Azul,150,158,293,12,4,4,73,9,22.76,383.04,Costura defectuosa,Falla maquina,0.0,0.1441,0.0,Bajo
+3/15/2026,Planta B,L1,Dia,Georgianna Kain,Loreen Peatt,Acabado,Basica,L,Blanco,476,185,174,119,5,4,68,25,6.24,303.2,Medida incorrecta,Falla maquina,0.0,0.0337,2.0,Critico
+3/25/2026,Planta B,L9,Dia,Lavinia Matuszynski,Arabela Boyda,Calidad,Deportiva,M,Blanco,376,237,337,110,8,14,65,61,9.61,986.88,Tela danada,Materia prima defectuosa,0.0,0.0405,1.0,Critico
+3/4/2026,Planta A,L5,Noche,Ara Mutlow,Yank Creaney,Costura,Premium,XL,Gris,100,267,91,100,3,15,38,13,30.57,661.71,Costura defectuosa,Falla maquina,0.0,0.1145,1.0,Critico
+3/13/2026,Planta A,L7,Noche,Coletta Hagstone,Rebecca Kemball,Costura,Premium,L,Gris,156,260,188,107,8,4,37,12,19.11,300.88,Medida incorrecta,Error humano,0.0,0.0735,0.0,Critico
+3/7/2026,Planta A,L2,Dia,Kelcie Fussell,Adey Coils,Costura,Deportiva,XL,Azul,339,246,423,14,8,4,60,36,30.75,486.0,Corte incorrecto,Falla maquina,0.0,0.125,0.0,Bajo
+3/9/2026,Planta C,L9,Tarde,Imogene Seifert,Sonnie Camacho,Corte,Basica,S,Azul,321,262,440,75,4,6,39,28,69.92,513.68,Corte incorrecto,Error humano,0.0,0.2669,0.0,Bajo
+3/10/2026,Planta B,L5,Tarde,Jacquelynn Ginnell,Barthel Yantsurev,Acabado,Basica,L,Gris,335,224,433,80,3,10,17,24,7.32,191.96,Tela danada,Materia prima defectuosa,0.0,0.0327,0.0,Bajo
+3/29/2026,Planta B,L7,Noche,Berty Macy,Les Tommasi,Acabado,Premium,L,Gris,117,255,255,7,5,6,53,17,43.18,533.9,Tela danada,Error humano,0.0,0.1693,0.0,Bajo
+3/18/2026,Planta A,L2,Tarde,Bink Markwell,Klarika Rideout,Acabado,Basica,S,Azul,437,204,325,88,2,24,43,26,12.41,1056.82,Mancha,Materia prima defectuosa,0.0,0.0608,1.0,Bajo
+3/13/2026,Planta A,L4,Dia,Suzann Mc Coughan,Jock Jonin,Costura,Basica,XL,Blanco,438,187,362,27,2,14,23,46,7.05,336.1,Costura defectuosa,Error humano,0.0,0.0377,1.0,Bajo
+3/21/2026,Planta B,L9,Dia,Vivian Lunnon,Davidde Pearne,Costura,Premium,M,Blanco,272,221,311,91,8,4,54,40,32.94,479.52,Corte incorrecto,Materia prima defectuosa,0.0,0.149,0.0,Critico
+3/8/2026,Planta B,L2,Tarde,Celestyn Gait,Willey Doerr,Corte,Premium,S,Azul,320,278,175,46,4,18,63,50,62.33,1383.32,Tela danada,Proceso ineficiente,0.0,0.2242,1.0,Bajo
+3/13/2026,Planta B,L3,Noche,Chrissy Tevlin,Aindrea Ashfield,Calidad,Deportiva,M,Rojo,272,247,432,13,3,16,78,33,27.34,1330.02,Medida incorrecta,Proceso ineficiente,0.0,0.1107,0.0,Bajo
+3/8/2026,Planta C,L3,Dia,Lammond Jordeson,Nichol Izakov,Corte,Deportiva,M,Rojo,459,54,250,19,3,14,106,79,12.21,1520.63,Corte incorrecto,Materia prima defectuosa,0.0,0.2261,1.0,Bajo
+3/19/2026,Planta C,L4,Noche,Courtney Rehor,Ianthe Battista,Calidad,Basica,M,Negro,386,266,319,49,2,7,108,76,14.4,784.8,Costura defectuosa,Materia prima defectuosa,0.0,0.0541,1.0,Bajo
+3/8/2026,Planta A,L1,Dia,Rosemonde Dewar,Alessandra O'Cridigan,Corte,Basica,L,Azul,158,185,294,17,7,12,16,16,30.77,407.39,Medida incorrecta,Proceso ineficiente,0.0,0.1663,0.0,Bajo
+3/10/2026,Planta A,L4,Dia,Ruth Cossins,Casar MacKissack,Acabado,Deportiva,S,Gris,446,133,188,9,4,4,88,36,11.98,399.92,Tela danada,Falla maquina,0.0,0.0901,2.0,Bajo
+3/5/2026,Planta C,L6,Dia,Berget Le Gall,Ray Shufflebotham,Calidad,Basica,XL,Gris,100,139,376,49,7,24,17,6,13.81,504.67,Medida incorrecta,Error humano,0.0,0.0994,0.0,Bajo
+3/27/2026,Planta C,L3,Noche,Aigneis Klimko,Editha Rodgman,Corte,Deportiva,S,Rojo,402,55,195,49,2,17,133,59,12.27,2285.54,Costura defectuosa,Proceso ineficiente,0.0,0.2231,2.0,Critico
+3/16/2026,Planta A,L6,Tarde,Ted Lineham,Traver Croyden,Calidad,Premium,L,Azul,318,55,220,90,4,12,58,60,6.81,723.24,Medida incorrecta,Proceso ineficiente,0.0,0.1238,1.0,Bajo
+3/12/2026,Planta C,L6,Tarde,Dory Elderidge,Jacky Tock,Calidad,Basica,XL,Azul,175,189,82,23,4,23,39,27,35.85,1040.4,Corte incorrecto,Materia prima defectuosa,0.0,0.1897,2.0,Bajo
+3/26/2026,Planta B,L8,Dia,Artemas Aylmore,Sallyanne Jacketts,Corte,Deportiva,L,Blanco,360,218,417,91,6,4,59,68,81.32,723.92,Corte incorrecto,Materia prima defectuosa,0.0,0.373,0.0,Critico
+3/1/2026,Planta B,L5,Noche,Phil Baynam,Siegfried Oslar,Costura,Premium,M,Blanco,350,172,290,109,7,18,90,29,34.14,1858.98,Corte incorrecto,Error humano,0.0,0.1985,1.0,Critico
+3/1/2026,Planta A,L9,Tarde,Amity Haresnape,Shayla Winks,Acabado,Deportiva,L,Azul,105,82,121,62,6,5,26,10,16.4,228.4,Costura defectuosa,Materia prima defectuosa,0.0,0.2,0.0,Bajo
+3/26/2026,Planta C,L1,Dia,Frederique Cusiter,Marcela Guiness,Calidad,Premium,S,Azul,239,122,100,24,3,10,21,43,11.22,243.66,Corte incorrecto,Materia prima defectuosa,0.0,0.092,2.0,Bajo
+3/15/2026,Planta B,L9,Noche,Garold Dewis,Laurent Kemery,Calidad,Deportiva,XL,Negro,297,184,358,15,5,3,134,26,17.98,491.9,Costura defectuosa,Proceso ineficiente,0.0,0.0977,0.0,Bajo
+3/14/2026,Planta A,L4,Tarde,Bax Gubbins,Consalve Payton,Costura,Basica,S,Rojo,493,261,107,3,7,14,82,43,47.28,1478.96,Corte incorrecto,Falla maquina,0.0,0.1811,4.0,Bajo
+3/25/2026,Planta A,L9,Dia,Linc Kid,Hilda Johnes,Corte,Premium,XL,Blanco,189,200,296,12,2,16,16,15,69.07,394.14,Corte incorrecto,Error humano,0.0,0.3454,0.0,Bajo
+3/9/2026,Planta A,L7,Noche,Clarance Fison,Manya Gozzard,Corte,Premium,L,Gris,156,109,368,96,3,25,68,26,11.41,1734.23,Costura defectuosa,Materia prima defectuosa,0.0,0.1047,0.0,Critico
+3/30/2026,Planta A,L4,Tarde,Shaine Rudkin,Susana Winger,Corte,Premium,S,Rojo,149,142,316,65,2,9,28,10,44.06,340.12,Tela danada,Falla maquina,0.0,0.3103,0.0,Bajo
+3/23/2026,Planta B,L1,Dia,Brady Holbie,Brenn De Mattei,Acabado,Deportiva,L,Gris,266,54,134,103,7,21,43,15,6.47,948.29,Corte incorrecto,Materia prima defectuosa,0.0,0.1198,1.0,Critico
+3/23/2026,Planta A,L1,Tarde,Conney Feary,Sigismund Wyeld,Acabado,Basica,XL,Negro,114,236,403,3,5,22,19,16,36.3,599.5,Medida incorrecta,Falla maquina,0.0,0.1538,0.0,Bajo
+3/5/2026,Planta A,L3,Noche,Seward Migheli,Herc Skelington,Acabado,Basica,M,Blanco,138,78,224,43,5,5,49,15,7.46,282.3,Costura defectuosa,Proceso ineficiente,0.0,0.0956,0.0,Bajo
+3/15/2026,Planta B,L8,Tarde,Roch Mussett,Suzette Glazzard,Costura,Basica,S,Rojo,377,232,184,118,8,17,56,62,21.0,1120.0,Costura defectuosa,Falla maquina,0.0,0.0905,2.0,Critico
+3/28/2026,Planta B,L4,Dia,Ham Cann,Fletcher Bushby,Costura,Deportiva,L,Azul,359,169,430,80,8,17,56,60,13.78,1062.24,Tela danada,Proceso ineficiente,0.0,0.0815,0.0,Bajo
+3/18/2026,Planta B,L4,Noche,Regan Ryson,Lazare O'Corr,Costura,Deportiva,S,Negro,162,296,305,52,5,4,78,18,12.14,372.7,Corte incorrecto,Falla maquina,0.0,0.041,0.0,Bajo
+3/28/2026,Planta C,L6,Dia,Laney Burwood,Rosemary Kenion,Costura,Deportiva,S,Rojo,434,288,425,79,8,3,31,52,9.41,168.28,Corte incorrecto,Error humano,0.0,0.0327,1.0,Bajo
+3/1/2026,Planta A,L9,Noche,Arda Forker,Elisha Musselwhite,Calidad,Basica,XL,Azul,88,267,194,57,5,19,24,6,48.2,697.0,Corte incorrecto,Error humano,0.0,0.1805,0.0,Bajo
+3/11/2026,Planta B,L3,Tarde,Giulia Schwaiger,Barbie Nockells,Calidad,Basica,L,Azul,354,293,66,9,7,21,26,23,39.52,822.64,Tela danada,Falla maquina,0.0,0.1349,5.0,Bajo
+3/4/2026,Planta C,L2,Dia,Eben Campkin,Vivia Landsman,Corte,Basica,M,Azul,239,83,299,22,4,5,20,30,31.99,227.96,Costura defectuosa,Proceso ineficiente,0.0,0.3854,0.0,Bajo
+3/4/2026,Planta B,L10,Dia,Jodi Durnall,Gusti Heyburn,Corte,Deportiva,M,Negro,459,75,408,73,5,8,102,65,15.67,894.35,Costura defectuosa,Falla maquina,0.0,0.2089,1.0,Bajo
+3/16/2026,Planta B,L2,Tarde,Sonja Jacobi,Buck Devin,Acabado,Premium,M,Gris,101,166,67,70,3,11,23,12,28.41,338.23,Mancha,Proceso ineficiente,0.0,0.1711,1.0,Bajo
+3/12/2026,Planta B,L2,Tarde,Mara Renneke,Ali Redmille,Costura,Premium,M,Gris,252,213,186,20,5,21,16,19,22.02,446.1,Tela danada,Proceso ineficiente,0.0,0.1034,1.0,Bajo
+3/30/2026,Planta C,L3,Tarde,Aili Dibdall,Trista Graves,Acabado,Basica,S,Azul,237,207,268,0,5,24,39,37,27.39,1072.95,Costura defectuosa,Materia prima defectuosa,0.0,0.1323,0.0,Bajo
+3/9/2026,Planta B,L9,Noche,Donni Parsonage,Levey MacGraith,Acabado,Basica,XL,Negro,128,269,411,94,8,19,61,12,48.5,1547.0,Mancha,Falla maquina,0.0,0.1803,0.0,Critico
+3/21/2026,Planta C,L8,Tarde,Moise Spanswick,Berenice Lambertson,Corte,Premium,L,Gris,149,57,260,27,5,18,11,14,7.7,236.5,Corte incorrecto,Falla maquina,0.0,0.1351,0.0,Bajo
+3/11/2026,Planta C,L5,Dia,Hervey Rapa,Ky Struijs,Corte,Basica,M,Azul,198,170,109,43,7,20,47,18,51.7,1301.9,Tela danada,Proceso ineficiente,0.0,0.3041,1.0,Bajo
+3/6/2026,Planta C,L5,Noche,Venita Howood,Gherardo Goodhay,Corte,Deportiva,L,Rojo,197,65,276,47,2,5,83,18,15.97,446.94,Costura defectuosa,Proceso ineficiente,0.0,0.2457,0.0,Bajo
+3/30/2026,Planta C,L4,Tarde,Sylvia Discombe,Thoma French,Costura,Deportiva,S,Gris,432,262,257,19,3,13,77,29,35.18,1106.54,Mancha,Error humano,0.0,0.1343,1.0,Bajo
+3/4/2026,Planta A,L5,Dia,Conan Pemberton,Dodie Wathall,Costura,Basica,L,Rojo,446,137,168,60,2,4,53,89,18.61,249.22,Medida incorrecta,Error humano,0.0,0.1358,2.0,Bajo
+3/27/2026,Planta A,L7,Noche,Gare Zienkiewicz,Johny Corben,Acabado,Basica,S,Azul,292,187,343,120,8,4,64,37,11.52,348.16,Mancha,Materia prima defectuosa,0.0,0.0616,0.0,Critico
+3/25/2026,Planta C,L8,Tarde,Glen Clears,Rennie Blacklock,Corte,Deportiva,S,Negro,123,262,364,101,6,9,18,19,78.74,634.44,Mancha,Falla maquina,0.0,0.3005,0.0,Critico
+3/13/2026,Planta B,L2,Tarde,Addison Gainseford,Justina Clayson,Calidad,Premium,XL,Negro,487,167,291,118,5,15,28,50,13.02,485.1,Medida incorrecta,Falla maquina,0.0,0.078,1.0,Critico
+3/28/2026,Planta A,L1,Noche,Berkeley Senussi,Brittan Ravilus,Acabado,Premium,L,Gris,428,212,96,114,4,16,125,44,27.81,2111.24,Mancha,Proceso ineficiente,0.0,0.1312,4.0,Critico
+3/13/2026,Planta A,L10,Noche,Randy Lapworth,Merilee Redsell,Costura,Deportiva,XL,Gris,393,77,372,32,4,11,116,52,4.04,1292.16,Mancha,Proceso ineficiente,0.0,0.0525,1.0,Bajo
+3/16/2026,Planta C,L7,Dia,Lazar Rollings,Emmie Ligoe,Corte,Premium,M,Negro,487,270,238,105,4,10,27,73,28.44,383.76,Mancha,Materia prima defectuosa,0.0,0.1053,2.0,Critico
+3/21/2026,Planta B,L5,Dia,Terry Moodey,Lucienne Germann,Costura,Deportiva,M,Negro,238,128,176,7,8,17,29,15,11.22,582.76,Costura defectuosa,Materia prima defectuosa,0.0,0.0877,1.0,Bajo
+3/20/2026,Planta C,L4,Noche,Alameda Peto,Karol Richards,Acabado,Premium,XL,Gris,219,150,209,88,7,14,47,25,8.65,718.55,Medida incorrecta,Materia prima defectuosa,0.0,0.0577,1.0,Bajo
+3/20/2026,Planta B,L4,Tarde,Hermann Roiz,Flinn Fiddian,Corte,Premium,S,Azul,468,162,160,105,3,11,78,84,54.92,1022.76,Medida incorrecta,Materia prima defectuosa,0.0,0.339,2.0,Critico
+3/4/2026,Planta B,L5,Noche,Pooh Catonne,Vitia Gwilym,Acabado,Deportiva,XL,Negro,90,114,343,30,8,9,32,9,14.75,406.0,Costura defectuosa,Materia prima defectuosa,0.0,0.1294,0.0,Bajo
+3/29/2026,Planta B,L6,Noche,Gwenny Kitchingman,Ofella Cruikshank,Acabado,Deportiva,M,Azul,137,141,278,112,7,11,62,8,21.93,835.51,Costura defectuosa,Proceso ineficiente,0.0,0.1555,0.0,Critico
+3/18/2026,Planta C,L9,Noche,Dalston Buglass,Thedrick Frostdicke,Calidad,Deportiva,M,Negro,114,287,239,41,7,12,55,14,52.93,1030.51,Mancha,Falla maquina,0.0,0.1844,0.0,Bajo
+3/7/2026,Planta B,L3,Tarde,Vassily Gledhall,Ram Troughton,Calidad,Premium,M,Blanco,444,174,379,69,3,5,28,33,16.59,189.77,Medida incorrecta,Error humano,0.0,0.0953,1.0,Bajo
+3/13/2026,Planta B,L7,Dia,Sigfried Cornock,Kathi Braemer,Calidad,Deportiva,S,Gris,129,216,183,81,7,17,13,10,11.37,300.59,Costura defectuosa,Proceso ineficiente,0.0,0.0526,0.0,Bajo
+3/8/2026,Planta A,L9,Tarde,Zsazsa McCorkell,Barbaraanne Dulen,Acabado,Deportiva,XL,Azul,197,249,308,54,6,19,33,24,15.18,718.08,Corte incorrecto,Error humano,0.0,0.061,0.0,Bajo
+3/2/2026,Planta A,L5,Dia,Violetta Barriball,Kyrstin Leather,Acabado,Premium,S,Azul,441,54,196,59,8,15,105,25,4.0,1607.0,Mancha,Materia prima defectuosa,0.0,0.0741,2.0,Bajo
+3/30/2026,Planta C,L4,Dia,Iain O'Lennachain,Wanids Dunphy,Acabado,Deportiva,S,Blanco,217,229,85,10,4,24,19,36,39.7,614.8,Corte incorrecto,Error humano,0.0,0.1734,2.0,Bajo
+3/13/2026,Planta A,L8,Tarde,Karlik Linny,Cesar Rosbottom,Acabado,Premium,XL,Negro,371,246,264,65,7,4,79,63,40.48,599.36,Medida incorrecta,Materia prima defectuosa,0.0,0.1646,1.0,Bajo
+3/2/2026,Planta A,L4,Dia,Sammie Askaw,Alvinia Alban,Calidad,Deportiva,S,Gris,363,107,426,4,7,5,48,57,21.31,389.17,Tela danada,Falla maquina,0.0,0.1992,0.0,Bajo
+3/12/2026,Planta A,L3,Dia,Howard Cuttles,Veronika Swaffer,Corte,Basica,S,Gris,423,91,165,54,2,16,35,63,26.72,613.44,Medida incorrecta,Falla maquina,0.0,0.2936,2.0,Bajo
+3/4/2026,Planta A,L6,Tarde,Marnia Phillips,Corenda Behnecke,Acabado,Premium,S,Rojo,163,63,423,74,2,19,35,11,6.82,678.64,Medida incorrecta,Falla maquina,0.0,0.1083,0.0,Bajo
+3/30/2026,Planta A,L1,Dia,Garrard Anniwell,Christoph Bratten,Corte,Basica,M,Blanco,351,86,157,64,8,23,47,24,22.84,1263.72,Costura defectuosa,Materia prima defectuosa,0.0,0.2656,2.0,Bajo
+3/29/2026,Planta C,L1,Noche,Alverta Taffie,Rogers Maycey,Corte,Premium,XL,Gris,443,117,205,8,3,3,202,29,25.54,682.62,Corte incorrecto,Error humano,0.0,0.2183,2.0,Bajo
+3/14/2026,Planta C,L1,Noche,Jarid Gatchell,Idette Arnoult,Acabado,Basica,L,Negro,234,162,397,63,3,25,101,46,7.19,2546.57,Mancha,Falla maquina,0.0,0.0444,0.0,Critico
+3/30/2026,Planta B,L5,Dia,Giacopo Olivi,Rubina Farnaby,Costura,Premium,S,Blanco,364,58,257,18,5,12,54,67,3.88,667.4,Corte incorrecto,Materia prima defectuosa,0.0,0.0669,1.0,Bajo
+3/23/2026,Planta C,L6,Dia,Liesa Gress,Bruis Bancroft,Acabado,Premium,L,Azul,394,134,459,3,7,21,77,68,21.01,1764.07,Tela danada,Materia prima defectuosa,0.0,0.1568,0.0,Bajo
+3/3/2026,Planta A,L10,Dia,Dwight Pyer,Carrie Headland,Costura,Deportiva,L,Azul,262,73,382,86,5,3,30,22,5.1,115.5,Mancha,Proceso ineficiente,0.0,0.0699,0.0,Bajo
+3/22/2026,Planta B,L10,Dia,Simonne Meneux,Therine Franzonello,Acabado,Premium,XL,Blanco,280,251,273,7,2,11,23,19,48.3,349.6,Tela danada,Proceso ineficiente,0.0,0.1924,1.0,Bajo
+3/12/2026,Planta A,L6,Noche,Sigismund Cornelleau,Brennan Strangeways,Costura,Premium,L,Azul,210,169,411,82,4,23,84,11,18.68,2006.72,Costura defectuosa,Falla maquina,0.0,0.1105,0.0,Critico
+3/29/2026,Planta A,L3,Tarde,Bethena Gommowe,Alecia McIlherran,Acabado,Deportiva,XL,Gris,439,78,417,25,2,7,57,57,8.17,415.34,Tela danada,Error humano,0.0,0.1047,1.0,Bajo
+3/10/2026,Planta C,L7,Tarde,Far Whorf,Antons Strode,Calidad,Premium,M,Blanco,344,194,416,17,4,11,38,49,33.26,551.04,Tela danada,Proceso ineficiente,0.0,0.1714,0.0,Bajo
+3/9/2026,Planta C,L1,Tarde,Verene Moniker,Alethea Dutteridge,Acabado,Deportiva,M,Blanco,416,280,362,110,2,10,69,69,48.15,786.3,Costura defectuosa,Materia prima defectuosa,0.0,0.172,1.0,Critico
+3/29/2026,Planta C,L7,Noche,Katina Lednor,Drusy Orys,Acabado,Premium,L,Rojo,308,172,165,92,7,20,135,58,28.12,2896.84,Mancha,Error humano,0.0,0.1635,1.0,Critico
+3/25/2026,Planta B,L8,Tarde,Karol Ferrettini,Bab Franklyn,Corte,Deportiva,XL,Azul,122,82,308,119,5,21,26,11,16.31,627.55,Corte incorrecto,Error humano,0.0,0.1989,0.0,Critico
+3/6/2026,Planta A,L9,Dia,Rozamond Stallan,Karen Cassam,Calidad,Deportiva,M,Azul,127,276,112,23,5,17,13,6,25.61,349.05,Corte incorrecto,Proceso ineficiente,0.0,0.0928,1.0,Bajo
+3/7/2026,Planta B,L2,Tarde,Tabbatha Collister,Nestor Crossgrove,Costura,Deportiva,M,Blanco,483,97,304,107,3,17,33,54,8.95,587.85,Mancha,Error humano,0.0,0.0923,1.0,Critico
+3/15/2026,Planta C,L5,Dia,Alan MacGee,Curr Redmire,Costura,Basica,L,Blanco,317,104,370,25,3,10,31,25,10.38,341.14,Tela danada,Materia prima defectuosa,0.0,0.0998,0.0,Bajo
+3/9/2026,Planta C,L7,Tarde,Harold Fullylove,Ninetta Jirka,Calidad,Deportiva,XL,Azul,94,93,352,4,3,22,7,9,15.86,201.58,Corte incorrecto,Proceso ineficiente,0.0,0.1705,0.0,Bajo
+3/4/2026,Planta C,L9,Tarde,Denna Itzkovsky,Jacquelin Ebbles,Corte,Basica,S,Negro,410,173,457,61,3,12,40,62,33.2,579.6,Medida incorrecta,Error humano,0.0,0.1919,0.0,Bajo
+3/19/2026,Planta B,L9,Noche,Esme Qualtrough,Gwendolyn Libby,Acabado,Premium,L,Gris,81,280,284,84,5,3,22,7,54.54,338.7,Costura defectuosa,Error humano,0.0,0.1948,0.0,Bajo
+3/27/2026,Planta C,L1,Tarde,Lucky McSkeagan,Giustino Crampton,Calidad,Premium,M,Gris,287,209,470,76,8,8,53,52,36.46,715.68,Medida incorrecta,Error humano,0.0,0.1744,0.0,Bajo
+3/12/2026,Planta B,L7,Noche,Matti Byre,Rosella Yesipov,Costura,Basica,M,Rojo,363,199,360,47,3,3,104,25,18.66,367.98,Medida incorrecta,Materia prima defectuosa,0.0,0.0938,1.0,Bajo
+3/4/2026,Planta A,L2,Dia,Adrianna Ruckman,Nadeen Whitta,Costura,Basica,S,Negro,351,291,466,48,7,22,43,55,15.38,1053.66,Tela danada,Falla maquina,0.0,0.0529,0.0,Bajo
+3/14/2026,Planta C,L10,Noche,Donelle Downing,Jerry Bezarra,Acabado,Premium,M,Azul,228,89,374,45,7,21,92,25,7.51,1984.57,Costura defectuosa,Error humano,0.0,0.0844,0.0,Bajo
+3/16/2026,Planta B,L6,Noche,Agosto Dearlove,Goldia Simone,Costura,Premium,M,Gris,423,150,88,3,6,25,102,50,7.08,2592.48,Tela danada,Materia prima defectuosa,0.0,0.0472,4.0,Critico
+3/2/2026,Planta C,L6,Tarde,Wynn Bertelet,Edouard Chattock,Calidad,Premium,S,Azul,300,279,228,85,6,7,38,43,14.24,351.44,Mancha,Proceso ineficiente,0.0,0.051,1.0,Bajo
+3/15/2026,Planta A,L5,Noche,Derwin McGrae,Evelyn Oppy,Costura,Deportiva,S,Rojo,407,272,75,95,6,13,81,65,28.48,1223.88,Costura defectuosa,Error humano,0.0,0.1047,5.0,Critico
+3/5/2026,Planta C,L6,Dia,Rochester Grinsted,Minette Goater,Corte,Basica,L,Rojo,402,136,124,109,8,4,80,77,20.45,483.6,Mancha,Materia prima defectuosa,0.0,0.1504,3.0,Critico
+3/10/2026,Planta B,L3,Tarde,Hendrick Royle,Felicio Rubinowitsch,Calidad,Deportiva,S,Rojo,119,108,442,91,6,10,26,11,21.31,387.86,Tela danada,Falla maquina,0.0,0.1973,0.0,Critico
+3/29/2026,Planta B,L10,Dia,Lynelle Denzilow,Britteny Children,Corte,Basica,XL,Gris,323,199,290,81,3,5,28,30,56.83,310.49,Costura defectuosa,Error humano,0.0,0.2856,1.0,Bajo
+3/3/2026,Planta B,L2,Dia,Leela Abrahmson,Faber Garie,Acabado,Premium,S,Negro,486,161,246,64,8,17,102,46,23.01,1918.08,Tela danada,Proceso ineficiente,0.0,0.1429,1.0,Bajo
+3/5/2026,Planta C,L4,Dia,Corbett Gorrie,Antonietta Truss,Acabado,Premium,S,Blanco,124,241,393,71,6,10,9,25,19.89,209.34,Corte incorrecto,Error humano,0.0,0.0825,0.0,Bajo
+3/10/2026,Planta C,L9,Dia,Paige L'Amie,Thaxter Wenderott,Acabado,Deportiva,M,Negro,312,60,62,88,5,8,57,42,7.22,492.1,Costura defectuosa,Materia prima defectuosa,0.0,0.1203,5.0,Bajo
+3/21/2026,Planta B,L4,Dia,Weston Wabey,Joline McGahern,Corte,Deportiva,M,Azul,484,230,256,21,4,7,83,59,61.16,825.64,Costura defectuosa,Materia prima defectuosa,0.0,0.2659,1.0,Bajo
+3/17/2026,Planta C,L3,Noche,Gherardo Whapple,Templeton Dobkin,Costura,Premium,M,Gris,118,236,273,26,5,22,37,9,8.45,856.25,Medida incorrecta,Materia prima defectuosa,0.0,0.0358,0.0,Bajo
+3/28/2026,Planta C,L2,Noche,Cece Teeney,Dukey Veare,Calidad,Basica,L,Blanco,312,246,206,66,8,9,139,33,11.29,1341.32,Corte incorrecto,Proceso ineficiente,0.0,0.0459,1.0,Bajo
+3/16/2026,Planta B,L1,Noche,Joice Schaffler,Misti Dykins,Corte,Deportiva,L,Negro,105,215,285,25,7,16,40,16,53.95,1017.65,Corte incorrecto,Proceso ineficiente,0.0,0.2509,0.0,Bajo
+3/8/2026,Planta C,L4,Tarde,Erinna Lowthorpe,Salvidor Hanretty,Calidad,Basica,S,Azul,412,278,440,96,5,14,94,55,42.46,1528.3,Mancha,Error humano,0.0,0.1527,0.0,Critico
+3/3/2026,Planta B,L3,Tarde,Tomasine Vales,Moishe Winship,Acabado,Deportiva,S,Gris,262,137,417,58,8,19,50,22,4.84,988.72,Costura defectuosa,Proceso ineficiente,0.0,0.0353,0.0,Bajo
+3/19/2026,Planta A,L4,Dia,Wait Hallt,Wendye Christiensen,Acabado,Premium,L,Azul,226,259,69,99,8,11,33,42,18.6,511.8,Mancha,Materia prima defectuosa,0.0,0.0718,3.0,Critico
+3/24/2026,Planta C,L9,Tarde,Cherin Pottberry,Bill Geddes,Acabado,Premium,L,Rojo,349,223,110,105,7,21,35,60,31.1,952.7,Corte incorrecto,Proceso ineficiente,0.0,0.1395,3.0,Critico
+3/22/2026,Planta B,L4,Tarde,Lora Broadfoot,Brion Pesik,Acabado,Premium,S,Azul,239,110,207,78,3,23,39,40,4.46,910.38,Corte incorrecto,Materia prima defectuosa,0.0,0.0405,1.0,Bajo
+3/28/2026,Planta A,L7,Dia,Amber Ravenshaw,Fanni Bourhill,Corte,Premium,XL,Azul,170,92,150,37,6,23,14,31,11.07,388.42,Tela danada,Materia prima defectuosa,0.0,0.1203,1.0,Bajo
+3/6/2026,Planta C,L5,Dia,Gar Ciani,Isa Larby,Calidad,Premium,XL,Gris,310,299,207,92,6,11,30,54,53.74,652.44,Costura defectuosa,Materia prima defectuosa,0.0,0.1797,1.0,Critico
+3/4/2026,Planta A,L2,Noche,Keriann Tomaszynski,Francyne Ravenscroftt,Acabado,Deportiva,XL,Negro,338,227,335,107,8,13,135,66,32.12,2011.96,Corte incorrecto,Materia prima defectuosa,0.0,0.1415,1.0,Critico
+3/7/2026,Planta B,L3,Dia,Garwin Fairfoul,Fredrika Vivian,Acabado,Basica,S,Azul,215,294,399,115,2,20,50,25,28.17,1056.34,Tela danada,Proceso ineficiente,0.0,0.0958,0.0,Critico
+3/8/2026,Planta B,L6,Tarde,Page Cadany,Gladi Prodrick,Corte,Deportiva,L,Rojo,471,156,334,30,5,7,94,90,33.77,826.85,Tela danada,Proceso ineficiente,0.0,0.2165,1.0,Bajo
+3/14/2026,Planta C,L1,Noche,Margarita Mendel,Carly Ridoutt,Costura,Deportiva,M,Rojo,232,98,308,8,8,19,90,37,16.91,1845.28,Tela danada,Proceso ineficiente,0.0,0.1726,0.0,Bajo
+3/19/2026,Planta C,L7,Tarde,Collette Pantone,Nathaniel Schild,Calidad,Premium,XL,Rojo,176,288,388,16,6,23,40,33,56.9,1261.4,Tela danada,Materia prima defectuosa,0.0,0.1976,0.0,Bajo
+3/18/2026,Planta B,L3,Noche,Ninette Gouck,Jess Shorter,Calidad,Deportiva,L,Blanco,466,50,254,45,5,12,99,36,6.78,1221.9,Corte incorrecto,Falla maquina,0.0,0.1356,1.0,Bajo
+3/10/2026,Planta C,L6,Noche,Erna MacMenamin,Mariejeanne Wardroper,Calidad,Premium,L,Azul,226,142,446,45,6,6,112,30,19.41,788.46,Medida incorrecta,Proceso ineficiente,0.0,0.1367,0.0,Bajo
+3/6/2026,Planta C,L6,Tarde,Carline Chooter,Franni Plampeyn,Calidad,Deportiva,XL,Rojo,197,167,259,34,7,22,45,18,20.34,1132.38,Medida incorrecta,Error humano,0.0,0.1218,0.0,Bajo
+3/22/2026,Planta B,L9,Tarde,Sandye Hugonnet,Tam Naerup,Corte,Deportiva,L,Azul,112,142,424,49,7,5,13,14,55.83,455.81,Costura defectuosa,Error humano,0.0,0.3932,0.0,Bajo
+3/3/2026,Planta A,L4,Tarde,Gannie Sauvan,Tommy Morcombe,Acabado,Basica,L,Blanco,333,108,399,8,5,15,42,30,9.93,679.65,Mancha,Proceso ineficiente,0.0,0.0919,0.0,Bajo
+3/26/2026,Planta B,L5,Tarde,Rubetta Mathes,Cordula Cianelli,Calidad,Premium,XL,Rojo,229,64,150,52,6,13,35,41,3.45,475.7,Tela danada,Error humano,0.0,0.0539,1.0,Bajo
+3/30/2026,Planta B,L3,Noche,Sydelle Barwell,Kaitlin Velden,Costura,Premium,XL,Negro,374,171,316,17,3,6,105,49,25.82,707.46,Mancha,Falla maquina,0.0,0.151,1.0,Bajo
+3/5/2026,Planta B,L2,Noche,Hillary Bestall,Gerhardine McManamon,Costura,Premium,XL,Negro,394,249,250,13,4,11,181,30,33.63,2125.52,Mancha,Proceso ineficiente,0.0,0.1351,1.0,Critico
+3/26/2026,Planta A,L2,Noche,Caryl Lantoph,Ave Swyn,Costura,Basica,L,Azul,166,292,267,73,3,8,69,27,33.37,652.11,Costura defectuosa,Materia prima defectuosa,0.0,0.1143,0.0,Bajo
+3/7/2026,Planta A,L9,Dia,Kati Sinclar,Blaire Golston,Acabado,Premium,S,Blanco,260,259,67,20,3,3,61,18,11.99,218.97,Tela danada,Falla maquina,0.0,0.0463,3.0,Bajo
+3/26/2026,Planta C,L7,Dia,Niko Le Blanc,Oralla Abramovitch,Costura,Basica,XL,Rojo,309,82,191,34,5,23,61,19,11.38,1459.9,Mancha,Error humano,0.0,0.1388,1.0,Bajo
+3/14/2026,Planta C,L10,Noche,Magnum McIlwain,Rosalynd Antoniottii,Corte,Deportiva,S,Azul,192,226,184,29,4,23,53,10,46.32,1404.28,Tela danada,Falla maquina,0.0,0.205,1.0,Bajo
+3/11/2026,Planta A,L8,Noche,Arlana Leigh,Chandra Zorener,Costura,Premium,XL,Rojo,139,248,182,107,5,13,54,16,34.79,875.95,Costura defectuosa,Error humano,0.0,0.1403,0.0,Critico
+3/4/2026,Planta C,L1,Noche,Danell Dobbs,Vera Danelet,Acabado,Basica,S,Rojo,168,284,246,1,5,8,69,25,27.52,689.6,Tela danada,Proceso ineficiente,0.0,0.0969,0.0,Bajo
+3/16/2026,Planta B,L8,Dia,Marlene Gimert,Marlene Kemball,Calidad,Premium,L,Rojo,95,167,113,85,5,22,10,15,30.08,370.4,Mancha,Falla maquina,0.0,0.1801,0.0,Bajo
+3/2/2026,Planta A,L4,Tarde,Kara Poutress,Mersey Trenchard,Acabado,Deportiva,XL,Gris,384,259,246,111,4,22,45,21,30.49,1111.96,Mancha,Error humano,0.0,0.1177,1.0,Critico
+3/18/2026,Planta A,L7,Dia,Briggs Antley,Johnathan Brigden,Corte,Basica,L,Rojo,215,93,213,88,5,9,17,41,36.82,337.1,Mancha,Falla maquina,0.0,0.3959,1.0,Bajo
+3/21/2026,Planta A,L9,Tarde,Katinka Beauvais,Bud Weddup,Calidad,Deportiva,S,Gris,183,241,219,117,4,15,39,22,8.17,617.68,Mancha,Error humano,0.0,0.0339,0.0,Critico
+3/18/2026,Planta B,L10,Noche,Roxana Bowater,Remus Whiles,Acabado,Deportiva,L,Rojo,181,171,116,9,4,14,60,22,33.45,973.8,Corte incorrecto,Materia prima defectuosa,0.0,0.1956,1.0,Bajo
+3/22/2026,Planta B,L7,Tarde,Derry Carmody,Fanya Chessil,Acabado,Basica,L,Rojo,317,250,281,72,7,23,43,18,7.56,1041.92,Medida incorrecta,Error humano,0.0,0.0302,1.0,Bajo
+3/14/2026,Planta C,L2,Noche,Calla Semarke,Nissa Kennler,Calidad,Deportiva,L,Blanco,188,236,453,70,6,16,55,11,17.4,984.4,Costura defectuosa,Error humano,0.0,0.0737,0.0,Bajo
+3/8/2026,Planta A,L4,Dia,Chaunce McCready,Doria McCallum,Corte,Basica,XL,Blanco,250,65,406,22,8,24,38,44,25.3,1114.4,Mancha,Error humano,0.0,0.3892,0.0,Bajo
+3/9/2026,Planta C,L9,Dia,Hubey Hyder,Lusa Canizares,Corte,Deportiva,XL,Azul,113,273,453,14,5,15,19,19,76.56,667.8,Costura defectuosa,Materia prima defectuosa,0.0,0.2804,0.0,Bajo
+3/5/2026,Planta C,L8,Noche,Aviva Hanson,Dalis Smidmor,Acabado,Premium,L,Negro,424,100,476,119,6,17,124,67,12.33,2181.98,Corte incorrecto,Error humano,0.0,0.1233,0.0,Critico
+3/6/2026,Planta B,L3,Noche,Nathanil Sleight,Margit Jorat,Corte,Basica,XL,Azul,429,174,323,104,6,5,171,25,48.54,1146.24,Corte incorrecto,Materia prima defectuosa,0.0,0.279,1.0,Critico
+3/22/2026,Planta C,L9,Dia,Rori Cleary,Drucy Domniney,Costura,Premium,M,Gris,133,289,74,106,2,3,22,21,43.2,152.4,Medida incorrecta,Error humano,0.0,0.1495,1.0,Critico
+3/9/2026,Planta B,L2,Tarde,Mic Gerant,Hermon Hearsum,Calidad,Basica,L,Blanco,369,99,314,23,4,21,58,40,8.6,1252.4,Corte incorrecto,Falla maquina,0.0,0.0869,1.0,Bajo
+3/26/2026,Planta B,L1,Noche,Sharona Scargle,Consuelo Jurs,Costura,Deportiva,L,Gris,81,270,62,5,6,24,18,7,27.78,598.68,Medida incorrecta,Proceso ineficiente,0.0,0.1029,1.0,Bajo
+3/24/2026,Planta B,L2,Tarde,Bronnie Bennie,Lexine Langston,Costura,Basica,L,Blanco,146,280,329,38,6,16,10,25,29.08,334.48,Mancha,Falla maquina,0.0,0.1039,0.0,Bajo
+3/23/2026,Planta B,L7,Noche,Morganne Noteyoung,Elvyn Attwool,Corte,Basica,L,Azul,464,117,432,32,2,6,95,45,14.34,598.68,Mancha,Error humano,0.0,0.1226,1.0,Bajo
+3/28/2026,Planta A,L2,Noche,Edita Dyball,Ernaline Wozencraft,Calidad,Deportiva,M,Blanco,410,99,353,46,7,11,138,55,14.06,1616.42,Costura defectuosa,Materia prima defectuosa,0.0,0.142,1.0,Bajo
+3/2/2026,Planta A,L6,Tarde,Steven Grammer,Gaston Fulbrook,Corte,Basica,M,Gris,114,252,138,55,4,15,14,6,80.82,533.28,Corte incorrecto,Falla maquina,0.0,0.3207,0.0,Bajo
+3/14/2026,Planta A,L6,Tarde,Janela Andreoletti,Deeann Chicken,Costura,Premium,S,Blanco,400,185,172,51,6,14,73,70,22.27,1155.62,Mancha,Falla maquina,0.0,0.1204,2.0,Bajo
+3/30/2026,Planta B,L8,Dia,Braden Hinze,Galven Caghy,Calidad,Basica,XL,Azul,241,237,185,44,8,3,59,14,43.23,522.84,Mancha,Materia prima defectuosa,0.0,0.1824,1.0,Bajo
+3/5/2026,Planta A,L9,Tarde,Eadie Racher,Fidelity Mc Carroll,Acabado,Premium,M,Azul,339,234,260,110,8,17,45,36,15.27,887.16,Mancha,Proceso ineficiente,0.0,0.0653,1.0,Critico
+3/11/2026,Planta B,L2,Noche,Madelena Brook,Sollie Gotobed,Acabado,Deportiva,S,Blanco,437,107,359,15,6,23,103,50,16.7,2469.2,Tela danada,Falla maquina,0.0,0.1561,1.0,Critico
+3/14/2026,Planta B,L4,Dia,Hewett Beatty,Kenny Fidal,Costura,Premium,M,Blanco,84,122,195,20,7,6,14,6,22.73,243.11,Tela danada,Materia prima defectuosa,0.0,0.1863,0.0,Bajo
+3/29/2026,Planta B,L3,Dia,Sanders Dobing,Melba Franzonello,Acabado,Deportiva,L,Azul,344,176,263,93,5,5,37,24,15.23,261.15,Tela danada,Error humano,0.0,0.0865,1.0,Critico
+3/8/2026,Planta B,L5,Noche,Lindsay Parfett,Sib Killough,Calidad,Premium,S,Rojo,163,154,446,95,5,3,39,24,5.0,142.0,Tela danada,Falla maquina,0.0,0.0325,0.0,Critico
+3/5/2026,Planta B,L2,Dia,Harley Burren,Rube Cranmore,Calidad,Deportiva,L,Gris,466,101,397,44,3,13,76,63,4.28,1000.84,Medida incorrecta,Proceso ineficiente,0.0,0.0424,1.0,Bajo
+3/17/2026,Planta A,L4,Dia,Brade Mochan,Kristy Gandar,Acabado,Deportiva,M,Gris,436,119,79,110,3,5,52,29,13.1,299.3,Costura defectuosa,Falla maquina,0.0,0.1101,5.0,Critico
+3/8/2026,Planta A,L3,Noche,Renee Escalante,Teresa Ridett,Corte,Basica,M,Azul,247,234,78,53,5,20,113,29,31.73,2418.65,Tela danada,Falla maquina,0.0,0.1356,3.0,Critico
+3/26/2026,Planta A,L5,Noche,Lissa Scantlebury,Mariann Stolting,Costura,Premium,XL,Negro,156,158,108,47,6,5,65,27,25.01,475.06,Tela danada,Materia prima defectuosa,0.0,0.1583,1.0,Bajo
+3/20/2026,Planta B,L1,Tarde,Anallese Fenning,Cecil Edgeson,Acabado,Basica,M,Gris,422,200,429,77,4,6,41,61,10.02,286.08,Mancha,Error humano,0.0,0.0501,0.0,Bajo
+3/23/2026,Planta B,L3,Noche,Kassia Van Der Weedenburg,Dion Sunley,Corte,Premium,S,Negro,488,93,127,116,5,7,213,91,17.45,1578.25,Costura defectuosa,Materia prima defectuosa,0.0,0.1876,3.0,Critico
+3/18/2026,Planta C,L2,Noche,Leila Ballsdon,Cate Morrallee,Calidad,Premium,L,Azul,348,139,439,52,2,20,81,44,25.52,1671.04,Tela danada,Proceso ineficiente,0.0,0.1836,0.0,Bajo
+3/10/2026,Planta C,L2,Dia,Kendrick Greatbank,Hilde Scarlet,Acabado,Premium,S,Azul,305,298,66,86,2,14,47,55,56.56,771.12,Medida incorrecta,Proceso ineficiente,0.0,0.1898,4.0,Bajo
+3/29/2026,Planta B,L4,Noche,Che Forlong,Howie Klimes,Costura,Premium,XL,Gris,395,84,156,71,7,24,115,64,13.19,2852.33,Costura defectuosa,Error humano,0.0,0.157,2.0,Critico
+3/6/2026,Planta A,L6,Noche,Kellia Bridgement,Letisha Selwyn,Acabado,Premium,XL,Negro,224,215,248,110,4,3,58,28,30.38,295.52,Mancha,Materia prima defectuosa,0.0,0.1413,0.0,Critico
+3/28/2026,Planta B,L2,Noche,Andreana Coton,Tomi Kretschmer,Costura,Premium,L,Rojo,423,210,311,77,2,11,189,30,7.25,2093.5,Costura defectuosa,Materia prima defectuosa,0.0,0.0345,1.0,Critico
+3/2/2026,Planta B,L3,Tarde,Vi Beall,Leoline Juris,Calidad,Deportiva,M,Blanco,392,197,152,50,6,10,76,68,16.73,860.38,Corte incorrecto,Proceso ineficiente,0.0,0.0849,2.0,Bajo
+3/10/2026,Planta A,L1,Noche,Winna Ghelerdini,Dacey Fitt,Calidad,Premium,S,Azul,220,116,134,47,4,16,104,26,18.84,1739.36,Costura defectuosa,Proceso ineficiente,0.0,0.1624,1.0,Bajo
+3/8/2026,Planta A,L3,Tarde,Dov Chatt,Denys Oylett,Calidad,Deportiva,S,Blanco,497,222,429,28,4,12,54,44,18.31,721.24,Corte incorrecto,Proceso ineficiente,0.0,0.0825,1.0,Bajo
+3/24/2026,Planta B,L10,Noche,Bruis Cicccitti,Gayelord Raoux,Costura,Basica,XL,Azul,351,190,294,80,7,11,169,65,34.66,2101.62,Mancha,Falla maquina,0.0,0.1824,1.0,Critico
+3/23/2026,Planta B,L5,Noche,Dawna MacInnes,Tomi Korda,Costura,Premium,S,Rojo,462,215,297,83,2,16,95,46,13.8,1547.6,Tela danada,Materia prima defectuosa,0.0,0.0642,1.0,Bajo
+3/19/2026,Planta C,L7,Dia,Hayyim Spaven,Alphonso Byfford,Calidad,Basica,M,Azul,361,167,304,33,2,3,50,69,6.55,163.1,Mancha,Proceso ineficiente,0.0,0.0392,1.0,Bajo
+3/23/2026,Planta C,L5,Dia,Wendell Fotitt,Mickie Liggett,Corte,Basica,XL,Azul,412,258,403,32,8,25,94,71,84.39,3025.12,Corte incorrecto,Falla maquina,0.0,0.3271,1.0,Critico
+3/1/2026,Planta B,L10,Tarde,Marie-ann Blare,Marja Stopford,Acabado,Deportiva,S,Negro,386,263,456,10,6,4,95,45,9.77,438.62,Costura defectuosa,Falla maquina,0.0,0.0371,0.0,Bajo
+3/7/2026,Planta A,L3,Noche,Otha Beelby,Seymour Carlens,Costura,Basica,S,Blanco,474,150,473,58,8,22,161,32,23.41,3729.28,Mancha,Falla maquina,0.0,0.1561,1.0,Critico
+3/16/2026,Planta A,L1,Noche,Lamond Mellmoth,Herminia Heggman,Calidad,Basica,XL,Azul,329,70,281,34,8,9,79,32,6.01,759.08,Tela danada,Proceso ineficiente,0.0,0.0859,1.0,Bajo
+3/19/2026,Planta A,L5,Dia,Ricky Southerton,Lefty Betteney,Calidad,Deportiva,S,Azul,453,249,293,45,7,16,32,77,39.06,785.42,Corte incorrecto,Materia prima defectuosa,0.0,0.1569,1.0,Bajo
+3/12/2026,Planta C,L6,Dia,Kimbra Starling,Tab Daverin,Acabado,Basica,S,Azul,303,244,366,78,2,5,38,21,29.89,249.78,Medida incorrecta,Error humano,0.0,0.1225,0.0,Bajo
+3/11/2026,Planta B,L1,Dia,Quintin Cota,Alfreda Blackater,Acabado,Premium,L,Blanco,481,194,391,0,7,10,46,84,37.84,724.88,Mancha,Falla maquina,0.0,0.1951,1.0,Bajo
+3/12/2026,Planta C,L4,Dia,Ewan Urlich,Nowell McPhee,Acabado,Basica,XL,Azul,487,140,142,118,4,11,52,72,11.11,616.44,Corte incorrecto,Error humano,0.0,0.0794,3.0,Critico
+3/9/2026,Planta C,L3,Dia,Joela Wiggans,Mathe McReath,Acabado,Basica,M,Blanco,264,214,460,53,2,24,47,20,27.86,1183.72,Medida incorrecta,Materia prima defectuosa,0.0,0.1302,0.0,Bajo
+3/26/2026,Planta C,L5,Dia,Sande Story,Tristan Fidell,Corte,Premium,M,Blanco,403,128,301,92,7,12,82,81,20.95,1130.65,Tela danada,Materia prima defectuosa,0.0,0.1637,1.0,Critico
+3/10/2026,Planta A,L4,Noche,Giorgia Drayson,Camey Tabourier,Costura,Deportiva,XL,Azul,443,148,439,56,7,9,122,76,16.58,1214.06,Tela danada,Materia prima defectuosa,0.0,0.112,1.0,Bajo
+3/27/2026,Planta B,L7,Tarde,Stevana Frantzen,Mela Edgars,Corte,Deportiva,XL,Azul,423,197,232,97,6,6,50,53,55.96,635.76,Mancha,Falla maquina,0.0,0.2841,1.0,Critico
+3/7/2026,Planta B,L1,Noche,Franny Lorans,Garner Vogele,Costura,Deportiva,M,Rojo,96,169,361,29,7,23,26,12,30.53,811.71,Medida incorrecta,Materia prima defectuosa,0.0,0.1807,0.0,Bajo
+3/30/2026,Planta B,L6,Dia,Ianthe Workman,Talbert Zaniolini,Corte,Premium,XL,Negro,382,131,465,16,2,3,59,20,44.26,265.52,Medida incorrecta,Error humano,0.0,0.3379,0.0,Bajo
+3/16/2026,Planta A,L9,Dia,Timofei Coleshill,Uriel Morbey,Calidad,Premium,S,Gris,432,134,326,112,5,13,99,61,10.17,1337.85,Tela danada,Error humano,0.0,0.0759,1.0,Critico
+3/25/2026,Planta B,L7,Noche,Jarrad Cox,Jehu Lintot,Costura,Basica,XL,Rojo,268,233,313,55,3,5,131,23,13.29,694.87,Tela danada,Materia prima defectuosa,0.0,0.057,0.0,Bajo
+3/11/2026,Planta A,L7,Tarde,Homer Haggie,Pedro Demko,Costura,Premium,S,Rojo,427,178,307,89,2,11,35,24,7.15,399.3,Corte incorrecto,Error humano,0.0,0.0402,1.0,Bajo
+3/8/2026,Planta B,L1,Dia,Dominic Karoly,Meredithe Skippon,Corte,Deportiva,L,Azul,476,202,227,0,2,15,80,75,48.48,1296.96,Mancha,Proceso ineficiente,0.0,0.24,2.0,Bajo
+3/5/2026,Planta A,L2,Noche,Charley Boyat,Madlen Swatton,Acabado,Deportiva,L,Gris,370,118,92,62,2,15,126,57,7.54,1905.08,Tela danada,Error humano,0.0,0.0639,4.0,Bajo
+3/22/2026,Planta C,L9,Dia,Margaret Simnel,Hank Bignal,Acabado,Premium,S,Negro,176,134,129,105,4,6,23,22,20.31,219.24,Tela danada,Proceso ineficiente,0.0,0.1516,1.0,Critico
+3/1/2026,Planta B,L4,Dia,Shellysheldon Abelovitz,Celinda Coit,Acabado,Basica,L,Blanco,299,90,473,32,5,24,58,54,15.22,1468.1,Mancha,Error humano,0.0,0.1691,0.0,Bajo
+3/29/2026,Planta C,L6,Tarde,Delcina Wincott,Jesse Bryenton,Corte,Deportiva,M,Rojo,249,254,356,63,8,9,31,40,55.05,719.4,Medida incorrecta,Falla maquina,0.0,0.2167,0.0,Bajo
+3/25/2026,Planta B,L3,Noche,Lurlene Dunniom,Bradford Kinnar,Calidad,Basica,XL,Azul,151,297,294,79,4,21,65,16,26.94,1472.76,Corte incorrecto,Proceso ineficiente,0.0,0.0907,0.0,Bajo
+3/18/2026,Planta B,L8,Dia,Yoko Clibbery,Xylina Babe,Calidad,Basica,S,Negro,287,144,300,24,8,19,32,19,10.31,690.48,Costura defectuosa,Error humano,0.0,0.0716,0.0,Bajo
+3/18/2026,Planta B,L5,Dia,Skipp Dalliwater,Jamie McCooke,Costura,Premium,L,Gris,475,134,302,115,8,18,47,92,5.08,886.64,Medida incorrecta,Falla maquina,0.0,0.0379,1.0,Critico
+3/30/2026,Planta A,L5,Noche,Rancell Colles,Yance Fumagallo,Corte,Deportiva,XL,Negro,322,209,479,30,5,18,153,25,37.64,2942.2,Costura defectuosa,Proceso ineficiente,0.0,0.1801,0.0,Critico
+3/2/2026,Planta B,L6,Tarde,Judi Taillard,Roze Jarrett,Acabado,Premium,XL,Blanco,116,231,373,35,2,21,16,15,26.91,389.82,Corte incorrecto,Proceso ineficiente,0.0,0.1165,0.0,Bajo
+3/11/2026,Planta A,L9,Tarde,Louie Tukely,Claybourne Upham,Corte,Premium,M,Blanco,485,231,341,22,7,6,41,93,74.66,768.62,Mancha,Falla maquina,0.0,0.3232,1.0,Bajo
+3/3/2026,Planta A,L4,Tarde,Charleen Milbank,Shell Wigfield,Acabado,Basica,L,Gris,118,229,99,75,5,21,13,8,22.81,387.05,Costura defectuosa,Falla maquina,0.0,0.0996,1.0,Bajo
+3/18/2026,Planta B,L3,Dia,Rad Matthessen,Quill Loweth,Corte,Premium,L,Gris,143,239,404,70,4,22,12,15,70.63,546.52,Tela danada,Falla maquina,0.0,0.2955,0.0,Bajo
+3/26/2026,Planta A,L1,Tarde,Cicely Middle,Matelda Arnould,Acabado,Basica,L,Negro,239,67,131,21,3,15,17,43,9.33,282.99,Mancha,Falla maquina,0.0,0.1393,1.0,Bajo
+3/5/2026,Planta A,L8,Noche,Annelise Duffitt,Ysabel Messam,Corte,Basica,XL,Rojo,414,101,214,94,6,17,111,45,22.96,2024.76,Medida incorrecta,Materia prima defectuosa,0.0,0.2273,1.0,Critico
+3/15/2026,Planta C,L6,Noche,Felita Mellon,Maia Motten,Acabado,Basica,L,Azul,482,102,193,3,7,3,125,81,13.23,467.61,Tela danada,Proceso ineficiente,0.0,0.1297,2.0,Bajo
+3/27/2026,Planta C,L6,Tarde,Reggi Massie,Arluene Capnerhurst,Calidad,Premium,M,Blanco,104,261,273,97,8,16,19,18,25.9,511.2,Corte incorrecto,Proceso ineficiente,0.0,0.0992,0.0,Critico
+3/10/2026,Planta B,L1,Noche,Karen Phalp,Hallsy Broszkiewicz,Acabado,Premium,L,Negro,216,238,452,120,3,25,83,20,17.14,2126.42,Tela danada,Materia prima defectuosa,0.0,0.072,0.0,Critico
+3/30/2026,Planta A,L3,Tarde,Odetta Greason,Aubry Molan,Corte,Deportiva,M,Azul,176,263,281,105,5,5,41,30,101.55,712.75,Mancha,Materia prima defectuosa,0.0,0.3861,0.0,Critico
+3/30/2026,Planta C,L9,Tarde,Adan Teese,Jami Sympson,Corte,Premium,XL,Gris,143,69,365,120,8,16,11,8,23.32,362.56,Tela danada,Error humano,0.0,0.338,0.0,Critico
+3/20/2026,Planta C,L8,Noche,Kate Mcasparan,Egon Crombie,Acabado,Deportiva,XL,Gris,94,128,194,118,3,12,32,17,8.88,410.64,Corte incorrecto,Materia prima defectuosa,0.0,0.0694,0.0,Critico
+3/7/2026,Planta A,L1,Noche,Bobbi Uzielli,Staci Allender,Calidad,Deportiva,S,Blanco,80,278,426,13,5,15,21,15,29.47,462.35,Medida incorrecta,Materia prima defectuosa,0.0,0.106,0.0,Bajo
+3/2/2026,Planta C,L9,Dia,Emma Labadini,Shanta Pinkstone,Corte,Premium,L,Rojo,424,79,399,72,2,23,103,82,27.43,2423.86,Corte incorrecto,Error humano,0.0,0.3472,1.0,Critico
+3/20/2026,Planta C,L9,Noche,Bryan Moses,Dedie Sibbit,Corte,Basica,S,Negro,494,123,424,42,8,21,195,78,12.57,4195.56,Tela danada,Falla maquina,0.0,0.1022,1.0,Critico
+3/10/2026,Planta B,L4,Dia,Tierney Cristofor,Ofilia Ciccone,Calidad,Premium,S,Blanco,364,289,121,36,7,23,52,25,46.5,1521.5,Mancha,Proceso ineficiente,0.0,0.1609,3.0,Bajo
+3/14/2026,Planta A,L9,Noche,Gretta Ferns,Tad Ridge,Calidad,Premium,S,Negro,345,77,243,51,3,17,135,62,8.21,2319.63,Corte incorrecto,Error humano,0.0,0.1066,1.0,Critico
+3/23/2026,Planta A,L7,Tarde,Brandy Rollitt,Abbot Scourfield,Costura,Deportiva,S,Negro,413,159,480,99,5,6,28,67,26.58,300.9,Corte incorrecto,Proceso ineficiente,0.0,0.1672,0.0,Critico
+3/21/2026,Planta C,L8,Tarde,Annette Claisse,Angelika China,Costura,Basica,L,Blanco,222,84,185,61,8,10,48,30,4.25,514.0,Mancha,Falla maquina,0.0,0.0506,1.0,Bajo
+3/24/2026,Planta C,L4,Noche,Lilla Kaveney,Hyacinthia Selwyn,Costura,Deportiva,S,Rojo,178,145,179,91,3,8,77,27,17.83,669.49,Costura defectuosa,Falla maquina,0.0,0.123,0.0,Critico
+3/23/2026,Planta C,L9,Noche,Reinhold Gilogly,Sayer Toland,Corte,Deportiva,S,Negro,198,172,426,101,4,12,48,20,66.67,842.68,Corte incorrecto,Proceso ineficiente,0.0,0.3876,0.0,Critico
+3/10/2026,Planta B,L2,Tarde,Maison Torbeck,Leontine Jeffcoat,Costura,Basica,M,Rojo,130,86,361,61,3,24,11,21,7.73,287.19,Costura defectuosa,Proceso ineficiente,0.0,0.0899,0.0,Bajo
+3/26/2026,Planta C,L8,Tarde,Andros Torrejon,Clarey Clouston,Acabado,Premium,M,Gris,484,110,118,105,4,12,53,31,7.98,667.92,Medida incorrecta,Error humano,0.0,0.0725,4.0,Critico
+3/8/2026,Planta B,L7,Dia,Karylin Sauvan,Dosi McGraith,Acabado,Deportiva,M,Azul,444,87,318,1,2,18,68,81,4.25,1232.5,Tela danada,Materia prima defectuosa,0.0,0.0489,1.0,Bajo
+3/13/2026,Planta C,L6,Noche,Byran Presswell,Tomaso Jancso,Calidad,Premium,M,Rojo,196,189,136,27,3,3,65,27,8.55,220.65,Medida incorrecta,Proceso ineficiente,0.0,0.0452,1.0,Bajo
+3/18/2026,Planta C,L9,Noche,Conni Rawe,Arlin Stuckow,Acabado,Premium,XL,Azul,289,212,152,69,7,3,67,50,35.36,448.52,Tela danada,Proceso ineficiente,0.0,0.1668,1.0,Bajo
+3/11/2026,Planta A,L10,Dia,Benjy Mosco,Elwin Huggins,Calidad,Basica,XL,Negro,285,225,392,42,6,21,25,53,8.25,574.5,Medida incorrecta,Error humano,0.0,0.0367,0.0,Bajo
+3/5/2026,Planta A,L3,Noche,Tanney Giacaponi,Gaston Root,Corte,Basica,S,Azul,84,73,203,13,7,15,24,16,26.27,543.89,Mancha,Error humano,0.0,0.3599,0.0,Bajo
+3/24/2026,Planta B,L4,Tarde,Rockwell Minto,Glad Rosi,Acabado,Premium,L,Blanco,164,239,380,2,8,15,14,32,16.62,342.96,Costura defectuosa,Error humano,0.0,0.0695,0.0,Bajo
+3/4/2026,Planta B,L1,Tarde,Prescott Dalloway,Francisco Beardsley,Acabado,Deportiva,XL,Azul,438,155,126,82,3,7,31,55,30.06,307.18,Tela danada,Error humano,0.0,0.1939,3.0,Bajo
+3/18/2026,Planta A,L5,Dia,Gallard Forcer,Chrissy Gaffon,Calidad,Deportiva,L,Blanco,480,268,220,103,6,6,38,53,48.8,520.8,Costura defectuosa,Materia prima defectuosa,0.0,0.1821,2.0,Critico
+3/5/2026,Planta A,L5,Noche,Clementius McKinley,Costa Shanahan,Acabado,Deportiva,M,Gris,328,92,111,31,6,5,69,49,7.47,389.82,Tela danada,Error humano,0.0,0.0812,2.0,Bajo
+3/20/2026,Planta A,L5,Dia,Bria Perigoe,Osbert Armatidge,Costura,Deportiva,M,Rojo,143,108,92,24,6,25,27,15,10.44,737.64,Mancha,Error humano,0.0,0.0967,1.0,Bajo
+3/19/2026,Planta B,L1,Tarde,Gerry Croshaw,Gualterio Latham,Corte,Premium,L,Gris,302,85,111,36,4,4,39,58,13.81,211.24,Mancha,Falla maquina,0.0,0.1625,2.0,Bajo
+3/1/2026,Planta C,L7,Tarde,Elmer Eschelle,Shawnee Deboo,Costura,Basica,L,Negro,415,298,126,26,3,6,89,54,25.13,609.39,Medida incorrecta,Materia prima defectuosa,0.0,0.0843,3.0,Bajo
+3/24/2026,Planta A,L8,Noche,Glen Powdrill,Palmer Dabnot,Acabado,Premium,M,Blanco,335,267,180,90,5,3,161,28,21.73,591.65,Medida incorrecta,Error humano,0.0,0.0814,1.0,Bajo
+3/16/2026,Planta C,L9,Tarde,Percy Grubbe,Tana Palle,Costura,Deportiva,M,Gris,342,198,462,59,2,13,73,34,30.11,1009.22,Mancha,Materia prima defectuosa,0.0,0.1521,0.0,Bajo
+3/8/2026,Planta B,L3,Noche,Margarethe Ridout,Siouxie Clemensen,Calidad,Deportiva,L,Blanco,479,266,256,45,6,22,106,86,39.6,2569.6,Corte incorrecto,Materia prima defectuosa,0.0,0.1489,1.0,Critico
+3/11/2026,Planta B,L10,Tarde,Tiffanie Muzzall,Rhody Stirley,Corte,Basica,S,Gris,168,127,329,81,6,3,17,31,37.09,273.54,Tela danada,Error humano,0.0,0.292,0.0,Bajo
+3/21/2026,Planta A,L5,Dia,Bail Petras,Robbie Sporton,Calidad,Premium,XL,Negro,219,162,106,96,3,12,23,28,7.39,298.17,Medida incorrecta,Proceso ineficiente,0.0,0.0456,2.0,Critico
+3/21/2026,Planta B,L4,Tarde,Tait Brandrick,Myca Heake,Acabado,Premium,S,Negro,304,135,69,81,6,23,42,49,8.54,1017.24,Tela danada,Error humano,0.0,0.0633,4.0,Bajo
+3/6/2026,Planta A,L1,Dia,Haley Bigadike,Darcy Maciejewski,Acabado,Deportiva,L,Negro,437,263,327,34,7,24,49,38,12.79,1265.53,Corte incorrecto,Materia prima defectuosa,0.0,0.0486,1.0,Bajo
+3/4/2026,Planta B,L5,Dia,Doralynne Gerrad,Valentino McGorman,Calidad,Deportiva,L,Negro,175,97,178,118,4,15,31,22,18.09,537.36,Mancha,Falla maquina,0.0,0.1865,0.0,Critico
+3/17/2026,Planta C,L6,Dia,Emmet Moloney,Federica Bohler,Acabado,Deportiva,M,Azul,468,192,101,47,6,17,75,92,21.59,1404.54,Medida incorrecta,Error humano,0.0,0.1124,4.0,Bajo
+3/4/2026,Planta B,L7,Tarde,Karlotta Cristofolini,Fianna Chisman,Calidad,Deportiva,L,Blanco,210,275,263,60,7,3,27,33,47.97,416.79,Mancha,Falla maquina,0.0,0.1744,0.0,Bajo
+3/5/2026,Planta B,L7,Noche,Ofelia Fullegar,Tally Shimwell,Calidad,Basica,XL,Blanco,433,207,381,64,7,6,160,75,14.57,1061.99,Corte incorrecto,Error humano,0.0,0.0704,1.0,Bajo
+3/7/2026,Planta B,L6,Noche,Ari Knightly,Hildegarde Sasser,Corte,Premium,XL,Blanco,427,270,318,113,4,23,111,31,50.52,2755.08,Medida incorrecta,Falla maquina,0.0,0.1871,1.0,Critico
+3/18/2026,Planta A,L6,Noche,Erinna Hanscomb,Eve McHale,Calidad,Premium,XL,Gris,230,266,413,92,8,3,79,17,33.08,501.64,Costura defectuosa,Proceso ineficiente,0.0,0.1244,0.0,Critico
+3/25/2026,Planta B,L9,Noche,Ede Grgic,Ysabel Timoney,Acabado,Basica,XL,Blanco,393,203,382,106,8,17,132,32,29.76,2482.08,Corte incorrecto,Error humano,0.0,0.1466,1.0,Critico
+3/11/2026,Planta C,L4,Tarde,Lauri Lowdyane,Marcy Scarisbrick,Calidad,Premium,L,Negro,312,257,231,34,8,3,46,34,32.12,394.96,Mancha,Falla maquina,0.0,0.125,1.0,Bajo
+3/10/2026,Planta A,L3,Noche,Bentlee Hulls,Georgie MacVagh,Calidad,Deportiva,S,Negro,125,233,122,99,2,13,61,22,9.98,812.96,Medida incorrecta,Falla maquina,0.0,0.0428,1.0,Critico
+3/25/2026,Planta A,L7,Tarde,Arline Dibbe,Nolly Dodell,Calidad,Deportiva,S,Azul,102,155,260,28,4,23,14,8,29.96,441.84,Mancha,Proceso ineficiente,0.0,0.1933,0.0,Bajo
+3/19/2026,Planta B,L10,Tarde,Addi Healeas,Briny Trowel,Calidad,Basica,M,Azul,449,91,323,118,3,12,103,73,8.72,1262.16,Corte incorrecto,Falla maquina,0.0,0.0958,1.0,Critico
+3/20/2026,Planta B,L10,Noche,Thia Jeschner,Krishnah Yarranton,Calidad,Deportiva,XL,Gris,488,263,335,103,4,15,243,42,24.88,3744.52,Corte incorrecto,Proceso ineficiente,0.0,0.0946,1.0,Critico
+3/10/2026,Planta A,L9,Tarde,Stanislaw Bickerstasse,Travers Prover,Acabado,Premium,XL,Gris,437,86,286,89,4,12,47,76,14.28,621.12,Medida incorrecta,Proceso ineficiente,0.0,0.166,1.0,Bajo
+3/28/2026,Planta A,L4,Dia,Myrvyn Van den Broek,Megan Fevier,Acabado,Basica,XL,Negro,354,237,117,71,6,24,80,62,33.28,2119.68,Medida incorrecta,Materia prima defectuosa,0.0,0.1404,3.0,Critico
+3/13/2026,Planta B,L8,Noche,Sallie Goddert.sf,Nichol Davage,Costura,Premium,XL,Gris,104,271,255,17,2,21,45,10,27.08,999.16,Costura defectuosa,Error humano,0.0,0.0999,0.0,Bajo
+3/2/2026,Planta B,L10,Noche,Gaspar Bending,Esther Kosel,Corte,Premium,S,Negro,158,166,345,43,2,20,52,17,52.67,1145.34,Tela danada,Materia prima defectuosa,0.0,0.3173,0.0,Bajo
+3/20/2026,Planta C,L5,Noche,Colman Crates,Arabella Antoniades,Costura,Premium,L,Azul,284,128,434,105,2,12,130,50,10.47,1580.94,Medida incorrecta,Error humano,0.0,0.0818,0.0,Critico
+3/24/2026,Planta A,L3,Dia,Rozanne Baughan,Cornelia Hintze,Calidad,Basica,XL,Azul,156,287,100,115,6,6,16,12,34.17,301.02,Corte incorrecto,Materia prima defectuosa,0.0,0.1191,1.0,Critico
+3/3/2026,Planta C,L9,Tarde,Debor Nannini,Nester Astling,Corte,Basica,L,Azul,272,159,210,102,4,15,37,14,37.75,706.0,Corte incorrecto,Proceso ineficiente,0.0,0.2374,1.0,Critico
+3/14/2026,Planta A,L2,Noche,Gnni Rubanenko,Glenn Bagby,Costura,Deportiva,S,Gris,268,171,120,77,3,25,63,45,31.6,1669.8,Tela danada,Proceso ineficiente,0.0,0.1848,2.0,Bajo
+3/21/2026,Planta B,L5,Tarde,Culley Berndtssen,Marvin Edwicker,Costura,Premium,S,Blanco,451,146,92,29,5,23,54,31,17.24,1328.2,Mancha,Falla maquina,0.0,0.1181,4.0,Bajo
+3/14/2026,Planta C,L2,Tarde,Cullan Koenen,Harrietta Walby,Calidad,Basica,S,Azul,397,148,108,108,3,3,66,47,25.46,274.38,Costura defectuosa,Falla maquina,0.0,0.172,3.0,Critico
+3/28/2026,Planta A,L4,Noche,Harrie Burchett,Bliss Yerrall,Acabado,Deportiva,L,Azul,364,112,79,47,8,11,139,50,14.02,1641.16,Medida incorrecta,Proceso ineficiente,0.0,0.1252,4.0,Bajo
+3/15/2026,Planta C,L8,Tarde,Meara Pietrowski,Richmond McCrea,Acabado,Deportiva,L,Rojo,236,202,292,63,3,20,52,22,28.13,1124.39,Costura defectuosa,Falla maquina,0.0,0.1393,0.0,Bajo
+3/29/2026,Planta C,L1,Noche,Luke Fawlo,Robin Buckingham,Costura,Basica,XL,Gris,161,213,374,75,3,24,58,14,38.01,1506.03,Mancha,Proceso ineficiente,0.0,0.1785,0.0,Bajo
+3/15/2026,Planta C,L9,Noche,Derry Dockrey,Alecia Larenson,Calidad,Premium,L,Azul,176,246,217,77,8,11,71,26,47.27,1159.16,Corte incorrecto,Materia prima defectuosa,0.0,0.1922,0.0,Bajo
+3/14/2026,Planta A,L10,Tarde,Angie Chasmar,Lucien Greber,Costura,Basica,L,Negro,113,242,183,18,5,18,21,22,36.28,559.4,Tela danada,Materia prima defectuosa,0.0,0.1499,0.0,Bajo
+3/15/2026,Planta C,L2,Tarde,Ivett Durand,Ron Manjin,Costura,Deportiva,L,Azul,452,253,342,0,8,12,36,29,7.94,495.52,Corte incorrecto,Error humano,0.0,0.0314,1.0,Bajo
+3/26/2026,Planta C,L4,Dia,Marcille Courtenay,Prudence Doghartie,Corte,Basica,XL,Rojo,239,106,168,2,3,17,21,37,13.13,396.39,Medida incorrecta,Falla maquina,0.0,0.1239,1.0,Bajo
+3/20/2026,Planta A,L9,Noche,Dirk Peert,Camey Grigorey,Costura,Premium,M,Blanco,90,283,445,3,6,4,18,14,46.34,350.04,Tela danada,Falla maquina,0.0,0.1637,0.0,Bajo
+3/4/2026,Planta A,L7,Noche,Claresta Whiley,Jarred Waber,Acabado,Deportiva,XL,Azul,383,188,69,60,5,7,91,46,27.85,776.25,Corte incorrecto,Materia prima defectuosa,0.0,0.1481,5.0,Bajo
+3/15/2026,Planta B,L8,Noche,Randy Bingley,Michelina Wildor,Acabado,Premium,S,Rojo,313,158,206,24,3,23,131,60,16.74,3063.22,Corte incorrecto,Proceso ineficiente,0.0,0.1059,1.0,Critico
+3/1/2026,Planta B,L2,Noche,Aldwin Izakoff,Genni Thalmann,Costura,Premium,M,Rojo,386,115,440,113,6,3,167,40,18.59,612.54,Tela danada,Error humano,0.0,0.1617,0.0,Critico
+3/27/2026,Planta A,L10,Tarde,Austen Raymond,Crichton Apedaile,Acabado,Premium,XL,Blanco,239,272,466,115,6,9,52,40,28.52,639.12,Costura defectuosa,Materia prima defectuosa,0.0,0.1049,0.0,Critico
+3/13/2026,Planta B,L9,Tarde,Nahum Fehely,Tedi Keslake,Acabado,Basica,M,Rojo,233,187,269,76,2,4,35,22,17.88,175.76,Tela danada,Falla maquina,0.0,0.0956,0.0,Bajo
+3/2/2026,Planta B,L10,Tarde,Sheena Spurier,Mill Skillings,Acabado,Premium,M,Gris,425,61,374,44,7,3,74,84,7.31,273.17,Costura defectuosa,Falla maquina,0.0,0.1198,1.0,Bajo
+3/22/2026,Planta C,L10,Noche,Northrup Warrier,Maribelle Peirone,Calidad,Basica,L,Blanco,404,111,171,38,4,18,200,57,8.92,3635.68,Mancha,Materia prima defectuosa,0.0,0.0804,2.0,Critico
+3/26/2026,Planta B,L6,Dia,Daisy Brandsen,Brig Guye,Calidad,Deportiva,S,Negro,275,97,299,93,6,24,45,53,3.41,1100.46,Medida incorrecta,Materia prima defectuosa,0.0,0.0352,0.0,Critico
+3/20/2026,Planta B,L10,Dia,Barnabas Threadkell,Corene Birts,Acabado,Deportiva,M,Negro,323,128,214,15,6,13,80,18,17.75,1146.5,Medida incorrecta,Error humano,0.0,0.1387,1.0,Bajo
+3/26/2026,Planta A,L10,Tarde,Harriot Shillabear,Carlynn MacKenny,Costura,Deportiva,XL,Rojo,152,291,383,117,8,13,24,9,57.38,771.04,Mancha,Error humano,0.0,0.1972,0.0,Critico
+3/28/2026,Planta A,L3,Dia,Dell Vreede,Rina Wardington,Costura,Deportiva,L,Azul,425,78,428,65,4,3,39,66,10.52,159.08,Mancha,Error humano,0.0,0.1349,0.0,Bajo
+3/28/2026,Planta A,L3,Noche,Frank Campling,Myrtie Pester,Corte,Basica,L,Negro,178,106,157,118,2,16,50,20,14.79,829.58,Corte incorrecto,Error humano,0.0,0.1395,1.0,Critico
+3/10/2026,Planta B,L3,Tarde,Aloin Adcocks,Florry Gillingwater,Costura,Premium,M,Rojo,301,281,261,69,4,3,24,26,43.89,247.56,Costura defectuosa,Proceso ineficiente,0.0,0.1562,1.0,Bajo
+3/11/2026,Planta C,L2,Dia,Kalle Retchford,Tory Kenforth,Corte,Deportiva,XL,Rojo,457,67,389,58,3,14,27,56,19.9,437.7,Tela danada,Falla maquina,0.0,0.297,1.0,Bajo
+3/18/2026,Planta C,L9,Dia,Consalve Dart,Carline Tourner,Calidad,Deportiva,L,Negro,447,215,65,50,5,24,77,45,28.1,1988.5,Mancha,Falla maquina,0.0,0.1307,6.0,Bajo
+3/16/2026,Planta C,L10,Noche,Loretta Euston,Kristien Mileham,Calidad,Premium,XL,Blanco,329,182,393,85,5,19,140,34,30.72,2813.6,Costura defectuosa,Error humano,0.0,0.1688,0.0,Critico
+3/4/2026,Planta C,L5,Tarde,Clywd Piddlehinton,Cindra Hibbart,Calidad,Premium,S,Blanco,276,256,157,90,2,14,66,48,44.39,1012.78,Costura defectuosa,Materia prima defectuosa,0.0,0.1734,1.0,Bajo
+3/29/2026,Planta C,L9,Dia,Homer Callway,Analise Newns,Corte,Basica,S,Gris,423,117,144,101,5,6,39,54,15.01,309.05,Mancha,Proceso ineficiente,0.0,0.1283,2.0,Critico
+3/10/2026,Planta B,L4,Tarde,Luce Roaf,Timmy Bickerdike,Costura,Basica,S,Gris,228,111,209,37,5,20,29,38,7.82,619.1,Costura defectuosa,Error humano,0.0,0.0705,1.0,Bajo
+3/2/2026,Planta B,L3,Noche,Maura Petersen,Hailee Darwent,Calidad,Premium,L,Rojo,477,236,321,91,3,17,221,58,19.61,3815.83,Costura defectuosa,Error humano,0.0,0.0831,1.0,Critico
+3/25/2026,Planta A,L8,Noche,Udall Gayne,Hashim Creeboe,Acabado,Premium,S,Blanco,276,187,266,63,2,25,61,14,18.56,1562.12,Mancha,Proceso ineficiente,0.0,0.0993,1.0,Bajo
+3/12/2026,Planta A,L4,Tarde,Ingra Locket,Viviyan Giacopello,Acabado,Basica,L,Gris,231,161,354,104,8,3,19,39,26.87,271.96,Mancha,Falla maquina,0.0,0.1669,0.0,Critico
+3/16/2026,Planta A,L5,Tarde,Roch Ingolotti,Stanwood Romer,Calidad,Basica,S,Rojo,313,145,318,24,4,4,71,45,21.29,369.16,Mancha,Proceso ineficiente,0.0,0.1468,0.0,Bajo
+3/24/2026,Planta C,L1,Tarde,Gusta Clowser,Bambi Bernet,Costura,Deportiva,L,Negro,435,142,350,11,5,19,80,52,5.57,1547.85,Mancha,Proceso ineficiente,0.0,0.0392,1.0,Bajo
+3/12/2026,Planta A,L1,Dia,Ingra Heigold,Oby Rousby,Corte,Premium,L,Blanco,296,82,473,56,7,24,37,55,28.87,1090.09,Costura defectuosa,Error humano,0.0,0.3521,0.0,Bajo
+3/28/2026,Planta A,L5,Tarde,Aube Marsh,Richart Darkott,Corte,Premium,M,Gris,344,268,105,107,4,9,18,38,28.64,276.56,Mancha,Falla maquina,0.0,0.1069,3.0,Critico
+3/3/2026,Planta A,L4,Tarde,Claudina Raulston,Kamila Blumson,Acabado,Premium,XL,Negro,439,61,345,18,3,23,89,35,2.48,2054.44,Tela danada,Materia prima defectuosa,0.0,0.0407,1.0,Critico
+3/21/2026,Planta C,L3,Dia,Anderea Codling,Janaye Dunkerley,Acabado,Basica,S,Negro,229,131,428,14,2,12,51,31,19.3,650.6,Corte incorrecto,Proceso ineficiente,0.0,0.1473,0.0,Bajo
+3/22/2026,Planta A,L7,Tarde,Hope Knell,Janessa Firth,Calidad,Basica,S,Gris,312,128,312,84,6,21,26,40,14.61,633.66,Corte incorrecto,Error humano,0.0,0.1141,1.0,Bajo
+3/30/2026,Planta B,L10,Dia,Jerrold Thomazet,Cloe Disbury,Calidad,Premium,L,Gris,234,267,90,2,7,23,30,16,28.67,890.69,Costura defectuosa,Falla maquina,0.0,0.1074,2.0,Bajo
+3/18/2026,Planta A,L2,Tarde,Prudence Beaman,Ginevra Langrish,Corte,Deportiva,S,Azul,146,155,472,21,3,6,10,20,42.51,187.53,Tela danada,Error humano,0.0,0.2743,0.0,Bajo
+3/9/2026,Planta C,L7,Tarde,Lay Ernke,Giuditta Menier,Acabado,Basica,S,Blanco,290,180,371,48,8,22,35,19,20.14,931.12,Medida incorrecta,Falla maquina,0.0,0.1119,0.0,Bajo
+3/8/2026,Planta C,L3,Tarde,Margarette Ordelt,Nathanil Youdell,Costura,Basica,S,Negro,335,78,398,74,6,6,72,61,3.64,453.84,Tela danada,Falla maquina,0.0,0.0467,0.0,Bajo
+3/25/2026,Planta B,L5,Noche,Chelsie Cobbin,Konrad Rayson,Corte,Deportiva,XL,Rojo,334,166,151,65,6,18,82,53,20.53,1599.18,Medida incorrecta,Materia prima defectuosa,0.0,0.1237,2.0,Bajo
+3/10/2026,Planta C,L4,Dia,Rutledge Chesley,Cora Strank,Corte,Deportiva,S,Rojo,319,214,468,70,7,22,61,29,62.9,1782.3,Mancha,Materia prima defectuosa,0.0,0.2939,0.0,Bajo
+3/2/2026,Planta C,L6,Noche,Eben Renhard,Keane Enstone,Calidad,Basica,S,Gris,164,132,215,36,7,5,62,18,24.66,482.62,Corte incorrecto,Proceso ineficiente,0.0,0.1868,0.0,Bajo
+3/12/2026,Planta B,L8,Dia,Colet Borne,Constanta Kohring,Acabado,Premium,M,Negro,194,109,345,67,5,5,14,11,11.5,127.5,Tela danada,Falla maquina,0.0,0.1055,0.0,Bajo
+3/25/2026,Planta A,L4,Tarde,Wynn Mattiuzzi,Colin Andell,Costura,Deportiva,XL,Gris,251,154,312,30,3,6,55,32,24.01,402.03,Mancha,Materia prima defectuosa,0.0,0.1559,0.0,Bajo
+3/15/2026,Planta B,L8,Dia,Glenden Frissell,Nicki Tolomelli,Costura,Basica,L,Azul,127,182,380,38,7,21,31,10,13.66,746.62,Tela danada,Falla maquina,0.0,0.0751,0.0,Bajo
+3/14/2026,Planta A,L8,Noche,Alena Snare,Del Bryde,Acabado,Premium,M,Rojo,377,82,272,10,8,3,112,46,16.11,464.88,Tela danada,Error humano,0.0,0.1965,1.0,Bajo
+3/10/2026,Planta A,L7,Noche,Brett Brothers,Gran Harm,Corte,Basica,M,Gris,477,71,198,61,4,9,231,70,17.48,2148.92,Corte incorrecto,Proceso ineficiente,0.0,0.2462,2.0,Critico
+3/24/2026,Planta A,L4,Tarde,Derry Dilland,Jannel Dudderidge,Acabado,Basica,M,Gris,237,121,127,13,6,7,28,26,19.02,310.12,Corte incorrecto,Materia prima defectuosa,0.0,0.1572,1.0,Bajo
+3/25/2026,Planta C,L9,Noche,Laughton Souten,Haskell Robottham,Costura,Deportiva,M,Negro,265,279,301,107,5,9,77,51,13.43,760.15,Mancha,Materia prima defectuosa,0.0,0.0481,0.0,Critico
+3/13/2026,Planta B,L1,Noche,Itch Swindon,Isidro Sivier,Acabado,Deportiva,XL,Blanco,292,231,169,25,6,16,107,30,15.53,1805.18,Mancha,Error humano,0.0,0.0672,1.0,Bajo
+3/12/2026,Planta C,L10,Tarde,Horatius Tomanek,Anjela Whiffen,Calidad,Basica,XL,Azul,443,220,344,105,4,12,55,48,28.56,774.24,Costura defectuosa,Falla maquina,0.0,0.1298,1.0,Critico
+3/20/2026,Planta A,L9,Noche,Thatcher Lias,Chloris Scragg,Costura,Deportiva,XL,Gris,285,135,392,80,5,3,125,33,8.45,417.25,Tela danada,Materia prima defectuosa,0.0,0.0626,0.0,Bajo
+3/8/2026,Planta B,L6,Tarde,Isabel Merricks,Garold Tarling,Acabado,Deportiva,L,Azul,165,190,238,53,8,11,28,31,34.2,581.6,Medida incorrecta,Falla maquina,0.0,0.18,0.0,Bajo
+3/14/2026,Planta B,L1,Noche,Teddy Van de Velde,Osbert de Quincey,Corte,Basica,M,Azul,161,155,247,64,8,24,35,15,15.82,966.56,Corte incorrecto,Materia prima defectuosa,0.0,0.1021,0.0,Bajo
+3/26/2026,Planta A,L2,Tarde,Silva Rowsell,Barbie Trenam,Calidad,Premium,L,Azul,87,264,336,83,8,11,8,14,20.08,248.64,Medida incorrecta,Falla maquina,0.0,0.0761,0.0,Bajo
+3/14/2026,Planta C,L3,Noche,Benton Troman,Harlan Splain,Calidad,Premium,XL,Gris,414,77,231,30,3,3,117,23,12.43,388.29,Mancha,Error humano,0.0,0.1614,1.0,Bajo
+3/28/2026,Planta A,L7,Tarde,Maridel Boorn,Ermengarde Grundon,Corte,Deportiva,XL,Azul,445,141,441,66,4,3,44,47,23.23,224.92,Tela danada,Proceso ineficiente,0.0,0.1648,1.0,Bajo
+3/14/2026,Planta B,L7,Noche,Ealasaid Mapplethorpe,Sheppard Fain,Costura,Deportiva,M,Negro,188,56,189,117,5,24,48,29,4.05,1172.25,Medida incorrecta,Falla maquina,0.0,0.0723,0.0,Critico
+3/25/2026,Planta B,L1,Noche,Constantina Derges,Bren Gummow,Corte,Basica,L,Gris,317,165,145,44,8,5,103,57,18.36,661.88,Mancha,Error humano,0.0,0.1113,2.0,Bajo
+3/16/2026,Planta C,L10,Dia,Barbaraanne Reams,Ginny Swendell,Acabado,Deportiva,XL,Negro,329,148,215,75,7,16,76,53,9.91,1285.37,Corte incorrecto,Materia prima defectuosa,0.0,0.067,1.0,Bajo
+3/3/2026,Planta C,L3,Noche,Anallise Fist,Darren Abell,Calidad,Basica,M,Gris,172,258,450,111,3,17,51,25,48.33,1011.99,Costura defectuosa,Proceso ineficiente,0.0,0.1873,0.0,Critico
+3/14/2026,Planta B,L5,Tarde,Leeland Mielnik,Jan Sefton,Costura,Deportiva,XL,Blanco,290,116,60,32,8,4,58,30,18.95,383.6,Tela danada,Error humano,0.0,0.1634,4.0,Bajo
+3/16/2026,Planta B,L1,Dia,Ado Carlow,Birgit Stoker,Corte,Deportiva,XL,Blanco,361,260,158,108,2,19,60,72,47.3,1234.6,Costura defectuosa,Error humano,0.0,0.1819,2.0,Critico
+3/19/2026,Planta C,L1,Tarde,Adolphe Dansey,Mariele MacTurlough,Corte,Basica,S,Azul,345,118,118,52,7,21,43,29,25.72,1083.04,Costura defectuosa,Error humano,0.0,0.218,2.0,Bajo
+3/20/2026,Planta B,L7,Tarde,Boigie Van der Velde,Hewett Goldstone,Costura,Basica,M,Gris,219,255,350,15,6,14,14,41,22.2,329.2,Medida incorrecta,Falla maquina,0.0,0.0871,0.0,Bajo
+3/24/2026,Planta C,L7,Noche,Juanita Meldrum,Leela Janeway,Costura,Deportiva,XL,Blanco,186,74,211,85,8,15,70,11,2.61,1070.88,Tela danada,Error humano,0.0,0.0353,0.0,Bajo
+3/30/2026,Planta C,L1,Tarde,Stefano Robson,Caro Macoun,Costura,Premium,M,Negro,183,209,451,33,2,25,44,15,25.49,1150.98,Corte incorrecto,Proceso ineficiente,0.0,0.122,0.0,Bajo
+3/15/2026,Planta C,L8,Noche,Hedi Summerfield,Bryn Symms,Corte,Deportiva,L,Rojo,233,77,241,114,7,18,93,44,24.94,1848.58,Corte incorrecto,Proceso ineficiente,0.0,0.3239,0.0,Critico
+3/27/2026,Planta A,L9,Dia,Alayne Iggo,Vanessa Ligoe,Acabado,Basica,L,Azul,452,172,443,13,5,6,77,67,10.5,514.5,Mancha,Error humano,0.0,0.061,1.0,Bajo
+3/15/2026,Planta A,L9,Noche,Germaine Luna,Simeon Lounds,Acabado,Basica,S,Negro,246,270,327,50,3,14,98,34,53.5,1532.5,Corte incorrecto,Falla maquina,0.0,0.1981,0.0,Bajo
+3/16/2026,Planta C,L6,Dia,Drake MacNeish,Rufe Dunstall,Acabado,Deportiva,S,Blanco,215,263,280,81,4,16,31,23,38.34,649.36,Tela danada,Error humano,0.0,0.1458,0.0,Bajo
+3/17/2026,Planta C,L9,Dia,Abra Stannett,Brynn Ebbin,Calidad,Premium,S,Azul,125,248,261,105,3,6,12,6,29.66,160.98,Tela danada,Falla maquina,0.0,0.1196,0.0,Critico
+3/8/2026,Planta B,L2,Dia,Vera Dorrian,Bevan Presnall,Costura,Deportiva,S,Blanco,241,84,116,18,5,21,33,23,5.64,721.2,Costura defectuosa,Materia prima defectuosa,0.0,0.0671,2.0,Bajo
+3/23/2026,Planta A,L4,Noche,Rutger Ausiello,Chaddy Bambery,Calidad,Premium,S,Negro,304,60,432,116,5,16,144,38,3.96,2323.8,Tela danada,Error humano,0.0,0.066,0.0,Critico
+3/17/2026,Planta B,L10,Noche,Joanna Threadgill,Nikolaos Mingasson,Calidad,Premium,S,Rojo,207,64,352,22,4,10,61,34,3.79,625.16,Mancha,Materia prima defectuosa,0.0,0.0592,0.0,Bajo
+3/20/2026,Planta C,L6,Tarde,Guilbert Bimson,Early Gloster,Corte,Premium,M,Azul,210,232,400,33,7,21,21,11,86.45,1046.15,Tela danada,Falla maquina,0.0,0.3726,0.0,Bajo
+3/27/2026,Planta A,L9,Dia,Lurlene Yarker,Selina Maddams,Corte,Premium,S,Negro,374,120,390,38,5,6,31,32,25.7,314.5,Tela danada,Proceso ineficiente,0.0,0.2142,0.0,Bajo
+3/16/2026,Planta B,L10,Dia,Nerte Mowatt,Jobie Shotton,Acabado,Deportiva,L,Negro,393,89,112,97,8,10,54,66,14.23,653.84,Costura defectuosa,Materia prima defectuosa,0.0,0.1599,3.0,Critico
+3/25/2026,Planta B,L9,Dia,Gaby Arthan,Gabi Cyster,Costura,Premium,S,Negro,323,229,334,55,8,19,58,19,43.03,1446.24,Corte incorrecto,Falla maquina,0.0,0.1879,0.0,Bajo
+3/26/2026,Planta C,L9,Dia,Jehanna Robertsson,Garwood Laskey,Acabado,Premium,L,Gris,103,280,447,25,3,3,8,11,36.97,134.91,Tela danada,Falla maquina,0.0,0.132,0.0,Bajo
+3/22/2026,Planta C,L4,Dia,Ardine Wiltshire,Rip Plummer,Calidad,Deportiva,M,Negro,475,276,127,58,7,9,84,48,14.45,857.15,Medida incorrecta,Error humano,0.0,0.0524,3.0,Bajo
+3/7/2026,Planta A,L3,Dia,Grover Etuck,Chery Arnaldo,Calidad,Premium,XL,Negro,259,299,70,15,5,4,57,23,52.41,490.05,Medida incorrecta,Proceso ineficiente,0.0,0.1753,3.0,Bajo
+3/13/2026,Planta C,L2,Tarde,Bink Padwick,Templeton Pibsworth,Calidad,Premium,L,Gris,331,128,149,16,6,7,74,59,12.25,591.5,Tela danada,Error humano,0.0,0.0957,2.0,Bajo
+3/1/2026,Planta C,L4,Noche,Matthaeus Axtell,Rosalia Bellsham,Acabado,Deportiva,L,Gris,346,60,410,96,6,13,70,42,5.77,944.62,Corte incorrecto,Materia prima defectuosa,0.0,0.0962,0.0,Critico
+3/28/2026,Planta C,L7,Tarde,Arielle Bewsey,Vilma Philippart,Costura,Basica,XL,Negro,284,209,283,90,7,5,41,54,36.92,463.44,Corte incorrecto,Error humano,0.0,0.1767,1.0,Bajo
+3/30/2026,Planta A,L7,Noche,Sigfried Ahrend,Amara Strauss,Calidad,Basica,M,Azul,479,156,241,32,8,14,233,33,12.38,3361.04,Medida incorrecta,Error humano,0.0,0.0794,1.0,Critico
+3/30/2026,Planta A,L2,Dia,Cornelle Bathoe,Roy Alves,Costura,Premium,L,Gris,452,173,175,91,3,25,101,66,17.15,2576.45,Tela danada,Error humano,0.0,0.0991,2.0,Critico
+3/1/2026,Planta A,L5,Tarde,Jacky Jodrelle,Bradan Featherstonhaugh,Corte,Deportiva,L,Gris,429,102,250,88,4,23,35,32,13.62,859.48,Mancha,Falla maquina,0.0,0.1335,1.0,Bajo
+3/4/2026,Planta B,L6,Noche,Adolf Babst,Odelle Giovannini,Costura,Premium,S,Azul,376,225,204,13,3,8,133,26,25.02,1139.06,Tela danada,Falla maquina,0.0,0.1112,1.0,Bajo
+3/26/2026,Planta A,L8,Tarde,Cherilynn Giacomuzzi,Ford Widdison,Acabado,Premium,L,Negro,114,248,187,63,5,20,18,15,19.94,459.7,Costura defectuosa,Materia prima defectuosa,0.0,0.0804,0.0,Bajo
+3/29/2026,Planta A,L1,Tarde,Anthiathia Hudson,Audre Burt,Corte,Deportiva,XL,Negro,148,153,142,7,6,17,29,12,33.27,692.62,Costura defectuosa,Error humano,0.0,0.2175,1.0,Bajo
+3/24/2026,Planta C,L5,Tarde,Marni Jon,Bertie Thatcham,Corte,Basica,M,Gris,283,215,190,88,2,18,32,44,78.26,732.52,Corte incorrecto,Materia prima defectuosa,0.0,0.364,1.0,Bajo
+3/15/2026,Planta C,L1,Tarde,Patty Niemetz,Tabbatha Klimczak,Corte,Deportiva,M,Rojo,100,152,454,40,5,21,21,9,51.11,696.55,Costura defectuosa,Falla maquina,0.0,0.3363,0.0,Bajo
+3/24/2026,Planta C,L1,Dia,Isahella Kew,Launce Dobbyn,Acabado,Basica,S,Rojo,107,254,295,96,8,18,20,7,16.95,495.6,Mancha,Materia prima defectuosa,0.0,0.0667,0.0,Critico
+3/26/2026,Planta B,L6,Tarde,Freddi Benninck,Dell Nethercott,Acabado,Basica,M,Rojo,102,145,202,85,2,3,8,5,5.38,34.76,Costura defectuosa,Materia prima defectuosa,0.0,0.0371,0.0,Bajo
+3/24/2026,Planta C,L2,Dia,Lida Trussman,Merwin Attwoul,Costura,Premium,L,Rojo,384,89,351,33,7,19,70,47,15.39,1437.73,Corte incorrecto,Falla maquina,0.0,0.1729,1.0,Bajo
+3/19/2026,Planta C,L2,Tarde,Slade Folkerd,Barb Matthieson,Corte,Premium,M,Rojo,382,253,137,112,5,18,59,68,52.28,1323.4,Costura defectuosa,Materia prima defectuosa,0.0,0.2066,2.0,Critico
+3/26/2026,Planta C,L1,Dia,Tallie Blundel,Caesar Ablitt,Acabado,Deportiva,S,Gris,416,227,268,57,2,3,76,51,10.91,249.82,Medida incorrecta,Error humano,0.0,0.0481,1.0,Bajo
+3/29/2026,Planta A,L8,Noche,Quintina Shuxsmith,Edyth Kopecka,Corte,Basica,XL,Rojo,355,184,190,79,6,4,97,51,51.08,694.48,Tela danada,Falla maquina,0.0,0.2776,1.0,Bajo
+3/28/2026,Planta B,L3,Noche,Tarrance Panton,Drucy De Mattia,Acabado,Premium,XL,Rojo,158,155,151,40,4,5,67,24,16.1,399.4,Costura defectuosa,Materia prima defectuosa,0.0,0.1039,1.0,Bajo
+3/7/2026,Planta B,L10,Tarde,Collette McCalum,Aurlie Streeten,Calidad,Premium,S,Azul,350,246,468,54,8,8,85,48,18.32,826.56,Tela danada,Falla maquina,0.0,0.0745,0.0,Bajo
+3/21/2026,Planta C,L7,Dia,Fey Breslauer,Roz Raffeorty,Corte,Deportiva,S,Azul,150,152,247,42,6,7,27,14,48.91,482.46,Costura defectuosa,Error humano,0.0,0.3218,0.0,Bajo
+3/28/2026,Planta B,L7,Noche,Conney Gorner,Halsy Albiston,Acabado,Deportiva,L,Rojo,97,249,395,105,8,25,25,8,17.74,766.92,Corte incorrecto,Proceso ineficiente,0.0,0.0712,0.0,Critico
+3/26/2026,Planta B,L9,Noche,Connor Fahrenbacher,Adelice Wakerley,Costura,Deportiva,L,Rojo,461,86,203,112,3,11,118,74,15.33,1343.99,Costura defectuosa,Proceso ineficiente,0.0,0.1783,2.0,Critico
+3/28/2026,Planta B,L7,Tarde,Guthry Bebbell,Pembroke Siveyer,Calidad,Deportiva,M,Blanco,460,264,274,80,2,4,96,74,30.58,445.16,Mancha,Error humano,0.0,0.1158,1.0,Bajo
+3/2/2026,Planta A,L9,Tarde,Garvy Mockler,Elspeth Reddle,Costura,Basica,S,Gris,211,167,91,9,3,22,36,28,31.5,886.5,Tela danada,Error humano,0.0,0.1886,2.0,Bajo
+3/30/2026,Planta C,L5,Noche,Sharyl Pragnall,Sheilakathryn Skipperbottom,Costura,Premium,S,Rojo,403,182,440,79,6,20,186,30,13.61,3801.66,Costura defectuosa,Materia prima defectuosa,0.0,0.0748,0.0,Critico
+3/25/2026,Planta B,L10,Noche,Benita Fettis,Carolus Baseley,Calidad,Basica,M,Gris,337,266,120,73,3,3,150,21,20.44,511.32,Mancha,Error humano,0.0,0.0768,2.0,Bajo
+3/25/2026,Planta B,L1,Dia,Erma Warrior,Ayn Wadworth,Calidad,Deportiva,S,Negro,215,255,134,49,2,9,48,32,33.28,498.56,Mancha,Falla maquina,0.0,0.1305,1.0,Bajo
+3/28/2026,Planta A,L5,Noche,Philomena Thynne,Barret Skeates,Costura,Basica,XL,Azul,178,170,176,101,8,24,56,12,14.17,1457.36,Mancha,Materia prima defectuosa,0.0,0.0834,1.0,Critico
+3/7/2026,Planta C,L8,Tarde,Solly Cornock,Dukie Wooton,Corte,Deportiva,XL,Rojo,448,202,291,98,6,16,105,49,33.28,1879.68,Tela danada,Materia prima defectuosa,0.0,0.1648,1.0,Critico
+3/17/2026,Planta A,L10,Dia,Kizzie Goldstein,Bartlet Morphey,Acabado,Premium,L,Gris,205,113,344,20,6,20,26,26,19.91,639.46,Corte incorrecto,Error humano,0.0,0.1762,0.0,Bajo
+3/13/2026,Planta C,L8,Dia,Trina Turbern,Diarmid Izat,Acabado,Basica,S,Blanco,334,209,462,104,4,23,20,47,23.76,555.04,Tela danada,Falla maquina,0.0,0.1137,0.0,Critico
+3/17/2026,Planta A,L3,Dia,Rafa Nussii,Tierney Chevins,Calidad,Premium,S,Rojo,178,151,379,19,7,24,41,33,22.56,1141.92,Corte incorrecto,Proceso ineficiente,0.0,0.1494,0.0,Bajo
+3/18/2026,Planta A,L4,Dia,Marylee Allot,Linette Roose,Calidad,Deportiva,XL,Gris,385,283,239,33,4,11,23,68,41.52,419.08,Medida incorrecta,Error humano,0.0,0.1467,1.0,Bajo
+3/16/2026,Planta B,L10,Noche,Felipa Dripps,Madelina Acland,Calidad,Basica,M,Rojo,320,153,444,98,5,13,132,34,27.21,1852.05,Corte incorrecto,Falla maquina,0.0,0.1778,0.0,Critico
+3/23/2026,Planta C,L3,Tarde,Korry Brandsma,Orland Lorente,Acabado,Basica,L,Azul,311,169,413,7,4,18,52,62,18.48,1009.92,Costura defectuosa,Error humano,0.0,0.1093,0.0,Bajo
+3/2/2026,Planta A,L8,Tarde,Dixie Tenny,Alphonse Penniall,Corte,Deportiva,S,Blanco,156,99,76,38,4,5,19,19,24.72,193.88,Medida incorrecta,Falla maquina,0.0,0.2497,2.0,Bajo
+3/18/2026,Planta B,L1,Noche,Annadiane Haibel,Jenda Botwood,Calidad,Premium,M,Rojo,100,266,270,16,5,13,33,6,45.48,656.4,Corte incorrecto,Falla maquina,0.0,0.171,0.0,Bajo
+3/9/2026,Planta A,L8,Noche,Olvan Ellings,Valenka Law,Acabado,Deportiva,L,Gris,437,222,346,93,6,10,116,49,38.11,1388.66,Tela danada,Materia prima defectuosa,0.0,0.1717,1.0,Critico
+3/23/2026,Planta B,L10,Noche,Ruthy Halworth,Benton Late,Costura,Premium,XL,Rojo,265,172,255,21,5,14,127,14,10.42,1830.1,Costura defectuosa,Falla maquina,0.0,0.0606,1.0,Bajo
+3/17/2026,Planta C,L6,Noche,Lotte Hallowell,Joellen Ovanesian,Acabado,Basica,S,Rojo,330,162,69,103,3,11,106,63,28.2,1250.6,Medida incorrecta,Falla maquina,0.0,0.1741,4.0,Critico
+3/30/2026,Planta C,L9,Noche,Ricky Glaze,Jolene Papierz,Costura,Premium,L,Blanco,240,153,216,32,6,5,55,15,15.43,367.58,Costura defectuosa,Materia prima defectuosa,0.0,0.1008,1.0,Bajo
+3/19/2026,Planta C,L1,Dia,Cy Edmonstone,Faunie Costigan,Acabado,Basica,M,Gris,436,63,371,37,5,9,42,76,4.16,398.8,Corte incorrecto,Proceso ineficiente,0.0,0.066,1.0,Bajo
+3/25/2026,Planta A,L4,Noche,Leia Tindall,Evonne Cowan,Corte,Premium,L,Negro,103,55,386,61,5,13,49,20,21.2,743.0,Medida incorrecta,Falla maquina,0.0,0.3855,0.0,Bajo
+3/6/2026,Planta A,L8,Noche,Flemming Pach,Betsey Clewlowe,Corte,Deportiva,L,Blanco,285,79,405,23,2,25,125,54,31.6,3188.2,Costura defectuosa,Proceso ineficiente,0.0,0.4,0.0,Critico
+3/5/2026,Planta C,L9,Tarde,Doyle Ottley,Debor Keay,Calidad,Basica,S,Gris,97,57,422,7,5,11,20,13,2.48,232.4,Medida incorrecta,Materia prima defectuosa,0.0,0.0435,0.0,Bajo
+3/19/2026,Planta A,L9,Dia,Annabella Whittam,Alonso Darrach,Costura,Basica,M,Negro,311,265,245,105,2,12,22,37,36.73,337.46,Tela danada,Materia prima defectuosa,0.0,0.1386,1.0,Critico
+3/14/2026,Planta B,L5,Tarde,Wilbur Ayars,Madlen Flacknoe,Corte,Basica,M,Gris,330,132,111,89,6,14,55,44,17.79,876.74,Mancha,Error humano,0.0,0.1348,2.0,Bajo
+3/23/2026,Planta A,L3,Noche,Stacey Huck,Edwin Bruggeman,Costura,Deportiva,M,Gris,401,53,423,27,4,7,191,30,3.93,1352.72,Costura defectuosa,Falla maquina,0.0,0.0742,0.0,Bajo
+3/16/2026,Planta C,L9,Dia,Moreen Peizer,Michail Francomb,Calidad,Deportiva,XL,Negro,323,289,397,74,6,4,57,19,39.57,465.42,Medida incorrecta,Error humano,0.0,0.1369,0.0,Bajo
+3/24/2026,Planta C,L7,Tarde,Caroljean Edards,Duncan Nickels,Calidad,Premium,L,Rojo,383,184,200,4,7,3,61,45,24.18,352.26,Medida incorrecta,Falla maquina,0.0,0.1314,1.0,Bajo
+3/26/2026,Planta A,L6,Tarde,Jesse Stenhouse,Carlye Sowte,Costura,Deportiva,S,Rojo,423,147,367,65,4,17,98,45,15.01,1726.04,Medida incorrecta,Materia prima defectuosa,0.0,0.1021,1.0,Bajo
+3/10/2026,Planta B,L1,Tarde,Concordia Morrilly,Archibaldo Olwen,Costura,Premium,S,Blanco,305,180,264,119,5,16,58,51,21.43,1035.15,Mancha,Error humano,0.0,0.1191,1.0,Critico
+3/25/2026,Planta A,L7,Noche,Percy Folkerts,Gerrard Littlejohn,Calidad,Deportiva,XL,Gris,485,267,468,12,6,8,192,49,14.84,1625.04,Costura defectuosa,Falla maquina,0.0,0.0556,1.0,Bajo
+3/9/2026,Planta C,L1,Noche,Leone Decker,Herschel Knibb,Calidad,Deportiva,L,Blanco,132,182,146,16,2,6,63,7,19.04,416.08,Costura defectuosa,Materia prima defectuosa,0.0,0.1046,0.0,Bajo
+3/3/2026,Planta C,L4,Tarde,Skippy Botwood,Harmony Haslehurst,Corte,Basica,M,Azul,140,54,151,104,2,25,19,12,7.75,490.5,Tela danada,Falla maquina,0.0,0.1435,0.0,Critico
+3/12/2026,Planta A,L5,Dia,Allan Goymer,Janetta Tribell,Acabado,Basica,L,Negro,345,171,415,50,4,8,33,43,18.34,337.36,Medida incorrecta,Materia prima defectuosa,0.0,0.1073,0.0,Bajo
+3/9/2026,Planta C,L4,Tarde,Holt Brecher,Austin Ebbin,Acabado,Premium,S,Azul,105,248,150,10,6,8,22,6,35.19,387.14,Tela danada,Falla maquina,0.0,0.1419,0.0,Bajo
+3/4/2026,Planta C,L3,Dia,Alisha Mason,Ravid Wilderspoon,Costura,Deportiva,M,Azul,469,147,80,57,2,14,63,31,25.88,933.76,Medida incorrecta,Falla maquina,0.0,0.1761,5.0,Bajo
+3/26/2026,Planta B,L6,Noche,Tatiania Surmeyers,Tessi Cupper,Costura,Premium,L,Azul,180,177,303,120,4,17,40,35,29.27,797.08,Tela danada,Materia prima defectuosa,0.0,0.1654,0.0,Critico
+3/19/2026,Planta B,L2,Tarde,Maddie Lobe,Rab Nichols,Costura,Basica,M,Blanco,200,141,468,106,7,8,35,33,9.21,344.47,Costura defectuosa,Proceso ineficiente,0.0,0.0653,0.0,Critico
+3/21/2026,Planta B,L9,Tarde,Jules Cutteridge,Liva Millan,Calidad,Deportiva,S,Negro,224,182,211,61,4,5,14,33,32.6,200.4,Mancha,Proceso ineficiente,0.0,0.1791,1.0,Bajo
+3/17/2026,Planta C,L4,Noche,Nicolle McKeefry,Zuzana Balling,Acabado,Deportiva,L,Blanco,424,170,277,50,4,22,163,81,27.52,3696.08,Medida incorrecta,Materia prima defectuosa,0.0,0.1619,1.0,Critico
+3/30/2026,Planta A,L5,Tarde,Willy Brecknall,Kristo Charrisson,Calidad,Deportiva,M,Gris,344,109,211,31,2,10,38,25,7.22,394.44,Tela danada,Materia prima defectuosa,0.0,0.0662,1.0,Bajo
+3/18/2026,Planta C,L6,Tarde,Libbey Hankey,Blondy Jerosch,Acabado,Basica,L,Gris,84,126,479,35,8,4,11,8,6.12,92.96,Costura defectuosa,Error humano,0.0,0.0486,0.0,Bajo
+3/12/2026,Planta C,L9,Dia,Freddy Firth,Clywd Skouling,Acabado,Premium,L,Azul,326,115,107,48,7,4,53,55,5.43,250.01,Tela danada,Error humano,0.0,0.0472,3.0,Bajo
+3/12/2026,Planta A,L5,Dia,Calida Wagnerin,Brock McHaffy,Acabado,Basica,S,Azul,409,227,198,98,4,23,83,65,15.94,1972.76,Medida incorrecta,Proceso ineficiente,0.0,0.0702,2.0,Critico
+3/22/2026,Planta C,L1,Noche,Dallas Verissimo,Felix Dockrill,Corte,Deportiva,L,Azul,225,134,347,95,8,13,81,18,44.29,1407.32,Corte incorrecto,Proceso ineficiente,0.0,0.3305,0.0,Critico
+3/16/2026,Planta B,L2,Noche,Randi Becken,Tillie Saldler,Acabado,Premium,L,Gris,208,269,287,76,6,22,59,25,12.01,1370.06,Costura defectuosa,Falla maquina,0.0,0.0446,0.0,Bajo
+3/1/2026,Planta B,L3,Dia,Claude O'Mohun,Analise Heister,Calidad,Basica,XL,Azul,450,71,312,44,2,25,81,64,14.05,2053.1,Medida incorrecta,Falla maquina,0.0,0.1979,1.0,Critico
+3/6/2026,Planta A,L3,Dia,Burk Blything,Artemas McInnes,Calidad,Deportiva,S,Blanco,81,163,412,120,6,6,6,6,13.45,116.7,Costura defectuosa,Materia prima defectuosa,0.0,0.0825,0.0,Critico
+3/25/2026,Planta C,L8,Dia,Merridie Van den Velde,Alf Buttriss,Costura,Premium,M,Negro,98,133,347,112,8,20,11,16,9.46,295.68,Costura defectuosa,Error humano,0.0,0.0711,0.0,Critico
+3/4/2026,Planta C,L2,Noche,Artie Neljes,Norbie Steggals,Corte,Premium,L,Azul,416,162,325,109,5,16,115,58,42.53,2052.65,Tela danada,Error humano,0.0,0.2625,1.0,Critico
+3/19/2026,Planta C,L10,Tarde,Johna Haldin,Carlo Lesurf,Calidad,Deportiva,M,Negro,212,128,170,86,2,21,28,21,16.75,621.5,Mancha,Materia prima defectuosa,0.0,0.1309,1.0,Bajo
+3/3/2026,Planta C,L4,Dia,Don Clarabut,Karlis Guilliatt,Costura,Premium,S,Rojo,244,199,239,9,7,14,21,18,12.52,381.64,Tela danada,Materia prima defectuosa,0.0,0.0629,1.0,Bajo
+3/8/2026,Planta C,L3,Dia,Erin Wilber,Mychal Christiensen,Corte,Premium,M,Blanco,205,105,422,68,6,9,35,15,23.41,455.46,Medida incorrecta,Materia prima defectuosa,0.0,0.223,0.0,Bajo
+3/3/2026,Planta A,L5,Tarde,Ester Moles,Beth Carne,Acabado,Basica,XL,Azul,149,293,248,80,2,21,25,13,40.0,605.0,Medida incorrecta,Error humano,0.0,0.1365,0.0,Bajo
+3/12/2026,Planta B,L9,Tarde,Charlena Gennings,Wallis Leonard,Corte,Premium,L,Rojo,302,128,109,87,4,12,62,59,37.21,892.84,Mancha,Error humano,0.0,0.2907,2.0,Bajo
+3/18/2026,Planta C,L5,Noche,Melantha Rama,Tait Jakubovsky,Calidad,Deportiva,M,Gris,250,276,89,66,5,3,63,22,20.0,289.0,Medida incorrecta,Error humano,0.0,0.0725,2.0,Bajo
+3/19/2026,Planta A,L6,Noche,Hyacinthie MacKettrick,Wilfrid Stallibrass,Costura,Premium,XL,Negro,374,245,398,35,7,16,182,48,40.94,3198.58,Medida incorrecta,Materia prima defectuosa,0.0,0.1671,0.0,Critico
+3/11/2026,Planta B,L5,Noche,Bearnard Bourget,Layla Samsonsen,Calidad,Deportiva,L,Gris,357,95,63,70,7,17,91,49,15.49,1655.43,Tela danada,Proceso ineficiente,0.0,0.1631,5.0,Bajo
+3/14/2026,Planta A,L8,Tarde,Carleton Bustard,Arlina Mackley,Acabado,Deportiva,L,Blanco,166,60,421,8,6,3,17,23,4.16,75.96,Costura defectuosa,Error humano,0.0,0.0693,0.0,Bajo
+3/8/2026,Planta B,L9,Tarde,Emelyne Negal,Katherina Lean,Calidad,Basica,L,Negro,80,229,407,19,3,16,7,14,33.38,212.14,Mancha,Materia prima defectuosa,0.0,0.1458,0.0,Bajo
+3/4/2026,Planta A,L4,Noche,Cate Truce,Ingaberg Glenny,Acabado,Basica,M,Blanco,192,165,136,104,3,9,75,37,11.7,710.1,Mancha,Proceso ineficiente,0.0,0.0709,1.0,Critico
+3/2/2026,Planta C,L3,Tarde,Quintin Langstone,Baillie Glennie,Calidad,Deportiva,L,Rojo,228,278,474,88,8,18,45,28,20.41,973.28,Costura defectuosa,Materia prima defectuosa,0.0,0.0734,0.0,Bajo
+3/10/2026,Planta A,L6,Tarde,Morgen Yukhnin,Winfield Alleway,Corte,Basica,M,Gris,107,94,285,100,4,14,19,5,14.18,322.72,Costura defectuosa,Error humano,0.0,0.1509,0.0,Critico
+3/29/2026,Planta A,L8,Dia,Malissia La Wille,Ruperto Cordeix,Corte,Deportiva,M,Rojo,187,86,394,67,7,24,22,17,27.02,717.14,Medida incorrecta,Falla maquina,0.0,0.3142,0.0,Bajo
+3/17/2026,Planta B,L9,Dia,Aurore Payze,Augustina Matzke,Calidad,Deportiva,XL,Negro,331,75,88,50,2,21,68,64,9.39,1446.78,Mancha,Materia prima defectuosa,0.0,0.1252,3.0,Bajo
+3/15/2026,Planta B,L5,Dia,Lorrie Franscioni,Faunie Hurdiss,Acabado,Basica,S,Azul,248,95,289,44,8,23,45,13,18.85,1185.8,Mancha,Error humano,0.0,0.1984,0.0,Bajo
+3/16/2026,Planta C,L8,Tarde,Gusti Cloke,Hastings Cassedy,Calidad,Deportiva,S,Gris,466,279,314,49,5,3,36,63,15.21,184.05,Corte incorrecto,Error humano,0.0,0.0545,1.0,Bajo
+3/9/2026,Planta B,L6,Noche,Berta Gloucester,Garrard Caffery,Corte,Deportiva,S,Rojo,242,280,176,116,8,19,83,25,52.09,1993.72,Tela danada,Proceso ineficiente,0.0,0.186,1.0,Critico
+3/6/2026,Planta B,L4,Tarde,Ermina Breeder,Pepe Bottomer,Acabado,Deportiva,XL,Blanco,376,230,373,77,4,8,43,63,45.21,524.84,Corte incorrecto,Proceso ineficiente,0.0,0.1966,1.0,Bajo
+3/25/2026,Planta B,L2,Noche,Deeann Armin,Eustace Bineham,Acabado,Basica,M,Gris,314,265,234,103,7,23,102,29,37.65,2609.55,Corte incorrecto,Proceso ineficiente,0.0,0.1421,1.0,Critico
+3/26/2026,Planta A,L6,Noche,Brewster Gerrad,Dougy MacDearmont,Costura,Deportiva,XL,Azul,395,185,352,63,7,8,137,29,36.01,1348.07,Costura defectuosa,Proceso ineficiente,0.0,0.1946,1.0,Bajo
+3/12/2026,Planta C,L2,Dia,Ashlan Skerritt,Major Gorstidge,Acabado,Premium,L,Rojo,348,206,141,1,6,23,37,53,20.24,972.44,Medida incorrecta,Materia prima defectuosa,0.0,0.0983,2.0,Bajo
+3/26/2026,Planta A,L9,Tarde,Henrik Volker,Randene Dudeney,Acabado,Basica,L,Blanco,393,218,347,51,7,3,88,26,18.62,394.34,Medida incorrecta,Error humano,0.0,0.0854,1.0,Bajo
+3/3/2026,Planta C,L4,Tarde,Sasha Birmingham,Gilbertine Wayte,Calidad,Basica,L,Rojo,466,53,102,60,2,9,36,45,5.53,335.06,Corte incorrecto,Materia prima defectuosa,0.0,0.1043,4.0,Bajo
+3/15/2026,Planta C,L6,Dia,Teena Doone,Maurie Wethers,Calidad,Premium,M,Blanco,307,154,209,2,2,18,35,39,7.76,645.52,Medida incorrecta,Proceso ineficiente,0.0,0.0504,1.0,Bajo
+3/9/2026,Planta B,L8,Tarde,Roxi Faint,Tracy Maccraw,Costura,Basica,M,Blanco,313,88,289,0,4,20,23,46,12.25,509.0,Medida incorrecta,Proceso ineficiente,0.0,0.1392,1.0,Bajo
+3/9/2026,Planta B,L6,Noche,Jobi Stonehouse,Barbe Gosnold,Corte,Deportiva,L,Negro,436,125,339,63,2,18,107,61,40.97,2007.94,Costura defectuosa,Proceso ineficiente,0.0,0.3278,1.0,Critico
+3/24/2026,Planta A,L6,Dia,Demott Milligan,Eran Skells,Acabado,Deportiva,XL,Rojo,140,64,186,107,4,15,22,19,4.58,348.32,Corte incorrecto,Materia prima defectuosa,0.0,0.0716,0.0,Critico
+3/22/2026,Planta A,L1,Noche,Rich Diego,Morgan Mitchley,Calidad,Premium,M,Azul,413,230,125,108,8,15,134,59,34.55,2286.4,Tela danada,Materia prima defectuosa,0.0,0.1502,3.0,Critico
+3/15/2026,Planta A,L1,Dia,Arlene Drane,Florry D'Aguanno,Costura,Deportiva,XL,Rojo,215,209,278,32,6,12,47,15,23.72,706.32,Mancha,Materia prima defectuosa,0.0,0.1135,0.0,Bajo
+3/28/2026,Planta B,L9,Dia,Marshall Greenhaugh,Frieda Itzig,Corte,Deportiva,S,Blanco,298,189,302,46,3,3,20,36,65.28,255.84,Medida incorrecta,Falla maquina,0.0,0.3454,0.0,Bajo
+3/7/2026,Planta A,L1,Noche,Kaine Jory,Elset Rapson,Costura,Deportiva,XL,Gris,124,179,283,97,4,18,59,10,30.83,1185.32,Costura defectuosa,Proceso ineficiente,0.0,0.1722,0.0,Critico
+3/15/2026,Planta B,L1,Tarde,Ginnie Letixier,Guglielmo Alabastar,Corte,Premium,XL,Blanco,287,134,342,18,5,7,17,27,22.2,230.0,Mancha,Error humano,0.0,0.1657,0.0,Bajo
+3/28/2026,Planta C,L4,Tarde,Sophey Ezzell,Kristyn Birkby,Calidad,Basica,XL,Blanco,215,190,88,53,7,16,23,29,8.02,424.14,Corte incorrecto,Falla maquina,0.0,0.0422,2.0,Bajo
+3/21/2026,Planta A,L7,Noche,Bo Anespie,Don Daenen,Acabado,Basica,L,Gris,236,95,221,2,8,7,78,25,4.33,580.64,Costura defectuosa,Error humano,0.0,0.0456,1.0,Bajo
+3/30/2026,Planta C,L6,Dia,Howard Springer,Avril Mallebone,Calidad,Premium,S,Gris,270,136,138,34,7,8,57,21,17.85,580.95,Mancha,Materia prima defectuosa,0.0,0.1313,1.0,Bajo
+3/12/2026,Planta B,L10,Dia,Mame Ollander,Raye Bowering,Corte,Basica,XL,Gris,218,82,360,38,5,7,26,23,28.26,323.3,Costura defectuosa,Proceso ineficiente,0.0,0.3446,0.0,Bajo
+3/25/2026,Planta B,L7,Dia,Gwenora Brisset,Phaedra Dable,Calidad,Basica,M,Negro,303,59,241,115,7,23,36,20,9.48,894.36,Corte incorrecto,Falla maquina,0.0,0.1607,1.0,Critico
+3/8/2026,Planta C,L5,Dia,Alberto Dwane,Kissie Maile,Corte,Deportiva,S,Blanco,134,142,222,83,3,3,13,10,19.68,98.04,Costura defectuosa,Error humano,0.0,0.1386,0.0,Bajo
+3/24/2026,Planta B,L3,Noche,Robinetta Lapwood,Lucretia Wratten,Calidad,Basica,L,Azul,406,96,228,59,4,24,141,79,16.45,3449.8,Costura defectuosa,Proceso ineficiente,0.0,0.1714,1.0,Critico
+3/25/2026,Planta C,L2,Dia,Silvio Confait,Derk Grzeszczyk,Corte,Premium,XL,Blanco,292,147,208,36,2,12,58,22,57.77,811.54,Corte incorrecto,Falla maquina,0.0,0.393,1.0,Bajo
+3/9/2026,Planta A,L1,Tarde,Dulcinea Challenger,Lacie Dowry,Acabado,Deportiva,M,Azul,167,142,144,115,2,16,40,9,13.68,667.36,Medida incorrecta,Materia prima defectuosa,0.0,0.0963,1.0,Critico
+3/29/2026,Planta C,L9,Noche,Taryn Botwright,Merell Klasing,Acabado,Basica,XL,Azul,157,158,410,94,2,22,76,20,28.31,1728.62,Corte incorrecto,Proceso ineficiente,0.0,0.1792,0.0,Critico
+3/11/2026,Planta B,L1,Tarde,Raddy Stiegers,Skelly Coxall,Costura,Premium,S,Blanco,126,160,145,47,8,9,27,15,24.6,439.8,Corte incorrecto,Error humano,0.0,0.1538,0.0,Bajo
+3/6/2026,Planta B,L1,Tarde,Gregoire Dykes,Wilbert Heaney,Calidad,Basica,S,Blanco,384,213,83,75,8,8,52,25,14.62,532.96,Costura defectuosa,Materia prima defectuosa,0.0,0.0686,4.0,Bajo
+3/18/2026,Planta C,L4,Noche,Erskine Whittington,Garvy Cleere,Calidad,Premium,M,Azul,264,183,384,32,2,17,86,26,10.13,1482.26,Tela danada,Proceso ineficiente,0.0,0.0554,0.0,Bajo
+3/20/2026,Planta C,L10,Tarde,Tiffani Copello,Marthena Trounson,Acabado,Basica,XL,Blanco,165,172,317,78,5,20,30,12,17.41,687.05,Medida incorrecta,Materia prima defectuosa,0.0,0.1012,0.0,Bajo
+3/8/2026,Planta C,L1,Dia,Keslie Severns,Evangelin Masurel,Calidad,Deportiva,S,Gris,435,52,233,52,6,15,50,56,3.97,773.82,Corte incorrecto,Falla maquina,0.0,0.0763,1.0,Bajo
+3/5/2026,Planta C,L5,Dia,Deeanne Mantripp,Eadie McColm,Calidad,Basica,L,Gris,156,240,407,47,5,18,17,20,43.26,522.3,Medida incorrecta,Proceso ineficiente,0.0,0.1803,0.0,Bajo
+3/5/2026,Planta A,L2,Dia,Nickolai Henrion,Jaquelyn Wank,Acabado,Deportiva,S,Azul,226,252,375,6,7,25,38,35,19.58,1087.06,Mancha,Falla maquina,0.0,0.0777,0.0,Bajo
+3/20/2026,Planta B,L2,Noche,Frederic Greenard,Heda Girodin,Calidad,Basica,S,Azul,187,187,164,98,3,3,68,26,22.36,271.08,Costura defectuosa,Error humano,0.0,0.1196,1.0,Critico
+3/5/2026,Planta C,L6,Noche,Zorana Adhams,Pall Kippin,Calidad,Deportiva,XL,Azul,396,183,361,32,6,7,191,21,21.76,1467.56,Tela danada,Error humano,0.0,0.1189,1.0,Bajo
+3/23/2026,Planta B,L10,Dia,Page Satch,Annmarie Mathou,Costura,Basica,S,Blanco,275,104,408,99,5,10,60,23,4.79,623.95,Costura defectuosa,Error humano,0.0,0.0461,0.0,Critico
+3/22/2026,Planta C,L3,Tarde,Noel Birmingham,Marlena MacDermid,Costura,Deportiva,XL,Negro,184,240,403,76,8,5,23,25,45.12,475.96,Tela danada,Materia prima defectuosa,0.0,0.188,0.0,Bajo
+3/4/2026,Planta A,L4,Noche,Almeda Carlsson,Vina Lambin,Calidad,Deportiva,M,Blanco,135,228,241,38,8,7,31,11,35.69,502.52,Medida incorrecta,Proceso ineficiente,0.0,0.1565,0.0,Bajo
+3/4/2026,Planta B,L2,Dia,Carma Mabee,Ethelda Finnis,Acabado,Premium,S,Azul,131,262,454,39,6,17,11,18,50.11,487.66,Medida incorrecta,Proceso ineficiente,0.0,0.1913,0.0,Bajo
+3/1/2026,Planta B,L7,Noche,Winston Tummasutti,Jessamine Robken,Calidad,Deportiva,M,Blanco,301,143,195,36,4,25,108,34,21.89,2787.56,Tela danada,Error humano,0.0,0.1531,1.0,Critico
+3/29/2026,Planta A,L3,Tarde,Josepha Selburn,Arlette Kuhndel,Costura,Premium,S,Gris,128,262,440,115,5,8,15,10,43.6,338.0,Costura defectuosa,Proceso ineficiente,0.0,0.1664,0.0,Critico
+3/13/2026,Planta A,L3,Noche,Julianne Chillistone,Arleen Goddard,Corte,Premium,L,Blanco,84,246,179,6,2,20,23,5,69.34,598.68,Corte incorrecto,Falla maquina,0.0,0.2819,0.0,Bajo
+3/5/2026,Planta C,L6,Tarde,Chickie Tween,Cherilynn Alenichicov,Acabado,Basica,M,Negro,237,71,457,81,7,13,57,33,3.1,762.7,Tela danada,Falla maquina,0.0,0.0437,0.0,Bajo
+3/5/2026,Planta B,L5,Noche,Ina Sopper,Carny Richardot,Corte,Premium,M,Rojo,269,296,461,80,2,15,85,22,40.7,1356.4,Mancha,Error humano,0.0,0.1375,0.0,Bajo
+3/13/2026,Planta A,L4,Tarde,Byrann Bemment,Herculie Cunnane,Acabado,Deportiva,XL,Rojo,175,182,311,118,3,10,10,15,22.16,166.48,Corte incorrecto,Materia prima defectuosa,0.0,0.1218,0.0,Critico
+3/14/2026,Planta C,L2,Tarde,Glennis Petley,Anton Nelle,Corte,Deportiva,S,Blanco,248,145,157,74,3,8,17,38,14.97,180.91,Mancha,Error humano,0.0,0.1032,1.0,Bajo
+3/22/2026,Planta A,L3,Tarde,Gerome Hillatt,Priscilla Halsey,Calidad,Premium,L,Blanco,216,165,221,105,7,16,50,16,32.19,1025.33,Tela danada,Proceso ineficiente,0.0,0.1951,0.0,Critico
+3/16/2026,Planta A,L5,Noche,Catha Lawie,Sibyl Clace,Calidad,Premium,L,Negro,128,150,460,82,6,21,26,9,25.75,700.5,Tela danada,Falla maquina,0.0,0.1717,0.0,Bajo
+3/4/2026,Planta B,L2,Noche,Evelyn Heinreich,Shana Canty,Corte,Basica,XL,Negro,184,257,223,47,4,15,47,24,92.38,1074.52,Costura defectuosa,Proceso ineficiente,0.0,0.3595,0.0,Bajo
+3/28/2026,Planta A,L6,Noche,Gweneth Scannell,Jolie Cansdell,Calidad,Premium,L,Azul,109,91,200,40,7,16,25,15,13.4,493.8,Corte incorrecto,Error humano,0.0,0.1473,0.0,Bajo
+3/27/2026,Planta A,L9,Tarde,Mehetabel Marion,Jesselyn Roelofs,Costura,Deportiva,XL,Blanco,121,297,222,78,6,20,17,22,12.03,412.18,Mancha,Error humano,0.0,0.0405,0.0,Bajo
+3/14/2026,Planta A,L5,Tarde,Emilie Handsheart,Kai Duffin,Acabado,Premium,XL,Blanco,184,161,279,6,8,14,46,33,10.65,729.2,Costura defectuosa,Error humano,0.0,0.0661,0.0,Bajo
+3/26/2026,Planta B,L8,Noche,Ursula Chittock,Jeth Mattusevich,Corte,Premium,XL,Rojo,483,215,480,14,6,4,157,59,44.82,896.92,Tela danada,Error humano,0.0,0.2085,1.0,Bajo
+3/30/2026,Planta A,L1,Dia,Joete Massingham,Felic McKinley,Acabado,Basica,M,Gris,444,82,80,103,7,20,45,77,13.58,995.06,Medida incorrecta,Materia prima defectuosa,0.0,0.1656,5.0,Critico
+3/5/2026,Planta A,L1,Tarde,Madalyn Cardenas,Jobyna Slimm,Calidad,Deportiva,M,Gris,435,219,300,59,7,17,60,25,31.2,1238.4,Mancha,Error humano,0.0,0.1425,1.0,Bajo
+3/6/2026,Planta C,L7,Noche,Geralda Mews,Vevay Gouldbourn,Acabado,Basica,L,Azul,195,200,111,119,3,12,76,17,13.2,951.6,Costura defectuosa,Proceso ineficiente,0.0,0.066,1.0,Critico
+3/28/2026,Planta A,L2,Noche,Nike Flood,Morten Bartlomieczak,Corte,Premium,XL,Blanco,142,154,329,2,8,19,28,11,30.03,772.24,Tela danada,Materia prima defectuosa,0.0,0.195,0.0,Bajo
+3/13/2026,Planta A,L5,Tarde,Elijah Matchett,Alejandro Hellwing,Costura,Deportiva,L,Rojo,241,81,255,6,4,17,29,42,9.19,529.76,Corte incorrecto,Falla maquina,0.0,0.1135,0.0,Bajo
+3/10/2026,Planta C,L3,Noche,Noam Handman,Esra Prantl,Calidad,Premium,S,Gris,402,195,421,63,7,25,112,80,37.72,3064.04,Corte incorrecto,Proceso ineficiente,0.0,0.1934,0.0,Critico
+3/7/2026,Planta B,L10,Dia,Glen Garlette,Christel Scates,Corte,Basica,S,Gris,153,124,62,3,7,20,31,16,33.53,854.71,Costura defectuosa,Materia prima defectuosa,0.0,0.2704,2.0,Bajo
+3/1/2026,Planta A,L1,Noche,Bret Enderson,Pedro Cronshaw,Corte,Deportiva,XL,Blanco,339,148,370,30,4,21,133,64,51.75,3000.0,Mancha,Proceso ineficiente,0.0,0.3497,0.0,Critico
+3/13/2026,Planta A,L1,Dia,North Chastanet,Livvyy Pevreal,Costura,Deportiva,XL,Blanco,249,264,139,53,8,15,26,44,39.92,709.36,Mancha,Error humano,0.0,0.1512,1.0,Bajo
+3/20/2026,Planta C,L1,Dia,Sky Boddington,Colman Lobley,Costura,Premium,L,Rojo,195,254,143,70,6,8,15,16,26.33,277.98,Tela danada,Materia prima defectuosa,0.0,0.1037,1.0,Bajo
+3/24/2026,Planta A,L4,Dia,Shelagh Kluger,Rancell Guiduzzi,Corte,Deportiva,XL,Azul,442,70,192,86,3,24,90,64,11.97,2195.91,Costura defectuosa,Materia prima defectuosa,0.0,0.171,2.0,Critico
+3/3/2026,Planta B,L8,Dia,Alric Slaney,Kit Saundercock,Acabado,Basica,XL,Gris,217,69,103,83,4,24,13,22,6.26,337.04,Medida incorrecta,Falla maquina,0.0,0.0907,2.0,Bajo
+3/23/2026,Planta A,L2,Dia,Kenton Duerdin,Ruth Astling,Calidad,Deportiva,L,Rojo,92,133,162,14,8,8,22,14,19.74,333.92,Corte incorrecto,Error humano,0.0,0.1484,0.0,Bajo
+3/3/2026,Planta C,L10,Tarde,Hetti Lomax,Heywood Boagey,Costura,Deportiva,S,Azul,459,295,83,74,3,25,109,28,47.49,2867.47,Tela danada,Falla maquina,0.0,0.161,5.0,Critico
+3/2/2026,Planta B,L2,Noche,Jacqui Stobbe,Sergio Arnao,Calidad,Deportiva,S,Gris,154,270,97,0,6,3,39,25,34.83,325.98,Costura defectuosa,Error humano,0.0,0.129,1.0,Bajo
+3/9/2026,Planta C,L8,Dia,Nannette Corrison,Rick Arnaldo,Costura,Basica,M,Negro,359,296,232,45,6,4,47,24,34.96,397.76,Mancha,Proceso ineficiente,0.0,0.1181,1.0,Bajo
+3/28/2026,Planta C,L7,Tarde,Field Bluck,Theressa Cosbey,Corte,Premium,M,Gris,263,195,310,98,4,21,41,44,39.64,1019.56,Corte incorrecto,Materia prima defectuosa,0.0,0.2033,0.0,Critico
+3/27/2026,Planta B,L1,Tarde,Roley Shovelin,Shae Coldman,Acabado,Basica,L,Negro,470,229,362,42,5,8,110,78,20.88,984.4,Tela danada,Error humano,0.0,0.0912,1.0,Bajo
+3/16/2026,Planta C,L5,Tarde,Kaycee Faustian,Vincenz Odhams,Calidad,Premium,M,Azul,343,57,152,85,3,9,82,41,10.32,768.96,Medida incorrecta,Materia prima defectuosa,0.0,0.1811,2.0,Bajo
+3/13/2026,Planta A,L8,Dia,Murdoch Grills,Seline Gillott,Costura,Premium,M,Negro,223,207,257,19,8,12,32,29,8.13,449.04,Costura defectuosa,Error humano,0.0,0.0393,0.0,Bajo
+3/22/2026,Planta C,L8,Tarde,Kathie Offner,Allissa Smithen,Corte,Deportiva,S,Blanco,311,118,413,56,8,14,77,44,40.53,1402.24,Tela danada,Proceso ineficiente,0.0,0.3435,0.0,Bajo
+3/8/2026,Planta C,L3,Noche,Hillary Castano,Lori Hessel,Corte,Premium,L,Negro,326,267,129,82,6,17,84,27,33.52,1629.12,Corte incorrecto,Materia prima defectuosa,0.0,0.1255,2.0,Bajo
+3/15/2026,Planta B,L5,Tarde,Elie Avis,Ripley Crusham,Calidad,Premium,M,Gris,437,275,274,8,8,11,93,50,33.43,1290.44,Tela danada,Proceso ineficiente,0.0,0.1216,1.0,Bajo
+3/27/2026,Planta B,L8,Noche,Alikee Pace,Obediah Fontelles,Calidad,Basica,S,Azul,338,92,449,6,7,25,79,62,17.92,2100.44,Costura defectuosa,Proceso ineficiente,0.0,0.1948,0.0,Critico
+3/9/2026,Planta B,L7,Dia,Tresa Pole,Stearne Bayliss,Acabado,Premium,S,Blanco,171,205,344,31,7,14,42,26,34.68,830.76,Mancha,Materia prima defectuosa,0.0,0.1692,0.0,Bajo
+3/28/2026,Planta B,L5,Dia,Maribeth Deinhardt,Orland Plaid,Calidad,Premium,L,Azul,316,89,396,91,2,13,39,21,6.5,520.0,Tela danada,Materia prima defectuosa,0.0,0.073,0.0,Critico
+3/13/2026,Planta B,L9,Noche,Ludwig Orred,Brander Edinboro,Acabado,Premium,S,Rojo,206,113,394,110,6,24,85,27,15.86,2135.16,Costura defectuosa,Error humano,0.0,0.1404,0.0,Critico
+3/20/2026,Planta A,L4,Noche,Marysa Kilban,Matt Duckitt,Costura,Basica,L,Negro,292,233,62,88,6,6,110,24,17.26,763.56,Medida incorrecta,Materia prima defectuosa,0.0,0.0741,4.0,Bajo
+3/30/2026,Planta B,L8,Noche,Jabez Rodie,Corny Dewer,Corte,Basica,XL,Azul,335,86,215,47,7,25,84,42,20.79,2245.53,Corte incorrecto,Proceso ineficiente,0.0,0.2417,1.0,Critico
+3/24/2026,Planta A,L1,Dia,Rodina Unger,Fionnula Camplejohn,Costura,Deportiva,L,Rojo,425,154,407,55,2,19,25,66,5.65,486.3,Medida incorrecta,Error humano,0.0,0.0367,1.0,Bajo
+3/11/2026,Planta B,L3,Tarde,Townie Zimmerman,Arden Reuter,Costura,Premium,M,Azul,148,106,380,119,8,25,19,15,8.52,543.16,Medida incorrecta,Error humano,0.0,0.0804,0.0,Critico
+3/18/2026,Planta A,L10,Tarde,Matthiew Simonnin,Brina Stigell,Acabado,Basica,XL,Rojo,358,237,265,87,6,7,30,36,10.84,275.04,Tela danada,Proceso ineficiente,0.0,0.0457,1.0,Bajo
+3/12/2026,Planta A,L9,Dia,Marline Chazette,Aldous Creber,Costura,Basica,S,Azul,261,71,185,6,5,15,17,37,12.44,317.2,Tela danada,Error humano,0.0,0.1752,1.0,Bajo
+3/21/2026,Planta B,L2,Noche,Shandee Uzzell,Livvyy Powis,Costura,Deportiva,S,Rojo,191,69,430,89,4,8,51,11,4.84,427.36,Medida incorrecta,Falla maquina,0.0,0.0701,0.0,Bajo
+3/2/2026,Planta C,L4,Dia,Tildi Smeal,Valerye Espadate,Calidad,Deportiva,XL,Azul,144,74,72,120,5,11,26,19,7.76,324.8,Costura defectuosa,Proceso ineficiente,0.0,0.1049,2.0,Critico
+3/26/2026,Planta C,L9,Dia,Audy O'Longain,Lucretia Robelet,Corte,Basica,L,Gris,181,188,182,30,4,11,23,16,25.39,354.56,Mancha,Proceso ineficiente,0.0,0.1351,0.0,Bajo
+3/2/2026,Planta C,L6,Dia,Kippie Goodier,Niki Legerwood,Costura,Deportiva,L,Negro,294,271,445,49,4,19,42,56,36.58,944.32,Corte incorrecto,Materia prima defectuosa,0.0,0.135,0.0,Bajo
+3/4/2026,Planta C,L5,Dia,Gibby Blowes,Ernestine Yeowell,Calidad,Basica,S,Rojo,423,249,318,33,6,4,41,68,16.16,260.96,Medida incorrecta,Error humano,0.0,0.0649,1.0,Bajo
+3/4/2026,Planta A,L3,Noche,Kai Devereu,Ulrica Eadmeades,Costura,Basica,M,Rojo,425,67,79,2,8,3,96,27,7.17,345.36,Costura defectuosa,Materia prima defectuosa,0.0,0.107,5.0,Bajo
+3/25/2026,Planta B,L1,Tarde,Keslie Poser,Aurelie Basek,Corte,Premium,M,Azul,340,179,281,16,8,12,51,18,46.1,980.8,Tela danada,Falla maquina,0.0,0.2575,1.0,Bajo
+3/18/2026,Planta A,L6,Dia,Valentine Mosdill,Rem Titcomb,Calidad,Premium,M,Blanco,387,64,171,2,4,4,73,35,4.32,309.28,Costura defectuosa,Materia prima defectuosa,0.0,0.0675,2.0,Bajo
+3/1/2026,Planta A,L7,Noche,Peyton Doxsey,Corenda Berth,Acabado,Premium,XL,Azul,369,208,163,59,6,4,119,42,39.62,713.72,Mancha,Error humano,0.0,0.1905,2.0,Bajo
+3/5/2026,Planta C,L9,Dia,Adriano Lates,Agathe Di Claudio,Costura,Premium,XL,Negro,288,217,316,84,3,25,39,47,10.12,1005.36,Tela danada,Falla maquina,0.0,0.0466,0.0,Bajo
+3/5/2026,Planta A,L7,Noche,Oliviero Kedwell,Jack Issatt,Calidad,Premium,XL,Azul,461,261,145,72,2,15,163,75,16.47,2477.94,Corte incorrecto,Materia prima defectuosa,0.0,0.0631,3.0,Critico
+3/24/2026,Planta C,L2,Dia,Lucho MacGaughy,Mitchael Paulet,Costura,Basica,XL,Rojo,421,160,237,102,3,17,93,77,29.38,1669.14,Corte incorrecto,Falla maquina,0.0,0.1836,1.0,Critico
+3/26/2026,Planta A,L8,Noche,Elijah Bartrop,Blanche Rafe,Costura,Deportiva,M,Azul,401,50,267,115,8,25,101,28,5.13,2566.04,Corte incorrecto,Error humano,0.0,0.1026,1.0,Critico
+3/4/2026,Planta C,L3,Tarde,Dyane Haberfield,Aurlie Mears,Corte,Basica,XL,Gris,430,57,93,95,7,4,67,39,19.94,407.58,Medida incorrecta,Proceso ineficiente,0.0,0.3498,4.0,Critico
+3/20/2026,Planta C,L3,Tarde,Jennica Shapland,Jordain Excell,Calidad,Premium,M,Rojo,195,207,139,119,3,21,25,23,7.91,548.73,Costura defectuosa,Error humano,0.0,0.0382,1.0,Critico
+3/20/2026,Planta A,L9,Tarde,Revkah Burgh,Cayla Thody,Corte,Deportiva,L,Negro,500,98,376,71,7,24,29,33,28.96,898.72,Medida incorrecta,Falla maquina,0.0,0.2955,1.0,Bajo
+3/18/2026,Planta A,L10,Tarde,Judd Justice,Lockwood Gemnett,Corte,Deportiva,L,Gris,344,67,157,67,5,21,22,22,15.99,541.95,Costura defectuosa,Materia prima defectuosa,0.0,0.2387,2.0,Bajo
+3/6/2026,Planta B,L8,Noche,Seymour Shave,Korney Chattock,Acabado,Basica,L,Rojo,298,163,222,2,7,25,107,33,18.39,2803.73,Corte incorrecto,Falla maquina,0.0,0.1128,1.0,Critico
+3/3/2026,Planta B,L4,Tarde,Mariska Burgill,Sandor Rudeyeard,Corte,Deportiva,M,Azul,137,98,443,72,3,6,27,8,11.2,195.6,Medida incorrecta,Proceso ineficiente,0.0,0.1143,0.0,Bajo
+3/29/2026,Planta A,L4,Dia,Bevon Bassom,Celestyn Shufflebotham,Calidad,Premium,S,Gris,123,189,173,88,6,11,19,15,22.28,342.68,Medida incorrecta,Falla maquina,0.0,0.1179,0.0,Bajo
+3/11/2026,Planta C,L6,Noche,Dottie Fer,Adella Beeson,Acabado,Deportiva,L,Azul,167,146,92,42,4,20,43,22,18.23,932.92,Corte incorrecto,Proceso ineficiente,0.0,0.1249,1.0,Bajo
+3/1/2026,Planta A,L5,Noche,Natal Barham,Cam Hastwall,Acabado,Deportiva,S,Azul,442,175,380,80,3,8,129,23,13.62,1072.86,Costura defectuosa,Proceso ineficiente,0.0,0.0778,1.0,Bajo
+3/26/2026,Planta B,L4,Dia,Roselia Osgood,Betty Dakhov,Calidad,Premium,S,Negro,361,240,286,72,3,21,87,61,7.68,1850.04,Costura defectuosa,Materia prima defectuosa,0.0,0.032,1.0,Bajo
+3/18/2026,Planta C,L8,Tarde,Gavin Nanetti,Vernon MacCoughen,Calidad,Basica,L,Rojo,392,255,432,105,2,18,53,34,31.62,1017.24,Mancha,Proceso ineficiente,0.0,0.124,0.0,Critico
+3/10/2026,Planta C,L7,Dia,Englebert Binford,Web Somner,Costura,Deportiva,L,Rojo,98,76,173,86,2,5,9,12,4.63,54.26,Corte incorrecto,Falla maquina,0.0,0.0609,0.0,Bajo
+3/14/2026,Planta C,L10,Dia,Alejandro Hackinge,Elroy Blything,Acabado,Premium,M,Rojo,418,70,350,88,8,17,56,35,7.44,1011.52,Mancha,Error humano,0.0,0.1063,1.0,Bajo
+3/30/2026,Planta B,L8,Tarde,Patrizia Gavahan,Maurice Caughte,Calidad,Deportiva,S,Azul,182,247,234,79,6,16,26,21,44.85,685.1,Corte incorrecto,Error humano,0.0,0.1816,0.0,Bajo
+3/24/2026,Planta C,L9,Tarde,Xylina Sancho,Arv Mulqueen,Acabado,Deportiva,M,Negro,168,115,340,79,8,12,23,29,10.67,361.36,Mancha,Materia prima defectuosa,0.0,0.0928,0.0,Bajo
+3/13/2026,Planta B,L6,Tarde,Eilis Barrable,Cristiano Granville,Corte,Premium,L,Gris,307,279,247,109,6,9,35,46,41.85,566.1,Medida incorrecta,Proceso ineficiente,0.0,0.15,1.0,Critico
+3/8/2026,Planta B,L8,Noche,Legra Balhatchet,Ede Smither,Costura,Premium,M,Gris,144,300,362,83,6,20,66,28,26.48,1478.88,Medida incorrecta,Proceso ineficiente,0.0,0.0883,0.0,Bajo
+3/14/2026,Planta C,L5,Dia,Kendre Lankford,Bianka Danielsohn,Corte,Basica,XL,Blanco,137,280,384,36,8,6,9,14,57.85,516.8,Costura defectuosa,Error humano,0.0,0.2066,0.0,Bajo
+3/10/2026,Planta C,L7,Noche,Christean Hick,Daune Edmunds,Calidad,Basica,XL,Blanco,126,262,369,54,8,8,43,13,21.2,513.6,Medida incorrecta,Materia prima defectuosa,0.0,0.0809,0.0,Bajo
+3/22/2026,Planta A,L10,Noche,Mariquilla Doutch,Lori Newby,Corte,Basica,L,Azul,124,125,72,28,3,21,36,10,13.54,796.62,Tela danada,Falla maquina,0.0,0.1083,1.0,Bajo
+3/7/2026,Planta C,L4,Tarde,Egan Sporgeon,Rodolphe Wittier,Acabado,Premium,M,Azul,424,182,345,59,2,14,21,68,20.48,334.96,Corte incorrecto,Proceso ineficiente,0.0,0.1125,1.0,Bajo
+3/9/2026,Planta C,L1,Tarde,Zita Billing,Lesly Pollak,Acabado,Deportiva,L,Gris,320,203,352,16,7,11,29,39,7.92,374.44,Costura defectuosa,Falla maquina,0.0,0.039,0.0,Bajo
+3/26/2026,Planta B,L2,Tarde,Petra Avent,Dorella Whipp,Acabado,Basica,L,Negro,330,183,83,61,7,20,53,18,17.96,1185.72,Tela danada,Error humano,0.0,0.0981,3.0,Bajo
+3/1/2026,Planta A,L4,Tarde,Kylynn Le Monnier,Shelba O'Glessane,Corte,Basica,XL,Gris,81,74,92,16,6,4,14,7,14.48,142.88,Corte incorrecto,Falla maquina,0.0,0.1957,0.0,Bajo
+3/10/2026,Planta C,L10,Noche,Bartie Hawkridge,Marga Haugg,Corte,Premium,XL,Rojo,199,294,406,32,3,22,43,17,100.84,1248.52,Medida incorrecta,Proceso ineficiente,0.0,0.343,0.0,Bajo
+3/1/2026,Planta A,L7,Tarde,Maxine Blumfield,Lorrie Morson,Acabado,Deportiva,L,Azul,174,288,332,85,5,6,26,25,12.25,217.25,Medida incorrecta,Materia prima defectuosa,0.0,0.0425,0.0,Bajo
+3/20/2026,Planta A,L8,Noche,Rollins Trumpeter,Marita Huchot,Costura,Basica,S,Blanco,437,206,109,62,3,12,182,31,24.91,2258.73,Corte incorrecto,Materia prima defectuosa,0.0,0.1209,4.0,Critico
+3/30/2026,Planta B,L2,Tarde,Kathye Venour,Emilee Pearcey,Calidad,Deportiva,XL,Negro,181,293,241,56,3,14,20,16,40.16,400.48,Costura defectuosa,Falla maquina,0.0,0.1371,0.0,Bajo
+3/14/2026,Planta B,L5,Tarde,Carver Engeham,Katey Prayer,Costura,Basica,XL,Gris,193,232,192,53,5,12,46,22,6.97,586.85,Medida incorrecta,Error humano,0.0,0.03,1.0,Bajo
+3/26/2026,Planta B,L8,Noche,Emlyn Machel,Hobard Brosch,Acabado,Deportiva,XL,Rojo,292,280,80,57,8,3,123,26,20.11,529.88,Tela danada,Falla maquina,0.0,0.0718,3.0,Bajo
+3/11/2026,Planta C,L7,Tarde,Elsworth Gibbs,Sebastian Fettes,Calidad,Basica,M,Azul,248,60,188,55,3,24,56,25,4.52,1357.56,Tela danada,Proceso ineficiente,0.0,0.0753,1.0,Bajo
+3/28/2026,Planta A,L8,Noche,Afton Murrells,Cozmo Rickeard,Acabado,Premium,XL,Blanco,96,141,247,41,8,16,44,11,12.04,800.32,Medida incorrecta,Proceso ineficiente,0.0,0.0854,0.0,Bajo
+3/28/2026,Planta B,L9,Noche,Sheelah Paolinelli,Aubry Genner,Costura,Deportiva,L,Negro,379,244,335,9,8,5,118,73,47.22,967.76,Tela danada,Proceso ineficiente,0.0,0.1935,1.0,Bajo
+3/4/2026,Planta B,L2,Tarde,Kizzee Woodcraft,Flossie Sumshon,Costura,Deportiva,M,Gris,148,227,138,45,6,15,21,26,19.4,431.4,Mancha,Materia prima defectuosa,0.0,0.0855,1.0,Bajo
+3/21/2026,Planta C,L9,Tarde,Lauritz Wellwood,Mitchell Jeavons,Acabado,Deportiva,XL,Blanco,470,246,308,8,2,20,86,60,40.58,1801.16,Medida incorrecta,Falla maquina,0.0,0.165,1.0,Bajo
+3/19/2026,Planta A,L2,Dia,Elmore Schooley,Kathrine Cliffe,Calidad,Premium,XL,Rojo,319,166,298,0,4,8,17,27,21.98,223.92,Mancha,Falla maquina,0.0,0.1324,1.0,Bajo
+3/17/2026,Planta C,L9,Dia,Helena Kindell,Lion Rodolf,Costura,Basica,M,Gris,368,102,456,69,7,24,81,51,19.38,2079.66,Tela danada,Falla maquina,0.0,0.19,0.0,Critico
+3/8/2026,Planta C,L7,Dia,Janina Benley,Penn German,Calidad,Deportiva,L,Azul,265,240,451,39,5,12,34,39,33.27,574.35,Costura defectuosa,Proceso ineficiente,0.0,0.1386,0.0,Bajo
+3/14/2026,Planta A,L6,Dia,Idette Milberry,Gwyn Mensler,Corte,Basica,L,Azul,367,169,66,46,2,13,32,29,32.31,480.62,Tela danada,Proceso ineficiente,0.0,0.1912,5.0,Bajo
+3/8/2026,Planta C,L4,Noche,Vick Aggott,Meryl Arnoldi,Costura,Premium,S,Azul,133,210,220,54,8,24,44,19,9.97,1135.76,Tela danada,Proceso ineficiente,0.0,0.0475,0.0,Bajo
+3/17/2026,Planta A,L5,Dia,Glenna Jemmett,Luis Earland,Acabado,Premium,M,Azul,285,115,310,51,4,17,18,49,11.18,350.72,Costura defectuosa,Error humano,0.0,0.0972,0.0,Bajo
+3/8/2026,Planta C,L5,Dia,Callean Tynnan,Kenneth Woodgate,Corte,Premium,L,Azul,264,278,243,98,2,23,24,42,75.55,703.1,Tela danada,Proceso ineficiente,0.0,0.2718,1.0,Critico
+3/14/2026,Planta A,L5,Tarde,Swen Pryell,Eli Inwood,Calidad,Deportiva,S,Rojo,228,99,149,1,5,14,41,25,18.9,668.5,Mancha,Materia prima defectuosa,0.0,0.1909,1.0,Bajo
+3/11/2026,Planta A,L8,Noche,Nataniel Shenton,Kittie Angove,Costura,Deportiva,S,Negro,180,71,338,103,7,17,69,21,10.21,1244.47,Corte incorrecto,Materia prima defectuosa,0.0,0.1438,0.0,Critico
+3/12/2026,Planta B,L2,Tarde,Eunice Brokenshire,Aldridge Keyho,Calidad,Premium,M,Rojo,233,261,242,48,3,23,16,28,14.81,412.43,Tela danada,Proceso ineficiente,0.0,0.0567,0.0,Bajo
+3/16/2026,Planta A,L7,Noche,Prent Dobing,Chickie Castles,Calidad,Premium,S,Blanco,361,76,138,12,7,25,127,61,9.93,3244.51,Mancha,Error humano,0.0,0.1307,2.0,Critico
+3/20/2026,Planta A,L5,Tarde,Shamus Maund,Guntar Karpmann,Acabado,Basica,M,Azul,287,166,316,100,5,13,15,17,15.89,274.45,Mancha,Materia prima defectuosa,0.0,0.0957,0.0,Critico
+3/18/2026,Planta A,L5,Noche,Olenolin Britian,Nancy Ligoe,Costura,Basica,S,Gris,316,90,389,37,5,3,149,25,3.69,465.45,Tela danada,Materia prima defectuosa,0.0,0.041,0.0,Bajo
+3/19/2026,Planta A,L10,Dia,Corney Skelhorn,Desmund Birckmann,Acabado,Premium,M,Gris,452,142,173,93,6,21,64,24,9.15,1398.9,Tela danada,Proceso ineficiente,0.0,0.0644,2.0,Critico
+3/20/2026,Planta A,L1,Tarde,Charmain Swett,Janela Bines,Corte,Basica,M,Rojo,238,207,279,81,2,19,24,21,82.41,620.82,Corte incorrecto,Falla maquina,0.0,0.3981,0.0,Bajo
+3/22/2026,Planta C,L5,Tarde,Weber Whitwood,Kym Latus,Costura,Basica,M,Gris,269,164,172,117,2,16,52,19,15.4,862.8,Tela danada,Proceso ineficiente,0.0,0.0939,1.0,Critico
+3/12/2026,Planta B,L10,Noche,Gayleen Goss,Bria Keedy,Corte,Deportiva,S,Gris,102,51,65,29,4,21,37,5,11.62,823.48,Costura defectuosa,Falla maquina,0.0,0.2278,1.0,Bajo
+3/11/2026,Planta B,L9,Dia,Thea O'Flaverty,Garner Allgood,Costura,Deportiva,M,Azul,316,206,273,62,2,13,29,53,34.95,446.9,Tela danada,Falla maquina,0.0,0.1697,1.0,Bajo
+3/11/2026,Planta C,L5,Dia,Alexis Baston,Bette-ann Beadell,Calidad,Premium,S,Negro,290,228,417,14,7,17,69,35,39.41,1448.87,Tela danada,Materia prima defectuosa,0.0,0.1729,0.0,Bajo
+3/4/2026,Planta B,L1,Dia,Griffin Dumigan,Demetris Rolstone,Calidad,Premium,XL,Blanco,247,202,242,31,8,8,56,23,23.35,634.8,Costura defectuosa,Materia prima defectuosa,0.0,0.1156,1.0,Bajo
+3/24/2026,Planta C,L5,Noche,Perle Thundercliffe,Glynda Goding,Costura,Basica,S,Rojo,326,100,103,106,6,18,93,44,15.03,1764.18,Costura defectuosa,Falla maquina,0.0,0.1503,3.0,Critico
+3/9/2026,Planta B,L5,Noche,Kylie Renfield,Bernarr Dodle,Corte,Basica,M,Azul,220,214,115,2,6,13,94,37,40.4,1464.4,Corte incorrecto,Materia prima defectuosa,0.0,0.1888,1.0,Bajo
+3/10/2026,Planta B,L9,Dia,Coraline Reffe,Ethelbert Ceillier,Calidad,Deportiva,M,Gris,134,239,397,76,4,7,14,26,46.78,285.12,Costura defectuosa,Falla maquina,0.0,0.1957,0.0,Bajo
+3/7/2026,Planta C,L4,Dia,Mead Eitter,Minda Burdekin,Acabado,Basica,XL,Rojo,110,99,389,48,4,20,25,6,4.01,516.04,Mancha,Proceso ineficiente,0.0,0.0405,0.0,Bajo
+3/14/2026,Planta B,L5,Noche,Reinaldos Neagle,Christa Maclaine,Calidad,Deportiva,S,Blanco,249,110,206,80,7,15,94,42,5.06,1445.42,Medida incorrecta,Proceso ineficiente,0.0,0.046,1.0,Bajo
+3/2/2026,Planta C,L5,Tarde,Rex Luetchford,Steward Sedge,Acabado,Premium,M,Rojo,474,226,357,8,7,20,77,83,19.87,1679.09,Costura defectuosa,Falla maquina,0.0,0.0879,1.0,Bajo
+3/11/2026,Planta C,L5,Tarde,Ethelbert Cadd,Lonee Lucks,Costura,Premium,XL,Rojo,119,137,264,49,7,4,6,23,8.96,86.72,Mancha,Proceso ineficiente,0.0,0.0654,0.0,Bajo
+3/4/2026,Planta C,L7,Tarde,Benito Ventam,Adi Buffham,Acabado,Premium,M,Blanco,179,108,426,52,4,20,20,14,19.9,479.6,Medida incorrecta,Proceso ineficiente,0.0,0.1843,0.0,Bajo
+3/18/2026,Planta B,L6,Noche,Siegfried Gillson,Trueman Geator,Calidad,Deportiva,S,Blanco,455,73,289,14,6,19,207,65,11.02,3999.12,Mancha,Error humano,0.0,0.151,1.0,Critico
+3/6/2026,Planta B,L4,Noche,Jordon Argont,Diahann Djurkovic,Corte,Basica,M,Azul,196,260,195,54,5,21,61,23,36.14,1461.7,Costura defectuosa,Proceso ineficiente,0.0,0.139,1.0,Bajo
+3/14/2026,Planta C,L5,Noche,Napoleon Mallabone,Merilee Brack,Calidad,Basica,S,Gris,248,206,203,103,4,9,57,31,36.7,659.8,Medida incorrecta,Proceso ineficiente,0.0,0.1782,1.0,Critico
+3/25/2026,Planta A,L2,Dia,Greggory Locock,Marne Kleszinski,Calidad,Basica,S,Gris,232,170,448,87,6,19,42,29,21.48,926.88,Corte incorrecto,Error humano,0.0,0.1264,0.0,Bajo
+3/16/2026,Planta B,L9,Dia,Vincent Fitt,Purcell Skamell,Corte,Premium,S,Azul,171,147,169,36,6,25,28,17,57.48,1044.88,Costura defectuosa,Error humano,0.0,0.391,1.0,Bajo
+3/23/2026,Planta A,L1,Noche,Dale Rowly,Ulberto Heintzsch,Acabado,Basica,L,Rojo,219,139,165,70,5,4,84,43,16.29,417.45,Costura defectuosa,Proceso ineficiente,0.0,0.1172,1.0,Bajo
+3/4/2026,Planta C,L6,Noche,Lancelot Hedworth,Lelia Denington,Calidad,Deportiva,S,Negro,253,170,250,103,6,8,63,44,25.27,655.62,Mancha,Proceso ineficiente,0.0,0.1486,1.0,Critico
+3/30/2026,Planta B,L10,Tarde,Pammi Haney,Efren Trevance,Corte,Basica,L,Azul,244,141,333,91,6,18,47,13,29.12,1020.72,Corte incorrecto,Materia prima defectuosa,0.0,0.2065,0.0,Critico
+3/1/2026,Planta A,L1,Noche,Evvie Pinckney,Aigneis Scragg,Acabado,Basica,XL,Gris,96,153,377,13,5,25,34,14,26.35,981.75,Costura defectuosa,Materia prima defectuosa,0.0,0.1722,0.0,Bajo
+3/6/2026,Planta A,L10,Dia,Dane Puttock,Marabel Padefield,Calidad,Deportiva,S,Blanco,441,142,346,72,5,22,64,59,14.8,1482.0,Costura defectuosa,Materia prima defectuosa,0.0,0.1042,1.0,Bajo
+3/17/2026,Planta B,L8,Tarde,Wakefield Birdwhistle,Murielle Patterson,Acabado,Basica,XL,Blanco,121,158,243,96,4,14,11,24,23.4,247.6,Corte incorrecto,Proceso ineficiente,0.0,0.1481,0.0,Critico
+3/18/2026,Planta A,L8,Tarde,Annice Arcase,Erinn Barkshire,Corte,Basica,L,Negro,413,146,358,4,8,3,72,40,57.28,674.24,Corte incorrecto,Materia prima defectuosa,0.0,0.3923,1.0,Bajo
+3/20/2026,Planta C,L10,Dia,Esmeralda Peppard,Rafe Rodmell,Costura,Deportiva,L,Negro,481,278,359,97,6,25,66,71,34.62,1857.72,Costura defectuosa,Proceso ineficiente,0.0,0.1245,1.0,Critico
+3/21/2026,Planta C,L4,Tarde,Keane McLafferty,Benedick Ebdon,Costura,Deportiva,M,Azul,410,271,388,91,5,20,30,31,27.31,736.55,Costura defectuosa,Error humano,0.0,0.1008,1.0,Critico
+3/3/2026,Planta B,L4,Tarde,Wynne Vass,Granville Bigrigg,Costura,Deportiva,S,Azul,138,233,271,78,3,20,13,21,43.31,389.93,Medida incorrecta,Error humano,0.0,0.1859,0.0,Bajo
+3/8/2026,Planta C,L10,Dia,Mar Doggart,Elbertine Catlow,Corte,Deportiva,XL,Rojo,85,173,382,20,7,13,14,8,43.49,486.43,Mancha,Falla maquina,0.0,0.2514,0.0,Bajo
+3/7/2026,Planta C,L1,Dia,Nadeen Limbourne,Daron Deplacido,Corte,Deportiva,L,Blanco,311,290,464,61,4,17,53,22,54.7,1119.8,Mancha,Materia prima defectuosa,0.0,0.1886,0.0,Bajo
+3/12/2026,Planta C,L4,Tarde,Lind Pelling,Grange Umbert,Costura,Basica,M,Negro,118,50,353,6,6,12,14,19,9.9,227.4,Corte incorrecto,Proceso ineficiente,0.0,0.198,0.0,Bajo
+3/7/2026,Planta A,L8,Tarde,Cooper Potier,Barbabra Harbisher,Calidad,Deportiva,M,Negro,111,195,62,46,7,23,7,20,21.41,310.87,Mancha,Materia prima defectuosa,0.0,0.1098,1.0,Bajo
+3/30/2026,Planta B,L3,Tarde,Ede Pheasant,Cristal Geldeford,Acabado,Basica,M,Rojo,157,96,429,114,4,10,25,8,6.63,276.52,Mancha,Proceso ineficiente,0.0,0.0691,0.0,Critico
+3/22/2026,Planta B,L9,Noche,Douglas Rosendale,Vale Falco,Corte,Basica,S,Azul,306,58,283,111,6,10,131,41,6.43,1348.58,Costura defectuosa,Error humano,0.0,0.1109,1.0,Critico
+3/6/2026,Planta C,L1,Dia,Jan Longden,Price Gleaves,Acabado,Basica,M,Rojo,177,131,129,44,4,5,32,10,10.67,202.68,Corte incorrecto,Falla maquina,0.0,0.0815,1.0,Bajo
+3/20/2026,Planta A,L1,Dia,Jeana Lambdin,Helene Thomel,Calidad,Basica,M,Rojo,335,133,279,16,2,5,19,25,9.29,113.58,Mancha,Falla maquina,0.0,0.0698,1.0,Bajo
+3/17/2026,Planta C,L8,Noche,Elane Weaben,Wynn Limeburner,Acabado,Basica,M,Negro,179,208,412,28,5,12,81,29,20.89,1076.45,Medida incorrecta,Proceso ineficiente,0.0,0.1004,0.0,Bajo
+3/11/2026,Planta B,L7,Tarde,Marwin Campkin,Flore Dymick,Corte,Basica,L,Azul,413,134,276,92,2,15,84,76,49.1,1358.2,Costura defectuosa,Proceso ineficiente,0.0,0.3664,1.0,Critico
+3/3/2026,Planta B,L10,Noche,Darrell Cookney,Dukey Cleminshaw,Costura,Deportiva,XL,Azul,370,108,372,72,7,15,155,64,14.97,2429.79,Corte incorrecto,Materia prima defectuosa,0.0,0.1386,0.0,Critico
+3/24/2026,Planta C,L1,Dia,Cindie Triplet,Wilmette Vasiliev,Corte,Deportiva,S,Gris,218,190,228,20,8,8,46,16,59.3,842.4,Costura defectuosa,Falla maquina,0.0,0.3121,0.0,Bajo
+3/15/2026,Planta A,L6,Noche,Mavra De Nisco,Venita Meritt,Corte,Deportiva,XL,Rojo,481,94,170,33,6,23,148,64,19.76,3522.56,Tela danada,Materia prima defectuosa,0.0,0.2102,2.0,Critico
+3/1/2026,Planta B,L3,Tarde,Hort Pieters,Prudence Farress,Corte,Premium,L,Negro,423,238,249,104,2,9,102,60,51.34,1020.68,Mancha,Materia prima defectuosa,0.0,0.2157,1.0,Critico
+3/3/2026,Planta B,L8,Dia,Audre Jewel,Newton Osgar,Calidad,Deportiva,M,Rojo,399,176,480,78,6,6,84,62,23.19,643.14,Tela danada,Error humano,0.0,0.1318,0.0,Bajo
+3/30/2026,Planta C,L10,Tarde,Michaella McGlade,Darlleen Duhig,Acabado,Premium,XL,Azul,407,187,347,11,5,12,46,38,20.21,653.05,Corte incorrecto,Proceso ineficiente,0.0,0.1081,1.0,Bajo
+3/27/2026,Planta C,L3,Noche,Cortie Faragher,Patten Bertolaccini,Acabado,Premium,S,Negro,387,108,331,22,7,7,142,57,7.15,1044.05,Tela danada,Materia prima defectuosa,0.0,0.0662,1.0,Bajo
+3/17/2026,Planta B,L5,Tarde,Berni Paz,Alberta Janse,Acabado,Deportiva,L,Rojo,156,172,258,51,7,15,25,16,15.16,481.12,Corte incorrecto,Proceso ineficiente,0.0,0.0881,0.0,Bajo
+3/8/2026,Planta C,L2,Tarde,Kilian Coverly,Beatrice Dunlap,Corte,Deportiva,M,Negro,138,207,290,108,4,6,31,14,52.31,395.24,Tela danada,Falla maquina,0.0,0.2527,0.0,Critico
+3/19/2026,Planta A,L4,Tarde,Debor Deal,Tobiah Stoving,Costura,Basica,L,Gris,213,126,109,119,5,25,39,12,20.5,1077.5,Tela danada,Error humano,0.0,0.1627,1.0,Critico
+3/25/2026,Planta A,L5,Tarde,Agustin Sapir,Malynda Kleinstub,Calidad,Premium,L,Azul,260,147,262,59,3,4,39,15,22.87,224.61,Medida incorrecta,Error humano,0.0,0.1556,0.0,Bajo
+3/16/2026,Planta C,L8,Tarde,Veronica Trousdale,Kellina Verralls,Costura,Basica,S,Blanco,459,86,376,51,2,7,34,68,11.43,260.86,Costura defectuosa,Falla maquina,0.0,0.1329,1.0,Bajo
+3/1/2026,Planta A,L3,Dia,Ludwig Parrish,Davine Grouer,Calidad,Deportiva,XL,Gris,158,70,393,17,5,21,37,22,6.66,810.3,Corte incorrecto,Error humano,0.0,0.0951,0.0,Bajo
+3/12/2026,Planta B,L10,Tarde,Rivkah Slocomb,Crystal Mabbot,Acabado,Basica,M,Blanco,460,172,65,13,3,14,41,40,15.66,620.98,Corte incorrecto,Falla maquina,0.0,0.091,7.0,Bajo
+3/21/2026,Planta B,L5,Tarde,Jordain Innerstone,Roarke Ainscough,Calidad,Deportiva,M,Azul,457,211,321,14,3,11,49,50,12.05,575.15,Corte incorrecto,Error humano,0.0,0.0571,1.0,Bajo
+3/5/2026,Planta B,L4,Dia,Richie Whaymand,Devonne Wolford,Acabado,Premium,XL,Gris,304,76,61,84,2,4,70,25,10.85,301.7,Mancha,Error humano,0.0,0.1428,4.0,Bajo
+3/27/2026,Planta A,L5,Dia,Wylma Ensley,Dania Worboys,Calidad,Deportiva,M,Gris,477,270,242,60,3,25,45,90,20.67,1187.01,Costura defectuosa,Error humano,0.0,0.0766,1.0,Bajo
+3/15/2026,Planta B,L2,Noche,Noelani Wehden,Cort Goodbanne,Calidad,Premium,L,Azul,465,285,173,83,5,25,171,89,27.49,4412.45,Mancha,Falla maquina,0.0,0.0965,2.0,Critico
+3/18/2026,Planta C,L1,Noche,Denys Pierce,Patrizius Paulack,Costura,Basica,S,Blanco,357,214,333,26,5,7,88,31,33.57,783.85,Tela danada,Proceso ineficiente,0.0,0.1569,1.0,Bajo
+3/28/2026,Planta C,L10,Noche,Tilly Sansam,Curt Gloster,Calidad,Basica,S,Negro,325,245,400,72,3,8,131,25,12.86,1086.58,Medida incorrecta,Falla maquina,0.0,0.0525,0.0,Bajo
+3/30/2026,Planta A,L9,Tarde,Conrado Chartres,Danielle Margaret,Costura,Premium,M,Rojo,315,176,66,27,3,5,64,40,30.61,411.83,Mancha,Error humano,0.0,0.1739,4.0,Bajo
+3/9/2026,Planta A,L10,Dia,Dillie Wollard,Peggie Labuschagne,Calidad,Basica,M,Azul,201,206,169,62,2,12,32,34,26.37,436.74,Mancha,Error humano,0.0,0.128,1.0,Bajo
+3/16/2026,Planta C,L2,Noche,Gaston Boatwright,Edna Villalta,Corte,Deportiva,S,Negro,370,172,327,93,7,10,148,66,22.77,1639.39,Tela danada,Falla maquina,0.0,0.1324,1.0,Critico
+3/21/2026,Planta A,L5,Dia,Jane Ivanishin,Margette Yakunkin,Corte,Basica,S,Rojo,202,207,211,60,4,15,13,22,22.98,286.92,Mancha,Falla maquina,0.0,0.111,0.0,Bajo
+3/8/2026,Planta C,L1,Dia,Ingra Stowell,Robinette Hannah,Acabado,Basica,XL,Negro,133,295,419,78,6,23,27,16,35.11,831.66,Tela danada,Materia prima defectuosa,0.0,0.119,0.0,Bajo
+3/27/2026,Planta C,L10,Tarde,Kimbell Konzel,Inna Brant,Costura,Premium,S,Negro,164,128,398,9,7,24,20,12,11.03,557.21,Tela danada,Proceso ineficiente,0.0,0.0862,0.0,Bajo
+3/25/2026,Planta B,L5,Tarde,Durand Grafton-Herbert,Siouxie Naton,Costura,Basica,M,Negro,123,128,159,23,6,25,17,20,18.59,536.54,Tela danada,Error humano,0.0,0.1452,0.0,Bajo
+3/1/2026,Planta A,L5,Dia,Tanney Pugh,Arte Bolitho,Calidad,Deportiva,XL,Blanco,146,252,401,91,8,22,23,20,40.59,830.72,Mancha,Error humano,0.0,0.1611,0.0,Critico
+3/4/2026,Planta A,L10,Tarde,Jemmie Lepper,Zorah Everal,Corte,Basica,L,Rojo,280,164,359,23,5,24,56,29,35.72,1522.6,Medida incorrecta,Materia prima defectuosa,0.0,0.2178,0.0,Bajo
+3/6/2026,Planta C,L8,Noche,Davin Stampfer,Curr McTeer,Calidad,Deportiva,S,Negro,361,54,333,118,2,22,144,59,2.07,3172.14,Corte incorrecto,Falla maquina,0.0,0.0383,1.0,Critico
+3/6/2026,Planta C,L8,Noche,Deanna Golland,Verena Livesley,Acabado,Deportiva,S,Negro,472,91,478,72,6,18,234,91,17.86,4319.16,Medida incorrecta,Proceso ineficiente,0.0,0.1963,0.0,Critico
+3/4/2026,Planta A,L3,Dia,Selena Bonar,Irma Beekmann,Acabado,Deportiva,M,Negro,345,203,275,27,3,17,83,24,7.36,1433.08,Costura defectuosa,Falla maquina,0.0,0.0363,1.0,Bajo
+3/18/2026,Planta B,L6,Noche,Jessie Wedgbrow,Penny Batcheldor,Acabado,Basica,M,Negro,462,137,276,44,6,24,140,34,13.23,3439.38,Tela danada,Falla maquina,0.0,0.0966,1.0,Critico
+3/7/2026,Planta B,L9,Noche,Hendrika Reisenstein,Ludovico Kiddle,Corte,Premium,M,Azul,303,62,221,77,3,25,112,22,10.6,2831.8,Costura defectuosa,Falla maquina,0.0,0.171,1.0,Critico
+3/16/2026,Planta A,L10,Noche,Benedick Donnersberg,Morley Huburn,Acabado,Basica,L,Rojo,327,230,411,117,6,21,117,29,36.89,2678.34,Tela danada,Materia prima defectuosa,0.0,0.1604,0.0,Critico
+3/26/2026,Planta C,L9,Noche,Tressa Dodd,Kermit California,Acabado,Basica,M,Gris,249,281,238,55,3,20,50,17,22.54,1067.62,Tela danada,Materia prima defectuosa,0.0,0.0802,1.0,Bajo
+3/14/2026,Planta C,L1,Tarde,Mic Elfitt,Doretta Watkiss,Acabado,Premium,L,Gris,102,230,319,80,5,6,19,18,40.2,315.0,Corte incorrecto,Falla maquina,0.0,0.1748,0.0,Bajo
+3/21/2026,Planta A,L6,Tarde,Lou Joyce,Goober Bertot,Costura,Premium,XL,Negro,98,187,375,112,5,25,10,5,28.03,390.15,Medida incorrecta,Proceso ineficiente,0.0,0.1499,0.0,Critico
+3/2/2026,Planta C,L8,Tarde,Adel Polglase,Cos Clarkin,Calidad,Premium,M,Gris,287,108,329,88,7,16,36,45,14.42,676.94,Tela danada,Proceso ineficiente,0.0,0.1335,0.0,Bajo
+3/30/2026,Planta B,L6,Tarde,Elladine Coggen,Ingram Katzmann,Acabado,Premium,L,Gris,122,296,160,93,7,17,29,9,35.98,744.86,Corte incorrecto,Proceso ineficiente,0.0,0.1216,0.0,Critico
+3/2/2026,Planta C,L10,Dia,Falkner Cobby,Ive Ciciotti,Costura,Deportiva,S,Rojo,265,223,459,50,6,14,26,34,12.6,439.6,Tela danada,Proceso ineficiente,0.0,0.0565,0.0,Bajo
+3/22/2026,Planta B,L4,Noche,Madison Curnick,Koral Campagne,Calidad,Deportiva,L,Azul,227,296,404,116,7,13,90,21,40.61,1454.27,Medida incorrecta,Materia prima defectuosa,0.0,0.1372,0.0,Critico
+3/7/2026,Planta A,L10,Tarde,Kalie Collingham,Issiah Alanbrooke,Costura,Premium,XL,Gris,393,52,430,96,6,18,47,31,4.49,872.94,Corte incorrecto,Falla maquina,0.0,0.0863,0.0,Critico
+3/25/2026,Planta A,L8,Tarde,Quintana Linkie,Richard Plackstone,Costura,Premium,S,Rojo,183,263,443,18,4,10,34,30,52.18,548.72,Costura defectuosa,Error humano,0.0,0.1984,0.0,Bajo
+3/10/2026,Planta C,L4,Tarde,Sean O'Boyle,Addy Coxwell,Costura,Basica,L,Blanco,470,158,463,32,7,24,95,30,14.11,2378.77,Costura defectuosa,Error humano,0.0,0.0893,1.0,Critico
+3/1/2026,Planta B,L9,Noche,Anetta Udale,Leslie Hodgon,Calidad,Basica,L,Blanco,297,203,180,65,8,10,125,38,39.87,1568.96,Mancha,Falla maquina,0.0,0.1964,1.0,Bajo
+3/27/2026,Planta C,L3,Noche,Gwynne Vittle,Olenka Rowlands,Corte,Deportiva,S,Gris,431,253,178,80,3,12,173,82,37.95,2189.85,Tela danada,Proceso ineficiente,0.0,0.15,2.0,Critico
+3/22/2026,Planta A,L8,Dia,Cosetta Linskey,Martha Beahan,Acabado,Premium,XL,Gris,223,201,401,35,3,7,42,34,10.21,324.63,Corte incorrecto,Error humano,0.0,0.0508,0.0,Bajo
+3/4/2026,Planta B,L1,Dia,Nolan Banghe,Luca Sheber,Acabado,Premium,M,Azul,110,229,289,18,5,15,9,16,24.3,256.5,Medida incorrecta,Falla maquina,0.0,0.1061,0.0,Bajo
+3/16/2026,Planta A,L8,Tarde,Jeniffer Ternent,Verney Gotch,Corte,Deportiva,S,Negro,470,53,238,98,7,24,37,58,6.85,935.95,Medida incorrecta,Proceso ineficiente,0.0,0.1292,1.0,Critico
+3/18/2026,Planta B,L6,Tarde,Shaun Cato,Evanne Fussey,Acabado,Basica,L,Blanco,113,255,250,99,5,19,18,18,27.68,480.4,Tela danada,Falla maquina,0.0,0.1085,0.0,Critico
+3/10/2026,Planta A,L7,Tarde,Ignatius Bambridge,Felice Tuppeny,Calidad,Premium,S,Blanco,97,90,274,13,4,15,13,13,3.99,210.96,Costura defectuosa,Error humano,0.0,0.0443,0.0,Bajo
+3/23/2026,Planta C,L7,Tarde,Ottilie Crispin,Eileen Mogg,Costura,Premium,XL,Azul,287,184,117,34,5,24,59,37,7.15,1451.75,Tela danada,Error humano,0.0,0.0389,2.0,Bajo
+3/13/2026,Planta B,L6,Dia,Bucky Stoppe,Carlota Austin,Costura,Deportiva,S,Gris,265,223,61,96,3,19,41,26,29.18,866.54,Tela danada,Materia prima defectuosa,0.0,0.1309,4.0,Critico
+3/16/2026,Planta A,L6,Noche,Milty Gossage,Hatty De Mico,Calidad,Deportiva,L,Azul,455,297,324,34,5,11,189,34,20.07,2179.35,Mancha,Falla maquina,0.0,0.0676,1.0,Critico
+3/26/2026,Planta B,L1,Tarde,Jorry Ericssen,Fara Schulke,Acabado,Deportiva,M,Gris,220,287,198,97,5,22,34,32,23.24,864.2,Medida incorrecta,Falla maquina,0.0,0.081,1.0,Critico
+3/12/2026,Planta B,L4,Noche,Fran Corking,Vinson Mansion,Calidad,Basica,M,Azul,472,259,158,67,2,20,148,39,30.41,3020.82,Mancha,Proceso ineficiente,0.0,0.1174,2.0,Critico
+3/4/2026,Planta C,L8,Dia,Doro Olensby,Lorry Cowerd,Corte,Premium,L,Negro,177,132,240,28,4,7,11,28,39.2,233.8,Corte incorrecto,Materia prima defectuosa,0.0,0.297,0.0,Bajo
+3/18/2026,Planta B,L7,Dia,Walt Davage,Holly Cicero,Corte,Deportiva,L,Blanco,146,224,427,35,7,10,22,23,34.56,461.92,Costura defectuosa,Materia prima defectuosa,0.0,0.1543,0.0,Bajo
+3/28/2026,Planta A,L5,Dia,Georgie Baynton,Ronnie Phlippsen,Acabado,Basica,M,Gris,315,256,347,11,4,24,19,48,35.8,599.2,Tela danada,Error humano,0.0,0.1398,0.0,Bajo
+3/25/2026,Planta A,L4,Noche,Harley McKendo,Hamid Powis,Corte,Premium,L,Rojo,448,115,407,106,7,17,201,55,37.85,3681.95,Medida incorrecta,Materia prima defectuosa,0.0,0.3291,1.0,Critico
+3/9/2026,Planta C,L8,Noche,Lynnelle Troy,Joann Erbe,Calidad,Premium,L,Azul,298,50,147,32,4,14,82,16,1.84,1155.36,Medida incorrecta,Falla maquina,0.0,0.0368,2.0,Bajo
+3/18/2026,Planta C,L7,Noche,Sheffy Bransom,Nathan Largen,Costura,Deportiva,L,Negro,485,122,411,25,5,14,115,48,17.3,1696.5,Costura defectuosa,Falla maquina,0.0,0.1418,1.0,Bajo
+3/26/2026,Planta A,L5,Tarde,Rosita Stirzaker,Selestina Blayd,Calidad,Premium,S,Gris,204,87,219,83,5,6,37,36,5.34,248.7,Corte incorrecto,Error humano,0.0,0.0614,0.0,Bajo
+3/8/2026,Planta A,L3,Dia,Meta Burston,Giulia Pearch,Costura,Premium,XL,Gris,442,110,352,114,4,10,69,34,9.98,729.92,Costura defectuosa,Error humano,0.0,0.0907,1.0,Critico
+3/27/2026,Planta C,L6,Dia,Deni Cory,Camala Dietz,Costura,Deportiva,S,Gris,366,161,191,51,3,14,79,19,28.89,1192.67,Costura defectuosa,Proceso ineficiente,0.0,0.1794,1.0,Bajo
+3/9/2026,Planta B,L3,Dia,Barnabas Normaville,Kristel Briar,Corte,Premium,L,Azul,365,66,241,67,6,18,35,45,24.22,775.32,Mancha,Falla maquina,0.0,0.367,1.0,Bajo
+3/7/2026,Planta C,L9,Noche,Elliot Sculley,Claiborne Woolland,Corte,Basica,M,Azul,394,215,273,107,7,23,99,36,35.83,2527.81,Corte incorrecto,Error humano,0.0,0.1667,1.0,Critico
+3/27/2026,Planta A,L4,Dia,Meridel Trumble,Cullan Lathwood,Calidad,Deportiva,S,Gris,269,192,167,73,4,13,22,29,18.39,359.56,Medida incorrecta,Proceso ineficiente,0.0,0.0958,1.0,Bajo
+3/29/2026,Planta B,L7,Tarde,Eran Adamovitch,Pietrek Clinch,Corte,Premium,S,Gris,500,113,415,102,6,20,56,77,13.44,1200.64,Corte incorrecto,Materia prima defectuosa,0.0,0.1189,1.0,Critico
+3/6/2026,Planta A,L1,Noche,Clint Itzkovich,Tonia De Witt,Costura,Deportiva,S,Blanco,370,258,221,1,8,24,116,28,23.17,2969.36,Costura defectuosa,Falla maquina,0.0,0.0898,1.0,Critico
+3/8/2026,Planta B,L4,Tarde,Matty Besque,Berty Ruger,Corte,Deportiva,XL,Negro,445,130,236,109,3,5,84,42,13.19,459.57,Mancha,Materia prima defectuosa,0.0,0.1015,1.0,Critico
+3/4/2026,Planta B,L5,Noche,Immanuel Shackleton,Haleigh Petkovic,Acabado,Basica,L,Azul,136,160,371,102,2,15,67,27,14.0,1033.0,Costura defectuosa,Falla maquina,0.0,0.0875,0.0,Critico
+3/27/2026,Planta C,L1,Dia,Finley Bosch,Franni Mithun,Corte,Deportiva,S,Negro,139,151,266,25,8,24,10,11,53.11,664.88,Corte incorrecto,Error humano,0.0,0.3517,0.0,Bajo
+3/24/2026,Planta A,L7,Dia,Dorena Petrusch,Mauricio Yoslowitz,Costura,Basica,M,Gris,324,143,449,22,4,21,24,32,18.43,577.72,Corte incorrecto,Error humano,0.0,0.1289,0.0,Bajo
+3/17/2026,Planta C,L9,Noche,Staffard Mallinar,Ellery Goade,Acabado,Deportiva,M,Blanco,286,228,272,87,8,13,141,15,8.33,1899.64,Tela danada,Error humano,0.0,0.0365,1.0,Bajo
+3/10/2026,Planta A,L2,Tarde,Jay Craker,Sander Torfin,Costura,Deportiva,L,Azul,142,104,391,115,5,5,31,25,20.17,255.85,Corte incorrecto,Materia prima defectuosa,0.0,0.1939,0.0,Critico
+3/11/2026,Planta C,L2,Dia,Consalve Flippini,Brynne Fist,Corte,Deportiva,XL,Gris,270,244,171,81,4,22,49,22,65.22,1338.88,Mancha,Materia prima defectuosa,0.0,0.2673,1.0,Bajo
+3/22/2026,Planta B,L3,Tarde,Odetta Upham,Marv Harrad,Costura,Deportiva,XL,Rojo,404,62,103,71,5,15,91,78,11.62,1423.1,Medida incorrecta,Materia prima defectuosa,0.0,0.1874,3.0,Bajo
+3/19/2026,Planta A,L4,Noche,Lila Yoxall,Langston Boulden,Costura,Deportiva,M,Azul,490,170,386,23,2,13,232,38,18.55,3053.1,Costura defectuosa,Falla maquina,0.0,0.1091,1.0,Critico
+3/3/2026,Planta C,L7,Dia,Tuckie Trimmell,Guendolen Malthouse,Corte,Deportiva,S,Blanco,479,296,187,3,6,25,84,40,57.78,2446.68,Tela danada,Error humano,0.0,0.1952,2.0,Critico
+3/17/2026,Planta B,L7,Tarde,Salome Banbridge,Winny Matschoss,Acabado,Basica,L,Azul,131,239,270,87,7,6,25,26,37.91,415.37,Mancha,Error humano,0.0,0.1586,0.0,Bajo
+3/19/2026,Planta B,L1,Tarde,Haven Smallsman,Suzy Sebire,Calidad,Premium,XL,Gris,264,288,348,8,5,12,27,48,26.45,456.25,Tela danada,Falla maquina,0.0,0.0918,0.0,Bajo
+3/8/2026,Planta B,L6,Dia,Collen Sedge,Cherri Leander,Acabado,Deportiva,L,Rojo,313,280,72,117,5,10,23,60,12.82,294.1,Costura defectuosa,Materia prima defectuosa,0.0,0.0458,4.0,Critico
+3/20/2026,Planta B,L2,Tarde,Warner Cough,Dasha Gribben,Calidad,Deportiva,XL,Rojo,234,88,339,77,3,14,48,20,11.2,705.6,Medida incorrecta,Proceso ineficiente,0.0,0.1273,0.0,Bajo
+3/8/2026,Planta A,L2,Tarde,Pandora Mundell,Clareta Sweeten,Costura,Deportiva,XL,Azul,386,97,202,118,3,20,73,33,15.54,1506.62,Medida incorrecta,Error humano,0.0,0.1602,1.0,Critico
+3/29/2026,Planta B,L1,Dia,Herminia Ribbon,Andree Seton,Costura,Premium,M,Blanco,277,153,397,69,8,24,29,53,24.37,890.96,Corte incorrecto,Proceso ineficiente,0.0,0.1593,0.0,Bajo
+3/7/2026,Planta A,L7,Noche,Benedikt Sheach,Vinni Baroch,Acabado,Basica,S,Rojo,445,270,436,64,2,22,98,47,13.21,2182.42,Corte incorrecto,Falla maquina,0.0,0.0489,1.0,Critico
+3/6/2026,Planta A,L8,Dia,Riki Domino,Anna Copping,Corte,Premium,S,Blanco,456,174,180,112,3,24,59,66,32.47,1513.41,Corte incorrecto,Error humano,0.0,0.1866,2.0,Critico
+3/20/2026,Planta C,L9,Noche,Keenan Kelner,Gage Collett,Costura,Deportiva,M,Gris,381,119,402,38,6,7,155,68,18.04,1193.24,Corte incorrecto,Materia prima defectuosa,0.0,0.1516,0.0,Bajo
+3/26/2026,Planta B,L7,Tarde,Robin Smeall,Jayson Burchard,Corte,Premium,XL,Gris,254,273,477,80,4,7,34,22,82.04,566.16,Corte incorrecto,Error humano,0.0,0.3005,0.0,Bajo
+3/29/2026,Planta A,L10,Dia,Karena Hollington,Andy Collabine,Costura,Deportiva,XL,Negro,82,278,365,115,5,17,20,15,47.6,578.0,Tela danada,Materia prima defectuosa,0.0,0.1712,0.0,Critico
+3/30/2026,Planta A,L10,Noche,Greer Spence,Kaila Ousby,Calidad,Basica,M,Gris,86,211,112,36,3,22,26,5,37.9,685.7,Mancha,Proceso ineficiente,0.0,0.1796,0.0,Bajo
+3/27/2026,Planta B,L8,Tarde,Stacy Drinnan,Tobey Labon,Corte,Premium,M,Azul,410,78,220,27,7,14,89,82,19.9,1385.3,Mancha,Materia prima defectuosa,0.0,0.2551,1.0,Bajo
+3/4/2026,Planta C,L5,Tarde,Silvio Robinette,Lelia Lawling,Acabado,Deportiva,M,Negro,257,88,401,115,5,12,52,27,16.22,705.1,Mancha,Proceso ineficiente,0.0,0.1843,0.0,Critico
+3/29/2026,Planta C,L1,Noche,Nancee Beckley,Leticia Tartt,Acabado,Basica,M,Negro,267,247,184,65,3,18,96,41,7.78,1751.34,Costura defectuosa,Proceso ineficiente,0.0,0.0315,1.0,Bajo
+3/22/2026,Planta B,L3,Tarde,Clary Cheke,Sylvester Pledger,Calidad,Deportiva,L,Blanco,353,190,119,91,6,18,20,48,18.64,471.84,Corte incorrecto,Materia prima defectuosa,0.0,0.0981,2.0,Critico
+3/17/2026,Planta C,L5,Noche,Kip Baldack,Ranee Thaxter,Calidad,Premium,XL,Azul,456,292,158,55,2,21,106,66,42.76,2311.52,Mancha,Falla maquina,0.0,0.1464,2.0,Critico
+3/21/2026,Planta B,L6,Tarde,Gillan Muckleston,Katrine Culy,Costura,Deportiva,S,Blanco,153,114,121,89,6,6,10,30,11.78,130.68,Medida incorrecta,Proceso ineficiente,0.0,0.1033,1.0,Bajo
+3/23/2026,Planta B,L6,Noche,Sandra Proffitt,Veriee Brice,Costura,Deportiva,L,Blanco,175,264,64,10,4,13,67,24,14.88,930.52,Mancha,Error humano,0.0,0.0564,2.0,Bajo
+3/9/2026,Planta C,L6,Tarde,Arleyne Davidou,Chen Kerner,Acabado,Basica,XL,Negro,326,105,307,78,2,3,61,47,6.75,196.5,Tela danada,Falla maquina,0.0,0.0643,1.0,Bajo
