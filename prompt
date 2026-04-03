@@ -1,0 +1,173 @@
+Integrantes grupo 3: 
+Miguel Ángel Cornejo Jacinto 
+Fabricio Iván Cruz Sánchez 
+Stefany Vanessa Quintanilla Villegas 
+Brayan Manuel Rosales Girón
+
+
+Actúa como un ingeniero de datos especializado en manufactura textil (maquila de camisetas de algodón).
+
+Genera un dataset en formato CSV con 5000 registros simulando operaciones reales de producción durante los últimos 6 meses.
+
+El dataset debe incluir variabilidad realista, correlaciones entre variables, eventos atípicos (outliers) y distribución no uniforme.
+
+-------------------------
+ESTRUCTURA DEL DATASET
+-------------------------
+
+1. fecha (Date)
+- Rango: últimos 6 meses
+- Formato: YYYY-MM-DD
+
+2. planta (Categorical)
+- Valores: Planta A, Planta B, Planta C
+
+3. linea_produccion (Categorical)
+- Valores: L1 a L10
+
+4. turno (Categorical)
+- Valores: Día, Tarde, Noche
+
+5. operario (Name)
+- Nombres latinos
+
+6. supervisor (Name)
+- Nombres latinos
+
+7. etapa_proceso (Categorical)
+- Valores: Corte, Costura, Calidad, Acabado
+
+8. tipo_producto (Categorical)
+- Valores: Básica, Premium, Deportiva
+
+9. talla (Categorical)
+- Valores: S, M, L, XL
+
+10. color (Categorical)
+- Valores: Blanco, Negro, Azul, Rojo, Gris
+
+-------------------------
+VARIABLES OPERATIVAS
+-------------------------
+
+11. unidades_producidas (Integer)
+- Rango: 80 – 500 unidades por lote
+
+12. unidades_defectuosas (Integer)
+- Regla: entre 2% y 35% de unidades_producidas
+- Mayor en turno Noche (+20% adicional)
+
+13. unidades_retrabajo (Integer)
+- Regla: entre 5% y 50% de unidades_defectuosas
+
+14. tela_utilizada_m2 (Float)
+- Rango: 50 – 300 m²
+
+15. tela_desperdiciada_m2 (Float)
+- Regla: entre 3% y 25% de tela_utilizada_m2
+- En etapa Corte puede subir hasta 40%
+
+16. tiempo_operacion_min (Integer)
+- Rango: 60 – 480 minutos
+
+17. tiempo_paro_min (Integer)
+- Rango: 0 – 120 minutos
+- Mayor en Mantenimiento y turno Noche
+
+-------------------------
+VARIABLES ECONÓMICAS
+-------------------------
+
+18. costo_tela_m2_usd (Float)
+- Rango: 2.5 – 8 USD/m²
+
+19. costo_mano_obra_usd (Float)
+- Rango: 50 – 500 USD por lote
+
+20. costo_unitario_usd (Float)
+- Rango: 3 – 25 USD por prenda
+
+21. costo_desperdicio_usd (Float)
+- Regla:
+  (unidades_defectuosas * costo_unitario_usd) + (tela_desperdiciada_m2 * costo_tela_m2_usd)
+
+-------------------------
+CALIDAD Y CAUSA
+-------------------------
+
+22. tipo_defecto (Categorical)
+- Valores:
+  Costura defectuosa, Mancha, Corte incorrecto, Medida incorrecta, Tela dañada
+
+23. causa_raiz (Categorical)
+- Valores:
+  Error humano, Falla de máquina, Materia prima defectuosa, Proceso ineficiente
+
+24. criticidad (Categorical)
+- Valores:
+  Bajo, Medio, Alto, Crítico
+
+- Regla:
+  Crítico si:
+  - desperdicio > 30%
+  - o costo_desperdicio_usd > 2000
+  - o tiempo_paro_min > 90
+
+-------------------------
+VARIABLES DERIVADAS
+-------------------------
+
+25. porcentaje_defectos (Float)
+- Fórmula:
+  unidades_defectuosas / unidades_producidas
+
+26. porcentaje_merma_tela (Float)
+- Fórmula:
+  tela_desperdiciada_m2 / tela_utilizada_m2
+
+27. eficiencia_linea (Float)
+- Fórmula:
+  unidades_producidas / tiempo_operacion_min
+
+-------------------------
+CONDICIONES DE NEGOCIO (MUY IMPORTANTE)
+-------------------------
+
+1. Turno Noche:
+- Incrementar defectos entre 20% y 40%
+- Incrementar fallas de máquina
+
+2. Etapa Corte:
+- Mayor merma de tela
+
+3. Costura:
+- Mayor cantidad de defectos
+
+4. Correlaciones:
+- A mayor tiempo_paro_min → mayor desperdicio
+- A mayor defectos → mayor costo_desperdicio_usd
+
+5. Variabilidad:
+- Evitar datos uniformes o repetitivos
+- Distribuciones no lineales
+
+6. OUTLIERS (obligatorio incluir):
+- Registros con:
+  - >50% defectos
+  - >40% merma de tela
+  - tiempo_paro_min > 100
+  - costo_desperdicio_usd > 5000
+
+7. Distribución:
+- No balanceada (simular condiciones reales)
+- Algunas líneas más eficientes que otras
+
+-------------------------
+OBJETIVO FINAL
+-------------------------
+
+El dataset debe ser:
+- Realista para una maquila textil
+- Listo para análisis en Looker Studio
+- Adecuado para construir KPIs de eficiencia, desperdicio y costos
+- Útil para toma de decisiones de mejora continua
